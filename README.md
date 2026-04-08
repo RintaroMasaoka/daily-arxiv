@@ -47,7 +47,7 @@ GitHub Actions (main push トリガー)
 
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
-3. リポジトリに接続する
+3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
 4. スケジュールを **Weekdays 12:10 JST**（= 03:10 UTC / 11:10 HKT）に設定
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
