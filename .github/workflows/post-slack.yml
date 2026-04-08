@@ -1,0 +1,41 @@
+name: Post to Slack
+
+on:
+  push:
+    branches:
+      - claude
+    paths:
+      - "output/result.md"
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude
+
+      - name: Read result and post to Slack
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ ! -f output/result.md ]; then
+            echo "output/result.md not found"
+            exit 0
+          fi
+
+          CONTENT=$(cat output/result.md)
+          if [ -z "$CONTENT" ]; then
+            echo "result.md is empty"
+            exit 0
+          fi
+
+          # Escape for JSON
+          JSON_CONTENT=$(echo "$CONTENT" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
+
+          curl -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-type: application/json' \
+            --data "{\"text\": ${JSON_CONTENT}}" \
+            --fail --silent --show-error
