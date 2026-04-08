@@ -29,18 +29,13 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          PAYLOAD=$(python3 -c "
-          import json, sys
-          text = sys.stdin.read()
-          payload = {
-              'blocks': [{
-                  'type': 'section',
-                  'text': {'type': 'mrkdwn', 'text': text}
-              }]
-          }
+          PAYLOAD=$(python3 << 'PYEOF'
+          import json, sys, pathlib
+          text = pathlib.Path("output/result.md").read_text()
+          payload = {"blocks": [{"type": "section", "text": {"type": "mrkdwn", "text": text}}]}
           print(json.dumps(payload))
-          " < output/result.md)
-
+          PYEOF
+          )
           curl -X POST "$SLACK_WEBHOOK_URL" \
             -H 'Content-type: application/json' \
             --data "$PAYLOAD" \
