@@ -1,4 +1,4 @@
-- *Tractable model for a fractionalized Fermi liquid (FL$^*$) on a square lattice*
+- *Tractable model for a fractionalized Fermi liquid (FL*) on a square lattice*
 Piers Coleman, Elio J. König, Aaditya Panigrahi, Alexei Tsvelik
 https://arxiv.org/abs/2604.06157
 
@@ -14,9 +14,6 @@ https://arxiv.org/abs/2604.05994
 Jing-Hua Niu, Jia-Lin Liu, Ke Wang, Shan-Wen Tsai, Jin Zhang
 https://arxiv.org/abs/2604.05928
 
-- *Quantum spin liquid ground state with the evidence of roton-like excitations at elevated temperatures in the triangular-lattice delafossite YbCuSe$_2$*
+- *Quantum spin liquid ground state with the evidence of roton-like excitations at elevated temperatures in the triangular-lattice delafossite YbCuSe2*
 K. Bhattacharya, Y. Tokiwa, M. Majumder
 https://arxiv.org/abs/2604.05784
-
-
-
