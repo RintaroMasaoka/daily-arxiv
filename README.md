@@ -23,6 +23,10 @@ GitHub Actions (main push トリガー)
 
 この3段階分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックし、また Slack Connector が不安定なための設計。
 
+## 前提条件
+
+- **Claude Pro 以上のプラン**（Pro / Max / Team / Enterprise）が必要。Free プランでは Scheduled Task を利用できない。（2026年4月時点）
+
 ## セットアップ手順
 
 ### 1. リポジトリの作成
