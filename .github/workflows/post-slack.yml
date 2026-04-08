@@ -35,7 +35,19 @@ jobs:
           # Escape for JSON
           JSON_CONTENT=$(echo "$CONTENT" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
 
+          PAYLOAD=$(python3 -c "
+import json, sys
+text = sys.stdin.read()
+payload = {
+    'blocks': [{
+        'type': 'section',
+        'text': {'type': 'mrkdwn', 'text': text}
+    }]
+}
+print(json.dumps(payload))
+" < output/result.md)
+
           curl -X POST "$SLACK_WEBHOOK_URL" \
             -H 'Content-type: application/json' \
-            --data "{\"text\": ${JSON_CONTENT}}" \
+            --data "$PAYLOAD" \
             --fail --silent --show-error
