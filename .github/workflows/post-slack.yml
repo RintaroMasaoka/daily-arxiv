@@ -30,9 +30,36 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           PAYLOAD=$(python3 << 'PYEOF'
-          import json, sys, pathlib
-          text = pathlib.Path("output/result.md").read_text()
-          payload = {"blocks": [{"type": "section", "text": {"type": "mrkdwn", "text": text}}]}
+          import json, re, pathlib
+
+          text = pathlib.Path("output/result.md").read_text().strip()
+          # Split into paper entries (separated by blank lines)
+          entries = [e.strip() for e in re.split(r'\n\n+', text) if e.strip()]
+
+          list_items = []
+          for entry in entries:
+              lines = entry.split('\n')
+              elements = []
+              for i, line in enumerate(lines):
+                  # First line: "- *Title*" -> bold title
+                  if i == 0:
+                      # Remove leading "- " and surrounding *
+                      title = re.sub(r'^-\s*\*?(.*?)\*?$', r'\1', line)
+                      elements.append({"type": "text", "text": title, "style": {"bold": True}})
+                  else:
+                      elements.append({"type": "text", "text": "\n" + line})
+              list_items.append({"type": "rich_text_section", "elements": elements})
+
+          payload = {
+              "blocks": [{
+                  "type": "rich_text",
+                  "elements": [{
+                      "type": "rich_text_list",
+                      "style": "bullet",
+                      "elements": list_items
+                  }]
+              }]
+          }
           print(json.dumps(payload))
           PYEOF
           )
