@@ -35,21 +35,41 @@ NS = {
 }
 
 
+def read_previous_date_to() -> Optional[str]:
+    """Read date_to from the previous latest.json. Returns YYYYMMDD or None."""
+    try:
+        with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        dt = data.get("date_to")
+        if dt:
+            return dt.replace("-", "")
+    except (FileNotFoundError, json.JSONDecodeError, AttributeError):
+        pass
+    return None
+
+
 def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
-    """Return (date_from, date_to) as YYYYMMDD strings, or None for weekends."""
+    """Return (date_from, date_to) as YYYYMMDD strings, or None if nothing to fetch."""
     weekday = today_jst.weekday()  # 0=Mon .. 6=Sun
 
-    if weekday == 5 or weekday == 6:  # Sat or Sun
+    if weekday == 5 or weekday == 6:  # Sat or Sun — arXiv has no announcements
         return None
 
-    if weekday == 0:  # Monday → Fri/Sat/Sun
-        date_to = today_jst - timedelta(days=1)  # Sunday
-        date_from = today_jst - timedelta(days=3)  # Friday
-    else:  # Tue–Fri → previous day
-        date_from = today_jst - timedelta(days=1)
-        date_to = date_from
+    yesterday = today_jst - timedelta(days=1)
+    date_to = yesterday.strftime("%Y%m%d")
 
-    return (date_from.strftime("%Y%m%d"), date_to.strftime("%Y%m%d"))
+    # Search from the day after the previous fetch's end date
+    prev = read_previous_date_to()
+    if prev:
+        prev_date = datetime.strptime(prev, "%Y%m%d")
+        date_from = (prev_date + timedelta(days=1)).strftime("%Y%m%d")
+        if date_from > date_to:
+            return None  # Already up to date
+    else:
+        # Fallback: yesterday only
+        date_from = date_to
+
+    return (date_from, date_to)
 
 
 def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[dict], int]:
@@ -142,19 +162,7 @@ def main():
     date_range = get_date_range(now_jst)
 
     if date_range is None:
-        print("Weekend (JST). Writing empty result and exiting.")
-        result = {
-            "fetched_at": now_jst.isoformat(),
-            "date_from": None,
-            "date_to": None,
-            "categories_queried": CATEGORIES,
-            "total_results": {cat: 0 for cat in CATEGORIES},
-            "papers": [],
-        }
-        os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        print(f"Wrote empty result to {OUTPUT_PATH}")
+        print("Nothing to fetch (weekend or already up to date). Exiting.")
         return
 
     date_from, date_to = date_range
@@ -177,6 +185,10 @@ def main():
 
     all_papers = deduplicate(all_papers)
     print(f"After deduplication: {len(all_papers)} papers")
+
+    if not all_papers:
+        print("No papers found. Keeping previous data unchanged.")
+        return
 
     result = {
         "fetched_at": now_jst.isoformat(),

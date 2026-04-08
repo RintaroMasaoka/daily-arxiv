@@ -2,8 +2,8 @@ name: Fetch arXiv papers
 
 on:
   schedule:
-    # 00:50 UTC = 09:50 JST (every day; weekend skipping is handled by the script)
-    - cron: "50 0 * * *"
+    # 03:00 UTC = 12:00 JST = 11:00 HKT (every day; weekend skipping is handled by the script)
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
