@@ -33,7 +33,7 @@ GitHub Actions (main push トリガー)
 
 1. このリポジトリページ右上の **"Fork"** ボタンから自分のアカウントにコピーを作る
 2. `criteria.md` を開き、選別基準を自分のグループの研究関心に合わせて書き換える
-3. `fetch_arxiv.py` の `CATEGORIES`（デフォルト: `cond-mat.str-el`, `cond-mat.stat-mech`）を対象の arXiv カテゴリに変更する
+3. `config.yml` の `categories` を対象の [arXiv カテゴリ](https://arxiv.org/category_taxonomy)に変更する
 
 ### 2. GitHub Actions の動作確認
 

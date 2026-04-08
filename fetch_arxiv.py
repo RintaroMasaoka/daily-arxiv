@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -18,10 +19,25 @@ from datetime import datetime, timedelta, timezone
 from typing import Optional
 
 # --- Configuration ---
-CATEGORIES = ["cond-mat.str-el", "cond-mat.stat-mech"]
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_PATH = os.path.join(BASE_DIR, "config.yml")
 MAX_RESULTS = 50
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
-OUTPUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "latest.json")
+OUTPUT_PATH = os.path.join(BASE_DIR, "data", "latest.json")
+
+
+def load_categories() -> list[str]:
+    """Load categories from config.yml (simple parser, no PyYAML needed)."""
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    categories = []
+    for line in lines:
+        m = re.match(r'\s+-\s+(.+)', line)
+        if m:
+            categories.append(m.group(1).strip())
+    if not categories:
+        sys.exit("Error: no categories found in config.yml")
+    return categories
 REQUEST_INTERVAL = 3  # seconds between API requests
 
 # Timezones
@@ -173,7 +189,10 @@ def main():
     all_papers = []
     total_results = {}
 
-    for i, category in enumerate(CATEGORIES):
+    categories = load_categories()
+    print(f"Categories: {categories}")
+
+    for i, category in enumerate(categories):
         if i > 0:
             print(f"Waiting {REQUEST_INTERVAL}s (rate limit)...")
             time.sleep(REQUEST_INTERVAL)
@@ -194,7 +213,7 @@ def main():
         "fetched_at": now_jst.isoformat(),
         "date_from": date_from_fmt,
         "date_to": date_to_fmt,
-        "categories_queried": CATEGORIES,
+        "categories_queried": categories,
         "total_results": total_results,
         "papers": all_papers,
     }
