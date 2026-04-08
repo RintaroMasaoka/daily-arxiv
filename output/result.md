@@ -17,3 +17,4 @@ https://arxiv.org/abs/2604.05928
 - *Quantum spin liquid ground state with the evidence of roton-like excitations at elevated temperatures in the triangular-lattice delafossite YbCuSe$_2$*
 K. Bhattacharya, Y. Tokiwa, M. Majumder
 https://arxiv.org/abs/2604.05784
+
