@@ -31,9 +31,11 @@ GitHub Actions (main push トリガー)
 
 ### 1. リポジトリの作成
 
-1. このリポジトリを fork または template から作成する
-2. `criteria.md` の選別基準を自分のグループに合わせて編集する
-3. `fetch_arxiv.py` の `CATEGORIES` を対象カテゴリに変更する
+1. GitHub でこのリポジトリのページを開き、右上の **"Fork"** ボタンを押して自分のアカウントにコピーを作る
+   - Fork とは、既存のリポジトリをそのまま自分のアカウントに複製する機能
+   - 複製後は自由に編集できる
+2. `criteria.md` を開き、選別基準を自分のグループの研究関心に合わせて書き換える
+3. `fetch_arxiv.py` の `CATEGORIES`（デフォルト: `cond-mat.str-el`, `cond-mat.stat-mech`）を対象の arXiv カテゴリに変更する
 
 ### 2. GitHub Actions の動作確認
 
