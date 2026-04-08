@@ -27,7 +27,9 @@ GitHub Actions (main push トリガー)
 
 ### 1. リポジトリの作成
 
-このリポジトリを private で GitHub に作成する。
+1. このリポジトリを fork または template から作成する
+2. `CLAUDE.md` の研究室の価値観・フィルタリング基準を自分のグループに合わせて編集する
+3. `fetch_arxiv.py` の `CATEGORIES` を対象カテゴリに変更する
 
 ### 2. GitHub Actions の動作確認
 
