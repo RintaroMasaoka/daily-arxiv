@@ -35,29 +35,21 @@ GitHub Actions (main push トリガー)
 2. `criteria.md` を開き、選別基準を自分のグループの研究関心に合わせて書き換える
 3. `config.yml` の `categories` を対象の [arXiv カテゴリ](https://arxiv.org/category_taxonomy)に変更する
 
-### 2. GitHub Actions の動作確認
+### 2. Slack Incoming Webhook の設定
 
-Actions タブ → "Fetch arXiv papers" → "Run workflow" で手動実行し、`data/latest.json` が生成・commit されることを確認する。
-
-### 3. Slack Incoming Webhook の設定
-
-1. Slack App で Incoming Webhook を作成し、`#share-paper` チャンネルに紐付ける
+1. Slack App で Incoming Webhook を作成し、投稿先チャンネルに紐付ける
 2. GitHub リポジトリの Settings → Secrets and variables → Actions で `SLACK_WEBHOOK_URL` を設定
 
-### 4. Claude Code Scheduled Task の作成
+### 3. Claude Code Scheduled Task の作成
 
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
-3. リポジトリに `daily-arxiv` を接続
+3. リポジトリに接続する
 4. スケジュールを **Weekdays 12:10 JST**（= 03:10 UTC / 11:10 HKT）に設定
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
 
-### 5. 手動テスト
-
-1. GitHub Actions の fetch-arxiv を手動実行して `data/latest.json` を生成
-2. Scheduled Task を手動トリガーして、`output/result.md` が main に push されることを確認
-3. post-slack ワークフローが自動発火し、Slack に投稿されることを確認
+以上で翌営業日から自動で動き始める。手動で動作確認したい場合は、GitHub Actions の "Fetch arXiv papers" を "Run workflow" で実行し、続けて Scheduled Task を手動トリガーすればよい。
 
 ## 既知の制限事項
 
