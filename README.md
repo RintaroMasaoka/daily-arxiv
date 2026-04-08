@@ -1,6 +1,6 @@
-# Daily arXiv Digest — Watanabe Group @ HKUST
+# Daily arXiv Digest
 
-毎朝 arXiv の新着論文（cond-mat.str-el, cond-mat.stat-mech）から、渡辺悠樹グループの研究関心に合う論文を自動選別し、Slack の #share-paper チャンネルに投稿するシステム。論文の選別には「模型の詳細を超えた一般的知見を与えているか」という判断が必要であり、Claude（LLM）による3段階フィルタリングを用いる。
+毎朝 arXiv の新着論文から、研究グループの関心に合う論文を自動選別し、Slack チャンネルに投稿するシステム。論文の選別には研究グループ固有の判断が必要であり、Claude（LLM）による選別を用いる。選別基準は `criteria.md` に定義されており、グループごとにカスタマイズできる。
 
 ## アーキテクチャ
 
@@ -10,7 +10,7 @@ GitHub Actions (cron: 毎日 03:00 UTC / 12:00 JST / 11:00 HKT)
 
 Claude Code Scheduled Task (月〜金 03:10 UTC / 12:10 JST / 11:10 HKT)
   ├─ リポジトリ clone → data/latest.json を読む
-  ├─ Claude が CLAUDE.md に従い3段階フィルタリング
+  ├─ Claude が CLAUDE.md + criteria.md に従い論文を選別
   └─ output/result.md に書き出し → main に commit & push
 
 GitHub Actions (main push トリガー)
@@ -18,7 +18,7 @@ GitHub Actions (main push トリガー)
 ```
 
 - **fetch-arxiv** ワークフロー（12:00 JST / 11:00 HKT）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
-- **Scheduled Task**（12:10 JST / 11:10 HKT）: JSON を読み込み、3段階フィルタリングで5件を選出し、`output/result.md` を main に push
+- **Scheduled Task**（12:10 JST / 11:10 HKT）: JSON を読み込み、`criteria.md` の基準で論文を選出し、`output/result.md` を main に push
 - **post-slack** ワークフロー（main push トリガー）: `output/result.md` の変更を検知し、Slack に投稿
 
 この3段階分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックし、また Slack Connector が不安定なための設計。
@@ -28,7 +28,7 @@ GitHub Actions (main push トリガー)
 ### 1. リポジトリの作成
 
 1. このリポジトリを fork または template から作成する
-2. `CLAUDE.md` の研究室の価値観・フィルタリング基準を自分のグループに合わせて編集する
+2. `criteria.md` の選別基準を自分のグループに合わせて編集する
 3. `fetch_arxiv.py` の `CATEGORIES` を対象カテゴリに変更する
 
 ### 2. GitHub Actions の動作確認
