@@ -37,8 +37,11 @@ GitHub Actions (main push トリガー)
 
 ### 2. Slack Incoming Webhook の設定
 
-1. Slack App で Incoming Webhook を作成し、投稿先チャンネルに紐付ける
-2. GitHub リポジトリの Settings → Secrets and variables → Actions で `SLACK_WEBHOOK_URL` を設定
+1. [Slack API: Your Apps](https://api.slack.com/apps) を開き、**"Create New App"** → **"From scratch"** で新しいアプリを作成する
+2. 左メニューの **"Incoming Webhooks"** → トグルを **On** にする
+3. ページ下部の **"Add New Webhook to Workspace"** をクリックし、投稿先チャンネルを選択して許可する
+4. 生成された Webhook URL（`https://hooks.slack.com/services/...`）をコピーする
+5. GitHub リポジトリの Settings → Secrets and variables → Actions → **"New repository secret"** で、名前を `SLACK_WEBHOOK_URL`、値にコピーした URL を設定する
 
 ### 3. Claude Code Scheduled Task の作成
 
