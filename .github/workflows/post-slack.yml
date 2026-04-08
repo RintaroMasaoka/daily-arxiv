@@ -3,7 +3,7 @@ name: Post to Slack
 on:
   push:
     branches:
-      - claude
+      - "claude/**"
     paths:
       - "output/result.md"
 
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude
+          ref: ${{ github.ref }}
 
       - name: Read result and post to Slack
         env:
