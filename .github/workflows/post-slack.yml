@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "output/result.md"
 
 jobs:
   post:
@@ -14,33 +12,34 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Read result and post to Slack
+      - name: Check if result.md changed
+        id: check
+        run: |
+          if git diff --name-only HEAD~1 HEAD | grep -q '^output/result.md$'; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Post to Slack
+        if: steps.check.outputs.changed == 'true'
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          if [ ! -f output/result.md ]; then
-            echo "output/result.md not found"
-            exit 0
-          fi
-
-          CONTENT=$(cat output/result.md)
-          if [ -z "$CONTENT" ]; then
-            echo "result.md is empty"
-            exit 0
-          fi
-
           PAYLOAD=$(python3 -c "
-import json, sys
-text = sys.stdin.read()
-payload = {
-    'blocks': [{
-        'type': 'section',
-        'text': {'type': 'mrkdwn', 'text': text}
-    }]
-}
-print(json.dumps(payload))
-" < output/result.md)
+          import json, sys
+          text = sys.stdin.read()
+          payload = {
+              'blocks': [{
+                  'type': 'section',
+                  'text': {'type': 'mrkdwn', 'text': text}
+              }]
+          }
+          print(json.dumps(payload))
+          " < output/result.md)
 
           curl -X POST "$SLACK_WEBHOOK_URL" \
             -H 'Content-type: application/json' \
