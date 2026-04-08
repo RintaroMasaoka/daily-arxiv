@@ -34,7 +34,6 @@ GitHub Actions (main push トリガー)
 1. このリポジトリページ右上の **"Fork"** ボタンから自分のアカウントにコピーを作る
 2. `criteria.md` を開き、選別基準を自分のグループの研究関心に合わせて書き換える
 3. `config.yml` の `categories` を対象の [arXiv カテゴリ](https://arxiv.org/category_taxonomy)に変更する
-4. 実行時間を変更したい場合は `.github/workflows/fetch-arxiv.yml` の cron と Scheduled Task のスケジュールを変更する（fetch が Scheduled Task の10分以上前になるよう設定）
 
 ### 2. Slack Incoming Webhook の設定
 
@@ -49,7 +48,7 @@ GitHub Actions (main push トリガー)
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
 3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
-4. スケジュールを **Weekdays 12:10 JST**（= 03:10 UTC / 11:10 HKT）に設定
+4. スケジュールを **Weekdays 12:10 JST**（= 03:10 UTC / 11:10 HKT）に設定（時間を変更する場合は `.github/workflows/fetch-arxiv.yml` の cron も合わせて変更する。fetch が Scheduled Task の10分以上前になるよう設定）
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
 
