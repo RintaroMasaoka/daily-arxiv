@@ -33,5 +33,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update data/latest.json ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git pull --rebase
             git push
           fi
