@@ -1,83 +1,52 @@
-# arxiv-digest
+# Daily arXiv Digest — Watanabe Group @ HKUST
 
-arXiv新着論文の自動選出・Slack共有。Claude Code cloud scheduled taskで動作する。
+毎朝 arXiv の新着論文（cond-mat.str-el, cond-mat.stat-mech）から、渡辺悠樹グループの研究関心に合う論文を自動選別し、Slack の #share-paper チャンネルに投稿するシステム。論文の選別には「模型の詳細を超えた一般的知見を与えているか」という判断が必要であり、Claude（LLM）による3段階フィルタリングを用いる。
 
-## リポジトリ構成
-
-```
-├── prompt.md          # タスクプロンプト（claude.ai/code/scheduled に貼る）
-├── fetch_papers.py    # arXiv API から論文を取得するスクリプト
-├── rules.md           # 選出ルール（自由記述、手動で編集）
-├── history.json       # 選出履歴＋フィードバック（タスクが自動更新）
-└── README.md          # このファイル
-```
-
-## セットアップ
-
-### 1. このリポジトリをGitHubにpush
-
-```bash
-git init
-git add -A
-git commit -m "initial commit"
-git remote add origin git@github.com:<your-username>/arxiv-digest.git
-git push -u origin main
-```
-
-### 2. Cloud scheduled task を作成
-
-1. https://claude.ai/code/scheduled にアクセス
-2. 「New scheduled task」をクリック
-3. 以下を設定：
-   - **Name**: arXiv Daily Digest
-   - **Prompt**: `prompt.md` の内容をコピー＆ペースト
-   - **Repository**: このリポジトリを接続。**「Allow unrestricted branch pushes」を有効にする**（history.json を main に直接 push するため）
-   - **Schedule**: 平日毎朝（例: HKT 10:00 = UTC 02:00 → `0 2 * * 1-5`）
-   - **Connectors**: Slack を接続
-   - **Environment**: ネットワークアクセスを有効にする（arXiv API へのHTTPリクエストに必要）
-
-### 3. 動作確認
-
-タスクを手動実行し、以下を確認：
-- `fetch_papers.py` が正常に論文を取得している
-- Slack の `share-paper` チャンネルにメッセージが投稿される
-- `history.json` が更新され、main にpushされている
-
-## 運用
-
-### 選出ルールの変更
-
-`rules.md` を直接編集してコミット。自然言語で記述する。
+## アーキテクチャ
 
 ```
-# 例
-Hastingsの論文は常に拾う
-量子情報と物性の接点に関する論文は優先度を上げる
-スピン液体のVMC計算は、一般的な知見がない限り除外
+GitHub Actions (cron: 月〜金)
+  └─ python fetch_arxiv.py → data/latest.json に commit & push
+
+Claude Code Scheduled Task (月〜金、GitHub Actions の約10分後)
+  ├─ リポジトリ clone → data/latest.json を読む
+  ├─ Claude が CLAUDE.md に従い3段階フィルタリング
+  └─ Slack Connector → #share-paper
+      （失敗時は output/ にファイル出力 + claude/ ブランチに push）
 ```
 
-### フィードバックの記録
+- **GitHub Actions**（00:50 UTC / 09:50 JST）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
+- **Claude Code Scheduled Task**（10:00 JST）: JSON を読み込み、3段階フィルタリングで5件を選出し、Slack に投稿
 
-`history.json` の該当エントリの `feedback` フィールドを編集する：
+この2段階分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックするための設計。
 
-```json
-{
-  "id": "2506.12345",
-  "title": "...",
-  "date_selected": "2026-04-01",
-  "feedback": {
-    "rating": "positive",
-    "reason": "対称性と絡み合いの接続が意外。こういう論文をもっと拾ってほしい"
-  }
-}
-```
+## セットアップ手順
 
-`rating` は `"positive"` または `"negative"`。`reason` は任意だが、書くほど選出精度が上がる。
+### 1. リポジトリの作成
 
-### 履歴の肥大化
+このリポジトリを private で GitHub に作成する。
 
-`history.json` は追記のみで成長する。重複排除に使うのはIDだけなので、古いエントリの `title` / `feedback` を削除しても動作する。フィードバックが十分に蓄積したら（目安: 数ヶ月分）、古い feedback なしエントリを ID だけに圧縮してよい：
+### 2. GitHub Actions の動作確認
 
-```json
-{"id": "2506.12345"}
-```
+Actions タブ → "Fetch arXiv papers" → "Run workflow" で手動実行し、`data/latest.json` が生成・commit されることを確認する。
+
+### 3. Claude Code Scheduled Task の作成
+
+1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
+2. 「New Scheduled Task」を作成
+3. リポジトリに `daily-arxiv` を接続
+4. Connectors で **Slack** を有効化（#share-paper チャンネルへのアクセスが必要）
+5. スケジュールを **Weekdays 10:00 JST**（= 01:00 UTC）に設定
+6. プロンプトは空でよい（`CLAUDE.md` が自動的に読み込まれる）
+
+### 4. 手動テスト
+
+1. GitHub Actions を手動実行して `data/latest.json` を生成
+2. Scheduled Task を手動トリガーして、Slack に投稿されることを確認
+
+## 既知の制限事項
+
+- **egress proxy**: Claude の計算環境から `export.arxiv.org` に直接アクセスできない。そのため GitHub Actions で事前に論文を取得する2段階アーキテクチャを採用している。
+- **arXiv API 上限**: 1クエリあたり最大50件。新着が50件を超えるカテゴリでは一部の論文を取りこぼす可能性がある。取りこぼしが発生した場合は Slack 投稿に注記が付く。
+- **Connector 初期化バグ**: Scheduled Task で MCP Connector が初期化されない既知のバグがある（[#43397](https://github.com/anthropics/claude-code/issues/43397), [#35899](https://github.com/anthropics/claude-code/issues/35899), [#36327](https://github.com/anthropics/claude-code/issues/36327)）。Slack Connector は標準搭載で比較的安定しているが、問題が発生した場合はフォールバック（`output/result.md` + `claude/` ブランチ push）が機能する。
+- **submittedDate ベースの検索**: arXiv の投稿締め切り（ET 14:00）と日付境界のずれにより、少数の論文が前後の日に紛れ込むことがある。実用上の影響は小さい。
