@@ -44,7 +44,8 @@ Actions タブ → "Fetch arXiv papers" → "Run workflow" で手動実行し、
 2. 「New Scheduled Task」を作成
 3. リポジトリに `daily-arxiv` を接続
 4. スケジュールを **Weekdays 12:10 JST**（= 03:10 UTC / 11:10 HKT）に設定
-5. プロンプトは空でよい（`CLAUDE.md` が自動的に読み込まれる）
+5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
+6. プロンプトは空でよい（`CLAUDE.md` が自動的に読み込まれる）
 
 ### 5. 手動テスト
 
