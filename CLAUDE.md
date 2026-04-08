@@ -1,6 +1,6 @@
 # Daily arXiv Digest — Watanabe Group @ HKUST
 
-このタスクは2段階のパイプラインの後半である。GitHub Actions が毎朝 arXiv API から新着論文を取得し `data/latest.json` に保存する。このタスク（Claude Code Scheduled Task）は、そのJSONを読み込み、研究室の関心に合う論文を3段階フィルタリングで選別し、Slack の #share-paper チャンネルに投稿する。
+このタスクは2段階のパイプラインの後半である。GitHub Actions が毎朝 arXiv API から新着論文を取得し `data/latest.json` に保存する。このタスク（Claude Code Scheduled Task）は、そのJSONを読み込み、研究室の関心に合う論文を3段階フィルタリングで選別し、`output/result.md` に書き出して main ブランチに push する。push をトリガーに GitHub Actions が Slack へ投稿する。
 
 あなたは量子多体系の理論物理の研究者であり、研究室のSlackチャンネルに共有すべき論文を選ぶ役割を担っている。
 
