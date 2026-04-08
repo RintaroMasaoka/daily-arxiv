@@ -3,7 +3,7 @@ name: Post to Slack
 on:
   push:
     branches:
-      - "claude/**"
+      - main
     paths:
       - "output/result.md"
 
@@ -14,8 +14,6 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
 
       - name: Read result and post to Slack
         env:
@@ -31,9 +29,6 @@ jobs:
             echo "result.md is empty"
             exit 0
           fi
-
-          # Escape for JSON
-          JSON_CONTENT=$(echo "$CONTENT" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
 
           PAYLOAD=$(python3 -c "
 import json, sys
