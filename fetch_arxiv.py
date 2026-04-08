@@ -192,15 +192,30 @@ def main():
     categories = load_categories()
     print(f"Categories: {categories}")
 
-    for i, category in enumerate(categories):
-        if i > 0:
-            print(f"Waiting {REQUEST_INTERVAL}s (rate limit)...")
-            time.sleep(REQUEST_INTERVAL)
+    # Build list of individual dates to query (1 day at a time to reduce
+    # the chance of hitting the 50-paper-per-request limit).
+    from_dt = datetime.strptime(date_from, "%Y%m%d")
+    to_dt = datetime.strptime(date_to, "%Y%m%d")
+    dates = []
+    d = from_dt
+    while d <= to_dt:
+        dates.append(d.strftime("%Y%m%d"))
+        d += timedelta(days=1)
 
-        papers, total = fetch_category(category, date_from, date_to)
-        print(f"  {category}: {len(papers)} fetched, {total} total on arXiv")
-        all_papers.extend(papers)
-        total_results[category] = total
+    request_count = 0
+    for single_date in dates:
+        for category in categories:
+            if request_count > 0:
+                print(f"Waiting {REQUEST_INTERVAL}s (rate limit)...")
+                time.sleep(REQUEST_INTERVAL)
+
+            papers, total = fetch_category(category, single_date, single_date)
+            date_fmt = f"{single_date[:4]}-{single_date[4:6]}-{single_date[6:]}"
+            print(f"  {category} ({date_fmt}): {len(papers)} fetched, {total} total on arXiv")
+            all_papers.extend(papers)
+            # Accumulate totals per category across all dates
+            total_results[category] = total_results.get(category, 0) + total
+            request_count += 1
 
     all_papers = deduplicate(all_papers)
     print(f"After deduplication: {len(all_papers)} papers")
