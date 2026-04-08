@@ -3,3 +3,12 @@
 categories:
   - cond-mat.str-el
   - cond-mat.stat-mech
+
+# 実行スケジュール (UTC)
+# 変更する場合は以下の2箇所も合わせて更新すること:
+#   - .github/workflows/fetch-arxiv.yml の cron
+#   - Claude Code Scheduled Task のスケジュール (UI上で設定)
+# fetch は Scheduled Task の10分以上前に設定する
+schedule:
+  fetch_cron: "0 3 * * *"       # 03:00 UTC = 12:00 JST = 11:00 HKT
+  task_cron: "10 3 * * 1-5"     # 03:10 UTC = 12:10 JST = 11:10 HKT (平日のみ)

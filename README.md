@@ -34,6 +34,7 @@ GitHub Actions (main push トリガー)
 1. このリポジトリページ右上の **"Fork"** ボタンから自分のアカウントにコピーを作る
 2. `criteria.md` を開き、選別基準を自分のグループの研究関心に合わせて書き換える
 3. `config.yml` の `categories` を対象の [arXiv カテゴリ](https://arxiv.org/category_taxonomy)に変更する
+4. 実行時間を変更したい場合は `config.yml` の `schedule` セクションを参照し、記載された3箇所を更新する
 
 ### 2. Slack Incoming Webhook の設定
 
