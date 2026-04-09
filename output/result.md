@@ -1,8 +1,8 @@
-- *Decomposing momentum scales in the Hubbard Model: From Hatsugai-Kohmoto to Aubry-André*
+- *Decomposing momentum scales in the Hubbard Model: From Hatsugai-Kohmoto to Aubry-Andre*
 Dmitry Manning-Coe, Barry Bradlyn
 https://arxiv.org/abs/2604.06588
 
-- *Projector, Neural, and Tensor-Network Representations of $\mathbb{Z}_N$ Cluster and Dipolar-cluster SPT States*
+- *Projector, Neural, and Tensor-Network Representations of Z_N Cluster and Dipolar-cluster SPT States*
 Seungho Lee, Daesik Kim, Hyun-Yong Lee, Jung Hoon Han
 https://arxiv.org/abs/2604.06741
 
@@ -14,6 +14,6 @@ https://arxiv.org/abs/2604.07293
 Yuto Jita, Minoru Kanega, Takumi Ogawa, Shunsuke C. Furuya, Masahiro Sato
 https://arxiv.org/abs/2604.06700
 
-- *Groenewold-Moyal twists, integrable spin-chains and AdS/CFT*
-Riccardo Borsato, Miguel García Fernández
-https://arxiv.org/abs/2604.07291
+- *Critical scaling and supercritical coarsening in Active Model B+*
+Abir Bhowmick, P. K. Mohanty
+https://arxiv.org/abs/2604.07247
