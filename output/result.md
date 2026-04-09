@@ -1,19 +1,19 @@
-- *Tractable model for a fractionalized Fermi liquid (FL*) on a square lattice*
-Piers Coleman, Elio J. König, Aaditya Panigrahi, Alexei Tsvelik
-https://arxiv.org/abs/2604.06157
+- *Topologically shadowed quantum criticality: A non-compact conformal manifold*
+Tianyao Fang, Weicheng Ye, Zhengcheng Gu, Fei Zhou
+https://arxiv.org/abs/2604.05391
 
-- *Ultrafast nonlinear Hall effect in black phosphorus*
-Maciej Dendzik, Andrea Marini, Samuel Beaulieu, Shuo Dong, Tommaso Pincelli, Julian Maklar, R. Patrick Xian, Enrico Perfetto, Martin Wolf, Gianluca Stefanucci, Ralph Ernstorfer, Laurenz Rettig
-https://arxiv.org/abs/2604.06083
+- *Magnetic toroidal monopoles from relativistic polarization responses to magnetic field gradients*
+Taisei Yamanaka, Takumi Sato, Satoru Hayami
+https://arxiv.org/abs/2604.05412
 
-- *Band-basis decomposition of superfluid weight in magic-angle twisted bilayer graphene: Quantifying geometric and conventional contributions*
-Jian Zhou
-https://arxiv.org/abs/2604.05994
+- *Exact solution of three-point functions in critical loop models*
+Morris Ang, Gefei Cai, Jesper Lykke Jacobsen, Rongvoram Nivesvivat, Paul Roux, Xin Sun, Baojun Wu
+https://arxiv.org/abs/2604.05503
 
-- *Quantum phases in the interacting generalized Su-Schrieffer-Heeger model*
-Jing-Hua Niu, Jia-Lin Liu, Ke Wang, Shan-Wen Tsai, Jin Zhang
-https://arxiv.org/abs/2604.05928
+- *Generalized hydrodynamics of free fermions under extensive-charge monitoring*
+Pablo Bayona-Pena, Michele Mazzoni, Lorenzo Piroli
+https://arxiv.org/abs/2604.05850
 
-- *Quantum spin liquid ground state with the evidence of roton-like excitations at elevated temperatures in the triangular-lattice delafossite YbCuSe2*
-K. Bhattacharya, Y. Tokiwa, M. Majumder
-https://arxiv.org/abs/2604.05784
+- *Spectrum-Generating Algebra in Higher Dimensional Gauge Theories*
+Thea Budde, Jiangjing Dong, Marina Krstic Marinkovic, Joao C. Pinto Barros
+https://arxiv.org/abs/2604.05763
