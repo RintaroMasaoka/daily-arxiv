@@ -59,14 +59,14 @@ arXiv は米国東部時間（ET）を基準に運用されている。
 - **新着公開**: 毎日 ~20:00 ET（月〜金）。土日は公開なし
 - 例：木曜 14:00 ET までの投稿 → 木曜 20:00 ET に公開
 
-### `submittedDate` と2日オフセット
+### なぜ2日遅れで取得するのか
 
-`fetch_arxiv.py` は arXiv API の `submittedDate`（投稿日）で論文を検索する。ただし arXiv の「新着リスト」はアナウンス日（公開日）でグループ化されており、`submittedDate` とは1日ずれることがある：
+`fetch_arxiv.py` は arXiv API の `submittedDate`（投稿日時）で論文を検索する。ただし arXiv の「新着リスト」は公開日でグループ化されており、`submittedDate` とは1日ずれることがある：
 
 - 水曜 15:00 ET に投稿 → `submittedDate` = 水曜 → **木曜の新着**として公開
 - 木曜 10:00 ET に投稿 → `submittedDate` = 木曜 → **木曜の新着**として公開
 
-このずれを吸収するため、`fetch_arxiv.py` は JST 基準で**2日前までの論文**を取得対象とする（`timedelta(days=2)`）。`prev_date_to` の仕組みにより日付の抜けは発生しない。
+このずれを吸収するため、取得対象の終了日を「2日前」に設定している。毎日実行すれば1日ずつ進むので、論文の取りこぼしは起きない。
 
 ### Scheduled Task の実行時刻
 
