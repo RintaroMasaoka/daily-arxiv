@@ -5,10 +5,10 @@
 ## アーキテクチャ
 
 ```
-GitHub Actions (cron: 毎日 03:00 UTC / 12:00 JST / 11:00 HKT)
+GitHub Actions (cron: 毎日 20:00 UTC / 05:00 JST / 04:00 HKT)
   └─ python fetch_arxiv.py → data/latest.json に commit & push
 
-Claude Code Scheduled Task (月〜金 03:10 UTC / 12:10 JST / 11:10 HKT)
+Claude Code Scheduled Task (月〜金 00:00 UTC / 09:00 JST / 08:00 HKT)
   ├─ リポジトリ clone → data/latest.json を読む
   ├─ Claude が CLAUDE.md + criteria.md に従い論文を選別
   └─ output/result.md に書き出し → main に commit & push
@@ -17,8 +17,8 @@ GitHub Actions (main push トリガー)
   └─ output/result.md の変更を検知 → Slack Incoming Webhook で #share-paper に投稿
 ```
 
-- **fetch-arxiv** ワークフロー（12:00 JST / 11:00 HKT）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
-- **Scheduled Task**（12:10 JST / 11:10 HKT）: JSON を読み込み、`criteria.md` の基準で論文を選出し、`output/result.md` を main に push
+- **fetch-arxiv** ワークフロー（05:00 JST / 04:00 HKT）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
+- **Scheduled Task**（09:00 JST / 08:00 HKT）: JSON を読み込み、`criteria.md` の基準で論文を選出し、`output/result.md` を main に push
 - **post-slack** ワークフロー（main push トリガー）: `output/result.md` の変更を検知し、Slack に投稿
 
 この3段階分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックし、また Slack Connector が不安定なための設計。
@@ -48,7 +48,7 @@ GitHub Actions (main push トリガー)
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
 3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
-4. スケジュールを **Weekdays 12:10 JST**（= 03:10 UTC / 11:10 HKT）に設定（時間を変更する場合は `.github/workflows/fetch-arxiv.yml` の cron も合わせて変更する。fetch が Scheduled Task の10分以上前になるよう設定）
+4. スケジュールを **Weekdays 08:00 HKT**（= 00:00 UTC / 09:00 JST）に設定（時間を変更する場合は `.github/workflows/fetch-arxiv.yml` の cron も合わせて変更する。fetch が Scheduled Task の3時間以上前になるよう設定）
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
 
