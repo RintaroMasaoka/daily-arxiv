@@ -50,6 +50,29 @@ Claude Code Scheduled Task (毎日 08:00 HKT)
 
 以上で翌日から自動で動き始める。手動で動作確認したい場合は、Scheduled Task を手動トリガーすればよい（fetch も自動で起動される）。
 
+## 時刻と日付の扱い
+
+### arXiv の公開スケジュール
+
+arXiv は米国東部時間（ET）を基準に運用されている。
+
+- **投稿締切**: 毎日 14:00 ET（月〜金）
+- **新着公開**: 毎日 ~20:00 ET（月〜金）。土日は公開なし
+- 例：木曜 14:00 ET までの投稿 → 木曜 20:00 ET に公開
+
+### `submittedDate` と2日オフセット
+
+`fetch_arxiv.py` は arXiv API の `submittedDate`（投稿日）で論文を検索する。ただし arXiv の「新着リスト」はアナウンス日（公開日）でグループ化されており、`submittedDate` とは1日ずれることがある：
+
+- 水曜 15:00 ET に投稿 → `submittedDate` = 水曜 → **木曜の新着**として公開
+- 木曜 10:00 ET に投稿 → `submittedDate` = 木曜 → **木曜の新着**として公開
+
+このずれを吸収するため、`fetch_arxiv.py` は JST 基準で**2日前までの論文**を取得対象とする（`timedelta(days=2)`）。`prev_date_to` の仕組みにより日付の抜けは発生しない。
+
+### Scheduled Task の実行時刻
+
+Scheduled Task の実行時刻は論文の取得範囲に影響しない（2日前の論文は時刻によらず確実にアクセス可能）。配信時刻の好みに合わせて自由に設定してよい。
+
 ## 既知の制限事項
 
 - **egress proxy**: Claude の計算環境から `export.arxiv.org` に直接アクセスできない。そのため GitHub Actions で事前に論文を取得する2段階アーキテクチャを採用している。
