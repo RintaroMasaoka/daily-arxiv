@@ -1,9 +1,6 @@
 name: Fetch arXiv papers
 
 on:
-  schedule:
-    # 20:00 UTC = 05:00 JST = 04:00 HKT (every day including weekends; kept as fallback)
-    - cron: "0 20 * * *"
   push:
     branches: [main]
     paths: [data/trigger.txt]

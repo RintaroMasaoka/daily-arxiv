@@ -5,23 +5,19 @@
 ## アーキテクチャ
 
 ```
-GitHub Actions (cron: 毎日 20:00 UTC / 05:00 JST / 04:00 HKT)
-  └─ python fetch_arxiv.py → data/latest.json に commit & push
-
-Claude Code Scheduled Task (毎日 00:00 UTC / 09:00 JST / 08:00 HKT)
-  ├─ リポジトリ clone → data/latest.json を読む
+Claude Code Scheduled Task (毎日 08:00 HKT)
+  ├─ data/trigger.txt を push → GitHub Actions (fetch-arxiv) を起動
+  ├─ GitHub Actions: fetch_arxiv.py → data/latest.json を commit & push
+  ├─ git pull で latest.json の更新を検知（poll）
   ├─ Claude が CLAUDE.md + criteria.md に従い論文を選別
-  └─ output/result.md に書き出し → main に commit & push
-
-GitHub Actions (main push トリガー)
-  └─ output/result.md の変更を検知 → Slack Incoming Webhook で #share-paper に投稿
+  └─ output/result.md を push → GitHub Actions (post-slack) → Slack 投稿
 ```
 
-- **fetch-arxiv** ワークフロー（05:00 JST / 04:00 HKT）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
-- **Scheduled Task**（09:00 JST / 08:00 HKT）: JSON を読み込み、`criteria.md` の基準で論文を選出し、`output/result.md` を main に push
-- **post-slack** ワークフロー（main push トリガー）: `output/result.md` の変更を検知し、Slack に投稿
+- **Scheduled Task**（08:00 HKT）: `data/trigger.txt` を push して fetch を起動し、論文を選別して `output/result.md` を push
+- **fetch-arxiv** ワークフロー（push トリガー）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
+- **post-slack** ワークフロー（push トリガー）: `output/result.md` の変更を検知し、Slack に投稿
 
-この3段階分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックし、また Slack Connector が不安定なための設計。
+この分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックし、また Slack Connector が不安定なための設計。
 
 ## 前提条件
 
@@ -48,11 +44,11 @@ GitHub Actions (main push トリガー)
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
 3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
-4. スケジュールを **Everyday 08:00 HKT**（= 00:00 UTC / 09:00 JST）に設定（時間を変更する場合は `.github/workflows/fetch-arxiv.yml` の cron も合わせて変更する。fetch が Scheduled Task の3時間以上前になるよう設定）
+4. スケジュールを **Everyday 08:00 HKT**（= 00:00 UTC / 09:00 JST）に設定
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
 
-以上で翌営業日から自動で動き始める。手動で動作確認したい場合は、GitHub Actions の "Fetch arXiv papers" を "Run workflow" で実行し、続けて Scheduled Task を手動トリガーすればよい。
+以上で翌日から自動で動き始める。手動で動作確認したい場合は、Scheduled Task を手動トリガーすればよい（fetch も自動で起動される）。
 
 ## 既知の制限事項
 
