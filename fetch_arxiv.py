@@ -66,13 +66,11 @@ def read_previous_date_to() -> Optional[str]:
 
 def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
     """Return (date_from, date_to) as YYYYMMDD strings, or None if nothing to fetch."""
-    weekday = today_jst.weekday()  # 0=Mon .. 6=Sun
-
-    if weekday == 5 or weekday == 6:  # Sat or Sun — arXiv has no announcements
-        return None
-
-    yesterday = today_jst - timedelta(days=1)
-    date_to = yesterday.strftime("%Y%m%d")
+    # Use 2-day offset because cron runs at 20:00 UTC (= 05:00 JST next day).
+    # Papers submitted on day X are indexed in the arXiv API by ~14:00 UTC day X+1.
+    # At 20:00 UTC day X, only day X-1 papers are reliably available.
+    target = today_jst - timedelta(days=2)
+    date_to = target.strftime("%Y%m%d")
 
     # Search from the day after the previous fetch's end date
     prev = read_previous_date_to()
@@ -82,7 +80,7 @@ def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
         if date_from > date_to:
             return None  # Already up to date
     else:
-        # Fallback: yesterday only
+        # Fallback: target date only
         date_from = date_to
 
     return (date_from, date_to)
@@ -178,7 +176,7 @@ def main():
     date_range = get_date_range(now_jst)
 
     if date_range is None:
-        print("Nothing to fetch (weekend or already up to date). Exiting.")
+        print("Nothing to fetch (already up to date). Exiting.")
         return
 
     date_from, date_to = date_range

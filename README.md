@@ -8,7 +8,7 @@
 GitHub Actions (cron: 毎日 20:00 UTC / 05:00 JST / 04:00 HKT)
   └─ python fetch_arxiv.py → data/latest.json に commit & push
 
-Claude Code Scheduled Task (月〜金 00:00 UTC / 09:00 JST / 08:00 HKT)
+Claude Code Scheduled Task (毎日 00:00 UTC / 09:00 JST / 08:00 HKT)
   ├─ リポジトリ clone → data/latest.json を読む
   ├─ Claude が CLAUDE.md + criteria.md に従い論文を選別
   └─ output/result.md に書き出し → main に commit & push
@@ -48,7 +48,7 @@ GitHub Actions (main push トリガー)
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
 3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
-4. スケジュールを **Weekdays 08:00 HKT**（= 00:00 UTC / 09:00 JST）に設定（時間を変更する場合は `.github/workflows/fetch-arxiv.yml` の cron も合わせて変更する。fetch が Scheduled Task の3時間以上前になるよう設定）
+4. スケジュールを **Everyday 08:00 HKT**（= 00:00 UTC / 09:00 JST）に設定（時間を変更する場合は `.github/workflows/fetch-arxiv.yml` の cron も合わせて変更する。fetch が Scheduled Task の3時間以上前になるよう設定）
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
 
