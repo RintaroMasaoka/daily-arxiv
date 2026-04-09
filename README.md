@@ -5,7 +5,7 @@
 ## アーキテクチャ
 
 ```
-Claude Code Scheduled Task (毎日 08:00 HKT)
+Claude Code Scheduled Task
   ├─ data/trigger.txt を push → GitHub Actions (fetch-arxiv) を起動
   ├─ GitHub Actions: fetch_arxiv.py → data/latest.json を commit & push
   ├─ git pull で latest.json の更新を検知（poll）
@@ -13,7 +13,7 @@ Claude Code Scheduled Task (毎日 08:00 HKT)
   └─ output/result.md を push → GitHub Actions (post-slack) → Slack 投稿
 ```
 
-- **Scheduled Task**（08:00 HKT）: `data/trigger.txt` を push して fetch を起動し、論文を選別して `output/result.md` を push
+- **Scheduled Task**: `data/trigger.txt` を push して fetch を起動し、論文を選別して `output/result.md` を push
 - **fetch-arxiv** ワークフロー（push トリガー）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
 - **post-slack** ワークフロー（push トリガー）: `output/result.md` の変更を検知し、Slack に投稿
 
@@ -44,7 +44,7 @@ Claude Code Scheduled Task (毎日 08:00 HKT)
 1. [claude.ai/code/scheduled](https://claude.ai/code/scheduled) にアクセス
 2. 「New Scheduled Task」を作成
 3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
-4. スケジュールを **Everyday 08:00 HKT**（= 00:00 UTC / 09:00 JST）に設定
+4. スケジュールを **Everyday** で好みの配信時刻に設定（実行時刻は論文の取得範囲に影響しない。詳細は「時刻と日付の扱い」を参照）
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
 6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
 
