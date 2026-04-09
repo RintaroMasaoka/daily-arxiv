@@ -5,17 +5,16 @@
 ## アーキテクチャ
 
 ```
-Claude Code Scheduled Task
-  ├─ data/trigger.txt を push → GitHub Actions (fetch-arxiv) を起動
-  ├─ GitHub Actions: fetch_arxiv.py → data/latest.json を commit & push
-  ├─ git pull で latest.json の更新を検知（poll）
-  ├─ Claude が CLAUDE.md + criteria.md に従い論文を選別
-  └─ output/result.md を push → GitHub Actions (post-slack) → Slack 投稿
+Scheduled Task                 GitHub Actions              外部サービス
+─────────────                  ──────────────              ────────────
+trigger.txt を push ──────→ fetch-arxiv 起動
+                               fetch_arxiv.py ──────────→ arXiv API
+                               latest.json を push
+latest.json を pull ←─────
+論文選別 (CLAUDE.md + criteria.md)
+result.md を push ────────→ post-slack 起動
+                               Slack Webhook ───────────→ Slack
 ```
-
-- **Scheduled Task**: `data/trigger.txt` を push して fetch を起動し、論文を選別して `output/result.md` を push
-- **fetch-arxiv** ワークフロー（push トリガー）: arXiv API から新着論文を取得し、`data/latest.json` に保存・commit
-- **post-slack** ワークフロー（push トリガー）: `output/result.md` の変更を検知し、Slack に投稿
 
 この分離は、Claude の計算環境にある egress proxy が `export.arxiv.org` をブロックし、また Slack Connector が不安定なための設計。
 
