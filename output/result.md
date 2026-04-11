@@ -1,19 +1,19 @@
-- *Decomposing momentum scales in the Hubbard Model: From Hatsugai-Kohmoto to Aubry-Andre*
-Dmitry Manning-Coe, Barry Bradlyn
-https://arxiv.org/abs/2604.06588
+- *Directional Criticality and Higher-Order Flatness: Designing Van Hove Singularities in Three Dimensions*
+Hua-Yu Li, Hengxin Tan, Hao-Yu Zhu, Hong-Kuan Yuan, Min-Quan Kuang
+https://arxiv.org/abs/2604.07806
 
-- *Projector, Neural, and Tensor-Network Representations of Z_N Cluster and Dipolar-cluster SPT States*
-Seungho Lee, Daesik Kim, Hyun-Yong Lee, Jung Hoon Han
-https://arxiv.org/abs/2604.06741
+- *Optical Hall absorption sum rule and spectral compensation in time-reversal-breaking moiré and Hofstadter systems*
+Yixin Zhang, H. Huang
+https://arxiv.org/abs/2604.08043
 
-- *Exotic theta terms in 2+1d fractonic field theory*
-Yuki Furukawa
-https://arxiv.org/abs/2604.07293
+- *$\mathcal{PT}$-symmetric Field Theories at Finite Temperature*
+Oleksandr Diatlyk, Andrei Katsevich, Fedor K. Popov
+https://arxiv.org/abs/2604.08459
 
-- *Magnon harmonic generation in antiferromagnets: Dynamical symmetry enriched by symmetry breaking*
-Yuto Jita, Minoru Kanega, Takumi Ogawa, Shunsuke C. Furuya, Masahiro Sato
-https://arxiv.org/abs/2604.06700
+- *Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective*
+Takahiro Sagawa
+https://arxiv.org/abs/2604.07867
 
-- *Critical scaling and supercritical coarsening in Active Model B+*
-Abir Bhowmick, P. K. Mohanty
-https://arxiv.org/abs/2604.07247
+- *Harmonic morphisms and dynamical invariants in network renormalization*
+Francesco Maria Guadagnuolo, Marco Nurisso, Federica Galluzzi, Antoine Allard, Giovanni Petri
+https://arxiv.org/abs/2604.08386
