@@ -39,6 +39,8 @@ def load_categories() -> list[str]:
         sys.exit("Error: no categories found in config.yml")
     return categories
 REQUEST_INTERVAL = 3  # seconds between API requests
+MAX_RETRIES = 3  # retry count for transient API errors (503, etc.)
+RETRY_WAIT = 5  # seconds to wait between retries
 
 # Timezones
 JST = timezone(timedelta(hours=9))
@@ -107,20 +109,32 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
     req = urllib.request.Request(url)
     req.add_header("User-Agent", "daily-arxiv-bot/1.0 (https://github.com/RintaroMasaoka/daily-arxiv)")
 
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = resp.read()
-            print(f"  HTTP {resp.status}, {len(data)} bytes")
-    except urllib.error.HTTPError as e:
-        print(f"  ERROR: HTTP {e.code} {e.reason}")
-        body = e.read()[:500] if hasattr(e, 'read') else b""
-        print(f"  Response body: {body.decode('utf-8', errors='replace')}")
-        return [], 0
-    except urllib.error.URLError as e:
-        print(f"  ERROR: {e.reason}")
-        return [], 0
-    except Exception as e:
-        print(f"  ERROR: {type(e).__name__}: {e}")
+    data = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = resp.read()
+                print(f"  HTTP {resp.status}, {len(data)} bytes")
+                break
+        except urllib.error.HTTPError as e:
+            print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): HTTP {e.code} {e.reason}")
+            if e.code in (429, 500, 503) and attempt < MAX_RETRIES:
+                print(f"  Retrying in {RETRY_WAIT}s...")
+                time.sleep(RETRY_WAIT)
+                continue
+            return [], 0
+        except urllib.error.URLError as e:
+            print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): {e.reason}")
+            if attempt < MAX_RETRIES:
+                print(f"  Retrying in {RETRY_WAIT}s...")
+                time.sleep(RETRY_WAIT)
+                continue
+            return [], 0
+        except Exception as e:
+            print(f"  ERROR: {type(e).__name__}: {e}")
+            return [], 0
+
+    if data is None:
         return [], 0
 
     try:
