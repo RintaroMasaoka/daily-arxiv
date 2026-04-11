@@ -74,10 +74,13 @@ def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
 
     # Search from the day after the previous fetch's end date
     prev = read_previous_date_to()
+    print(f"Date calc: today={today_jst.strftime('%Y-%m-%d %H:%M %Z')}, "
+          f"target={target.strftime('%Y-%m-%d')}, prev_date_to={prev}")
     if prev:
         prev_date = datetime.strptime(prev, "%Y%m%d")
         date_from = (prev_date + timedelta(days=1)).strftime("%Y%m%d")
         if date_from > date_to:
+            print(f"  Skip: date_from={date_from} > date_to={date_to}")
             return None  # Already up to date
     else:
         # Fallback: target date only
@@ -104,23 +107,47 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
     req = urllib.request.Request(url)
     req.add_header("User-Agent", "daily-arxiv-bot/1.0 (https://github.com/RintaroMasaoka/daily-arxiv)")
 
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        data = resp.read()
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = resp.read()
+            print(f"  HTTP {resp.status}, {len(data)} bytes")
+    except urllib.error.HTTPError as e:
+        print(f"  ERROR: HTTP {e.code} {e.reason}")
+        body = e.read()[:500] if hasattr(e, 'read') else b""
+        print(f"  Response body: {body.decode('utf-8', errors='replace')}")
+        return [], 0
+    except urllib.error.URLError as e:
+        print(f"  ERROR: {e.reason}")
+        return [], 0
+    except Exception as e:
+        print(f"  ERROR: {type(e).__name__}: {e}")
+        return [], 0
 
-    root = ET.fromstring(data)
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError as e:
+        print(f"  ERROR: XML parse failed: {e}")
+        print(f"  Response body (first 500 chars): {data[:500].decode('utf-8', errors='replace')}")
+        return [], 0
 
     # Total results from OpenSearch
     total_el = root.find("opensearch:totalResults", NS)
     total_results = int(total_el.text) if total_el is not None else 0
+    print(f"  totalResults={total_results}")
 
     papers = []
+    entries_total = 0
+    entries_skipped = 0
     for entry in root.findall("atom:entry", NS):
+        entries_total += 1
         # Skip the arXiv API "boilerplate" entry that has no id with abs/
         entry_id = entry.find("atom:id", NS)
         if entry_id is None:
+            entries_skipped += 1
             continue
         raw_id = entry_id.text.strip()
         if "/abs/" not in raw_id:
+            entries_skipped += 1
             continue
 
         # Extract arXiv ID (e.g., "2604.12345" from "http://arxiv.org/abs/2604.12345v1")
@@ -155,6 +182,7 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
             "categories": categories,
         })
 
+    print(f"  Entries: {entries_total} found, {entries_skipped} skipped, {len(papers)} parsed")
     return papers, total_results
 
 
@@ -177,6 +205,7 @@ def main():
 
     if date_range is None:
         print("Nothing to fetch (already up to date). Exiting.")
+        print(f"  prev_date_to in latest.json: {read_previous_date_to()}")
         return
 
     date_from, date_to = date_range
@@ -201,6 +230,7 @@ def main():
         d += timedelta(days=1)
 
     request_count = 0
+    errors = 0
     for single_date in dates:
         for category in categories:
             if request_count > 0:
@@ -210,13 +240,15 @@ def main():
             papers, total = fetch_category(category, single_date, single_date)
             date_fmt = f"{single_date[:4]}-{single_date[4:6]}-{single_date[6:]}"
             print(f"  {category} ({date_fmt}): {len(papers)} fetched, {total} total on arXiv")
+            if total == 0 and len(papers) == 0:
+                errors += 1
             all_papers.extend(papers)
             # Accumulate totals per category across all dates
             total_results[category] = total_results.get(category, 0) + total
             request_count += 1
 
     all_papers = deduplicate(all_papers)
-    print(f"After deduplication: {len(all_papers)} papers")
+    print(f"After deduplication: {len(all_papers)} papers ({errors}/{request_count} queries returned 0)")
 
     if not all_papers:
         print("No papers found. Keeping previous data unchanged.")
