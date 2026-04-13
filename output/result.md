@@ -6,14 +6,10 @@ https://arxiv.org/abs/2604.07806
 Yixin Zhang, H. Huang
 https://arxiv.org/abs/2604.08043
 
-- *$\mathcal{PT}$-symmetric Field Theories at Finite Temperature*
+- *PT-symmetric Field Theories at Finite Temperature*
 Oleksandr Diatlyk, Andrei Katsevich, Fedor K. Popov
 https://arxiv.org/abs/2604.08459
 
 - *Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective*
 Takahiro Sagawa
 https://arxiv.org/abs/2604.07867
-
-- *Harmonic morphisms and dynamical invariants in network renormalization*
-Francesco Maria Guadagnuolo, Marco Nurisso, Federica Galluzzi, Antoine Allard, Giovanni Petri
-https://arxiv.org/abs/2604.08386
