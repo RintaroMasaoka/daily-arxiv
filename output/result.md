@@ -1,15 +1,19 @@
-- *Directional Criticality and Higher-Order Flatness: Designing Van Hove Singularities in Three Dimensions*
-Hua-Yu Li, Hengxin Tan, Hao-Yu Zhu, Hong-Kuan Yuan, Min-Quan Kuang
-https://arxiv.org/abs/2604.07806
+- *Topological charge of fermions and Landau theory of Fermi liquid*
+G. E. Volovik
+https://arxiv.org/abs/2604.11054
 
-- *Optical Hall absorption sum rule and spectral compensation in time-reversal-breaking moiré and Hofstadter systems*
-Yixin Zhang, H. Huang
-https://arxiv.org/abs/2604.08043
+- *Self-doped Crystal from Preempted Band-inversion Transitions*
+Jiechao Feng, Zhaoyu Han, Michael P. Zaletel, Zhihuan Dong
+https://arxiv.org/abs/2604.09820
 
-- *PT-symmetric Field Theories at Finite Temperature*
-Oleksandr Diatlyk, Andrei Katsevich, Fedor K. Popov
-https://arxiv.org/abs/2604.08459
+- *Proof of entropic order in Generalized Ising Models*
+Enrico Andriolo, Mendel Nguyen, Emily Richards, Tin Sulejmanpasic
+https://arxiv.org/abs/2604.09768
 
-- *Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective*
-Takahiro Sagawa
-https://arxiv.org/abs/2604.07867
+- *Self-similar Dynamics in Percolation and Sandpile*
+Mingzhong Lu, Ming Li, Youjin Deng
+https://arxiv.org/abs/2604.08864
+
+- *An Information-Theoretic Bound on Thermodynamic Efficiency and the Generalized Carnot's Theorem*
+Anna Gabetti, Fabrizio Dolcini, Davide Girolami
+https://arxiv.org/abs/2604.10762
