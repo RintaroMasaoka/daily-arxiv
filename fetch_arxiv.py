@@ -53,17 +53,19 @@ NS = {
 }
 
 
-def read_previous_date_to() -> Optional[str]:
-    """Read date_to from the previous latest.json. Returns YYYYMMDD or None."""
+def read_previous() -> tuple[Optional[str], set[str]]:
+    """Read date_to and paper IDs from previous latest.json.
+
+    Returns (date_to as YYYYMMDD or None, set of arxiv_ids).
+    """
     try:
         with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
         dt = data.get("date_to")
-        if dt:
-            return dt.replace("-", "")
+        ids = {p["arxiv_id"] for p in data.get("papers", [])}
+        return (dt.replace("-", "") if dt else None, ids)
     except (FileNotFoundError, json.JSONDecodeError, AttributeError):
-        pass
-    return None
+        return (None, set())
 
 
 def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
@@ -74,15 +76,16 @@ def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
     target = today_jst - timedelta(days=2)
     date_to = target.strftime("%Y%m%d")
 
-    # Search from the day after the previous fetch's end date
-    prev = read_previous_date_to()
+    # Re-query from prev_date_to (1-day overlap) to catch papers that were
+    # submitted on that day but not yet indexed at the time of the last fetch.
+    # This handles Friday afternoon submissions (indexed Tuesday), holidays, etc.
+    prev, _ = read_previous()
     print(f"Date calc: today={today_jst.strftime('%Y-%m-%d %H:%M %Z')}, "
           f"target={target.strftime('%Y-%m-%d')}, prev_date_to={prev}")
     if prev:
-        prev_date = datetime.strptime(prev, "%Y%m%d")
-        date_from = (prev_date + timedelta(days=1)).strftime("%Y%m%d")
-        if date_from > date_to:
-            print(f"  Skip: date_from={date_from} > date_to={date_to}")
+        date_from = prev  # overlap: re-query the last date
+        if prev > date_to:
+            print(f"  Skip: prev_date_to={prev} > date_to={date_to}")
             return None  # Already up to date
     else:
         # Fallback: target date only
@@ -267,6 +270,17 @@ def main():
     if not all_papers:
         print("No papers found. Keeping previous data unchanged.")
         return
+
+    # Only update latest.json if there are papers not seen in the previous fetch.
+    # This prevents date_to from advancing when only duplicate papers are found
+    # in the overlap window, ensuring late-indexed papers are re-queried.
+    _, prev_ids = read_previous()
+    new_ids = {p["arxiv_id"] for p in all_papers} - prev_ids
+    if not new_ids:
+        print(f"No new papers (all {len(all_papers)} already in previous fetch). "
+              "Keeping previous data unchanged.")
+        return
+    print(f"  {len(new_ids)} new papers found")
 
     result = {
         "fetched_at": now_jst.isoformat(),
