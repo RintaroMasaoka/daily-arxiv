@@ -1,19 +1,19 @@
-- *Topological charge of fermions and Landau theory of Fermi liquid*
-G. E. Volovik
-https://arxiv.org/abs/2604.11054
+- *Hilbert Space Fragmentation from Generalized Symmetries*
+Thea Budde, Marina Kristć Marinković, Joao C. Pinto Barros
+https://arxiv.org/abs/2604.12907
 
-- *Self-doped Crystal from Preempted Band-inversion Transitions*
-Jiechao Feng, Zhaoyu Han, Michael P. Zaletel, Zhihuan Dong
-https://arxiv.org/abs/2604.09820
+- *Unconventional entanglement scaling and quantum criticality in the long-range spin-one Heisenberg chain with single-ion anisotropy*
+Patrick Adelhardt, Sean R. Muleady, Kai P. Schmidt, Alexey V. Gorshkov
+https://arxiv.org/abs/2604.12754
 
-- *Proof of entropic order in Generalized Ising Models*
-Enrico Andriolo, Mendel Nguyen, Emily Richards, Tin Sulejmanpasic
-https://arxiv.org/abs/2604.09768
+- *Classification and correlation signatures of chiral spin liquids on the pyrochlore lattice*
+Chunxiao Liu, Leon Balents, Yasir Iqbal
+https://arxiv.org/abs/2604.11880
 
-- *Self-similar Dynamics in Percolation and Sandpile*
-Mingzhong Lu, Ming Li, Youjin Deng
-https://arxiv.org/abs/2604.08864
+- *A complexity phase transition at the EPR Hamiltonian*
+Kunal Marwaha, James Sud
+https://arxiv.org/abs/2604.13026
 
-- *An Information-Theoretic Bound on Thermodynamic Efficiency and the Generalized Carnot's Theorem*
-Anna Gabetti, Fabrizio Dolcini, Davide Girolami
-https://arxiv.org/abs/2604.10762
+- *Charge-4e/6e superconductivity and chiral metal from 3D chiral superconductor*
+Chu-Tian Gao, Chen Lu, Yu-Bo Liu, Zhiming Pan, Fan Yang
+https://arxiv.org/abs/2604.12328
