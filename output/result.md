@@ -1,19 +1,19 @@
-- *Hilbert Space Fragmentation from Generalized Symmetries*
-Thea Budde, Marina Kristć Marinković, Joao C. Pinto Barros
-https://arxiv.org/abs/2604.12907
+- *Quantum matter is weakly entangled at low energies*
+Samuel J. Garratt, Dmitry A. Abanin
+https://arxiv.org/abs/2604.14143
 
-- *Unconventional entanglement scaling and quantum criticality in the long-range spin-one Heisenberg chain with single-ion anisotropy*
-Patrick Adelhardt, Sean R. Muleady, Kai P. Schmidt, Alexey V. Gorshkov
-https://arxiv.org/abs/2604.12754
+- *Simple slow operators and quantum thermalization*
+Tian-Hua Yang, Sarang Gopalakrishnan, Dmitry A. Abanin
+https://arxiv.org/abs/2604.13172
 
-- *Classification and correlation signatures of chiral spin liquids on the pyrochlore lattice*
-Chunxiao Liu, Leon Balents, Yasir Iqbal
-https://arxiv.org/abs/2604.11880
+- *On Exponentially Long Prethermalization Timescales in Isolated Quantum Systems*
+Matteo Gallone
+https://arxiv.org/abs/2604.13781
 
-- *A complexity phase transition at the EPR Hamiltonian*
-Kunal Marwaha, James Sud
-https://arxiv.org/abs/2604.13026
+- *Topological anisotropic non-Fermi liquid from a Berry-dipole semimetal*
+Konstantinos Ladovrechis
+https://arxiv.org/abs/2604.14146
 
-- *Charge-4e/6e superconductivity and chiral metal from 3D chiral superconductor*
-Chu-Tian Gao, Chen Lu, Yu-Bo Liu, Zhiming Pan, Fan Yang
-https://arxiv.org/abs/2604.12328
+- *Genuine quantum scars in Floquet chaotic many-body systems*
+Harald Schmid, Andrea Pizzi, Johannes Knolle
+https://arxiv.org/abs/2604.13164
