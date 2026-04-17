@@ -1,19 +1,19 @@
-- *Quantum matter is weakly entangled at low energies*
-Samuel J. Garratt, Dmitry A. Abanin
-https://arxiv.org/abs/2604.14143
+- *Quantum Charge-4e Superconductivity and Deconfined Pseudocriticality in the Attractive SU(4) Hubbard Model*
+Zhou-Quan Wan, Huan Jiang, Xuan Zou, Shiwei Zhang, Shao-Kai Jian
+https://arxiv.org/abs/2604.14289
 
-- *Simple slow operators and quantum thermalization*
-Tian-Hua Yang, Sarang Gopalakrishnan, Dmitry A. Abanin
-https://arxiv.org/abs/2604.13172
+- *Breakdown of the Migdal-Eliashberg theory for electron-phonon systems. Role of polarons/bi-polarons*
+Andrey Chubukov, Ilya Esterlis, Artem Abanov, Nikolay Prokof'ev
+https://arxiv.org/abs/2604.14294
 
-- *On Exponentially Long Prethermalization Timescales in Isolated Quantum Systems*
-Matteo Gallone
-https://arxiv.org/abs/2604.13781
+- *Divergent spin conductivity on the verge of ferromagnetic quantum criticality*
+Sondre Duna Lundemo, Asle Sudbø
+https://arxiv.org/abs/2604.14286
 
-- *Topological anisotropic non-Fermi liquid from a Berry-dipole semimetal*
-Konstantinos Ladovrechis
-https://arxiv.org/abs/2604.14146
+- *Topologically non-trivial gap function and topology-induced time-reversal symmetry breaking in a superconductor with singular dynamical interaction*
+Yue Yu, Andrey V. Chubukov
+https://arxiv.org/abs/2604.14295
 
-- *Genuine quantum scars in Floquet chaotic many-body systems*
-Harald Schmid, Andrea Pizzi, Johannes Knolle
-https://arxiv.org/abs/2604.13164
+- *A Generalized Coherent State Framework for Many-Body Density of States*
+Deniz Coskun, R. Chitra
+https://arxiv.org/abs/2604.14367
