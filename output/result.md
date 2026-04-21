@@ -1,19 +1,19 @@
-- *Local CFTs extremise $F$*
-Ludo Fraser-Taliente
-https://arxiv.org/abs/2604.15420
+- *Bose metal near pair-density-wave order in a spin-orbit-coupled Kondo lattice*
+Piers Coleman, Aaditya Panigrahi, Alexei Tsvelik
+https://arxiv.org/abs/2604.18451
 
-- *Hilbert Space Fragmentation and Gauge Symmetry*
-Thea Budde, Marina Kristć Marinković, Joao C. Pinto Barros
-https://arxiv.org/abs/2604.15820
+- *Quantum many-body scars in random unitary circuits*
+Luca Capizzi, Benoît Ferté
+https://arxiv.org/abs/2604.18244
 
-- *Magnetic domains stabilized by symmetry-protected zero modes*
-Pavel Kos, Dominik S. Wild, Kristian Knakkergaard Nielsen
-https://arxiv.org/abs/2604.15510
+- *A Note on Coadjoint Orbits for Multifermion Systems*
+V. P. Nair
+https://arxiv.org/abs/2604.17491
 
-- *Phase Transitions as the Breakdown of Statistical Indistinguishability*
-Taiyo Narita, Hideyuki Miyahara
-https://arxiv.org/abs/2604.15773
+- *Multipolar Piezoelectricity and Anisotropic Surface Transport in Alterelectrics*
+Amber Visser, Viktor Könye, Oleg Janson, Jeroen van den Brink, Corentin Coulais, Jasper van Wezel
+https://arxiv.org/abs/2604.18324
 
-- *Boson correlations are spurious for classical states*
-Daniel E. Salazar, Fabrice P. Laussy
-https://arxiv.org/abs/2604.16283
+- *Holography and Optimal Transport: Emergent Wasserstein Spacetime in Harmonic Oscillator, SYK and Krylov Complexity*
+Koji Hashimoto, Norihiro Tanahashi
+https://arxiv.org/abs/2604.17649
