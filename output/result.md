@@ -1,19 +1,19 @@
-- *Bose metal near pair-density-wave order in a spin-orbit-coupled Kondo lattice*
-Piers Coleman, Aaditya Panigrahi, Alexei Tsvelik
-https://arxiv.org/abs/2604.18451
+- *Exploring Entropic Orders: High Temperature Continuous Symmetry Breaking, Chiral Topological States and Local Commuting Projector Models*
+Po-Shen Hsin, Ryohei Kobayashi
+https://arxiv.org/abs/2604.18694
 
-- *Quantum many-body scars in random unitary circuits*
-Luca Capizzi, Benoît Ferté
-https://arxiv.org/abs/2604.18244
+- *Conformal Data for the $O(2)$ Wilson-Fisher CFT in $(2+1)$-Dimensional Spacetime from Exact Diagonalization and Matrix Product States on the Fuzzy Sphere*
+Arjun Dey, Loic Herviou, Christopher Mudry, Slava Rychkov, Andreas Martin Läuchli
+https://arxiv.org/abs/2604.18705
 
-- *A Note on Coadjoint Orbits for Multifermion Systems*
-V. P. Nair
-https://arxiv.org/abs/2604.17491
+- *The bosonic Hubbard model on a three dimensional flat band lattice*
+Leon Haag-Fank, Andreas Mielke
+https://arxiv.org/abs/2604.19703
 
-- *Multipolar Piezoelectricity and Anisotropic Surface Transport in Alterelectrics*
-Amber Visser, Viktor Könye, Oleg Janson, Jeroen van den Brink, Corentin Coulais, Jasper van Wezel
-https://arxiv.org/abs/2604.18324
+- *Logarithmic Entanglement and Emergent Dipole Symmetry from a Strongly Coupled Light-Matter Quantum Circuit*
+Luiz H. Santos
+https://arxiv.org/abs/2604.18670
 
-- *Holography and Optimal Transport: Emergent Wasserstein Spacetime in Harmonic Oscillator, SYK and Krylov Complexity*
-Koji Hashimoto, Norihiro Tanahashi
-https://arxiv.org/abs/2604.17649
+- *Symmetry resolved entanglement in Lifshitz field theories*
+M. Reza Mohammadi Mozaffar, Ali Mollabashi
+https://arxiv.org/abs/2604.19082
