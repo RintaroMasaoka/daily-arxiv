@@ -8,9 +8,7 @@
 
 **渡辺研のメンバーが理論家としての視野を維持するため**、自分の関心圏で押さえておくべきインパクトある理論論文を、日次で把握しておくこと。
 
-これは研究の直接の道具ではない — 必要な材料は各自が検索で探す。また「その日の arXiv を網羅する」ことでもない。目的は、**この領域で何が起きているかを見逃さずにいる**という理論家としての professional awareness の維持である。
-
-したがって判定基準は二つ:
+判定基準は二つ:
 
 1. **関心圏の内であること**（関心圏から外れた論文は、どれほど優れていてもこの目的には合致しない）
 2. **理論家として押さえておくべきインパクトがあること**（関心圏内でも、質の薄い論文を並べることは目的に反する）
@@ -56,7 +54,7 @@
 
 ## インパクトの判定
 
-関心圏に残った候補を、**理論家として押さえておくべきインパクトが強い順**に並べる。インパクトの手がかりは以下を総合的に考慮する。
+関心圏に残った候補を、**理論家として押さえておくべきインパクトが強い順**に並べる。判定の中心は論文の内容。著者 profile は内容判断が拮抗したときの tie-breaker として使う。
 
 ### 論文の内容から見る signals
 
@@ -65,43 +63,32 @@
 - **一般化の深さ**: 結論が広いクラスに適用される一般的知見であるほど強い
 - **既存成果との接続**: 既存の分類・定理を拡張・精密化・反証するもの、あるいは関心圏で使える新しい道具・視点をもたらすものは特に強い
 
-### 著者からの signal
+派手さ(cross-field の話題性、holography・量子情報・機械学習・TQC との交差で目を引く形の新規性)は、関心圏内での理論的インパクトとは独立である。分類・framework・制約定理のような中核の仕事は堅実な形で提出されるため見かけ上派手ではないが、理論家として押さえておくべきインパクトは大きい。派手さ・新規性の見かけは手がかりにしない。
 
-関心圏の中核(対称性・トポロジー・臨界現象・量子多体の一般理論)で、**rigorous・structural・framework 型の寄与を長期にわたり重ねている研究者**の論文は、abstract 単独で判断したときよりも一段強めの prior で impact を見積もってよい。実際の研究者も "X の新しい論文だから読む" という signal を使っており、この digest でもそれを再現する。
+### 著者からの signal — 内容判断の tie-breaker
 
-著者評価は LLM の pretraining 知識で行う。網羅的な author list は維持不能なので、以下は **taste を anchor するための例示**であり、同じ profile の研究者には同じ prior を適用する:
+内容判断が拮抗した論文同士で順序を決めるとき、著者 profile を補助として使う。上書きはしない。判断は LLM の pretraining 知識で行う(Google Scholar 相当の citation metric やネットワーク距離の実測は pipeline に接続されていないため、この近似に頼る)。
 
-- SPT・gapless SPT・entanglement invariant: Wen, Pollmann, Verresen, Fidkowski, Metlitski, Levin, Ryu, Senthil, Vishwanath
-- 結晶対称性・topological crystalline: Shiozaki, Furusaki, Sato, Po, Bradlyn, Watanabe 悠樹, Hatsugai
-- 一般化対称性・anomaly・categorical: Seiberg, Gaiotto, Kapustin, Shao, Tachikawa, Córdova
-- LSM・NG モード・filling 制約: Oshikawa, Watanabe 悠樹
-- Exactly solvable・integrable・parafermion: Fendley, Essler, Jacobsen, Saleur
+関心圏の中核で **rigorous・structural・framework 型の寄与を長期にわたり重ねている研究者** の論文には、やや強めの prior を与える。taste を anchor するための例示(網羅ではなく、同じ profile の研究者には同じ prior を適用する):
+
+- SPT・gapless SPT・entanglement invariant: Wen, Pollmann, Verresen, Fidkowski, Metlitski
+- 結晶対称性・topological crystalline: Shiozaki, Furusaki, Sato, Po, Haruki Watanabe
+- 一般化対称性・anomaly・categorical: Seiberg, Gaiotto, Tachikawa, Córdova
+- LSM・NG モード・filling: Oshikawa, Haruki Watanabe
+- Exactly solvable・integrable・parafermion: Fendley, Essler
 - Frustration-free・rigorous many-body: Nachtergaele, Tasaki, Koma, Katsura
-- テンソルネットワーク: Schuch, Cirac, Vidal, Verstraete
-- 非熱化の構造化(scars/fragmentation 側): Moudgalya, Regnault, Shiraishi, Sala
-- MIPT・entanglement dynamics: Nahum, Fisher, Vasseur
+- テンソルネットワーク: Schuch, Cirac
+- 非熱化の構造化(scars/fragmentation): Moudgalya, Regnault, Shiraishi
+- MIPT・entanglement dynamics: Nahum, Vasseur
 
-ただし:
-- これは prior であって abstract 判断を overwrite しない。有名著者でも abstract が明らかに弱い論文は弱く評価する
-- 無名著者だからといって割引いてはならない。良い仕事はしばしば early-career の研究者から出る
-- "著名度" ではなく "rigorous/structural/framework 型の profile" で判断する。Cross-field の celebrity(holography・量子情報・機械学習・TQC との交差で名が広く知られるタイプ)は、その名前だけで prior を上げない
+渡辺悠樹と近接した問題群(LSM、filling、frustration-free、結晶対称性など)を共有する研究者 — 上記例示の多くが実質これにあたる — の論文にはさらにやや強めの prior を与える。理由: 研究室の日常の議論に直接接続しやすく、professional awareness の観点で研究室の文脈に乗りやすいため。
+
+逆に、cross-field celebrity(holography・量子情報・機械学習・TQC 等との交差で名が広く知られるタイプ)は、"著名度" だけでは prior を上げない。上記の rigorous/structural/framework 型の profile に該当するかどうかで判断する。
+
+原則:
+- 有名著者でも abstract が明らかに弱い論文は弱く評価する
+- 無名著者を割引いてはならない。良い仕事はしばしば early-career から出る
 - 確信が持てないときはこの signal を使わず、論文内容 signals のみで判定する
-- 渡辺悠樹の引用・共著ネットワークに近い研究者(共著者、相互に引用関係にある研究者、同じ構造的問題群を共有する近接コミュニティ)の論文にはやや強めの prior を与える。理由: 研究室の日常の議論に直接接続しやすく、professional awareness の観点で研究室の文脈に乗りやすいため。現実問題として、このネットワークは日本の多体物理コミュニティ(Oshikawa, Tasaki, Koma, Katsura, Shiozaki, Furusaki, Shiraishi 等)が中心を占める。ただし基準はネットワーク上の近さであって国籍ではなく、Pollmann や Metlitski など non-Japanese でも同じ問題群を共有する研究者には同じ prior を適用する
-
-### インパクトと派手さの混同を避ける
-
-派手さは関心圏外のインパクトや話題性と相関しがちだが、関心圏内での理論的インパクトとは独立である。分類・framework・制約定理のような関心圏中核の仕事は堅実な形で提出されるため見かけ上派手ではないが、理論家として押さえておくべきインパクトは大きい。派手さ・新規性の見かけは手がかりにしない。
-
-### 本来使えるが現状利用できない signal
-
-実際の研究者は以下も判断材料にするが、現状この digest のパイプラインには供給されていない:
-
-- 論文の被引用数・引用ネットワーク(Semantic Scholar 等の API 接続が必要)
-- 著者ごとの長期 citation 推移や研究歴 metric(Google Scholar 等の API 接続が必要。現状、上の「著者からの signal」は LLM の pretraining 知識でこれを近似している)
-- 渡辺悠樹との共著/引用ネットワーク距離の実測(上記「ネットワーク近接」の bullet は、現状この距離を LLM の pretraining 知識で近似している)
-- 研究室の過去の選別ログ(過去どの論文が選ばれたか/選ばれなかったかのフィードバック)
-
-これらが欠けているため、判定は **abstract + title + authors + categories** のみで行う。この情報制約による判定の noise は避けられず、完璧な判定は不可能である点を自覚する。
 
 ---
 
@@ -114,8 +101,6 @@
 - インパクトの強い論文が多い日は多めに（上限の目安は7件。それ以上は Slack で読み流される）
 - 少ない日は少なめに（3件でも、あるいはそれ以下でも可）
 - 関心圏内でインパクトのある論文が一つもない日は、ゼロ件で構わない
-
-質の薄い論文で件数を埋めることは目的（理論家としての視野の維持）に反する。
 
 ---
 
