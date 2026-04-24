@@ -1,19 +1,19 @@
-- *Symmetry breaking phases and transitions in an Ising fusion category lattice model*
-Soumil Roychowdhury, Chenjie Wang
-https://arxiv.org/abs/2604.20201
+- *Symplectic symmetry of quadratic-band-touching Hamiltonians in two dimensions*
+Igor F. Herbut, Samson C. H. Ling
+https://arxiv.org/abs/2604.21524
 
-- *Unconventional Quantum Criticality in Long-Range Spin-1 Chains: Insights from Entanglement Entropy and Bipartite Fluctuations*
-Justin Tim-Lok Chau, Jiarui Zhao, Nicolas Laflorencie, Zi Yang Meng
-https://arxiv.org/abs/2604.20831
+- *Algorithmic Locality via Provable Convergence in Quantum Tensor Networks*
+Siddhant Midha, Yifan F. Zhang, Daniel Malz, Dmitry A. Abanin, Sarang Gopalakrishnan
+https://arxiv.org/abs/2604.21919
 
-- *Scaling at Chiral Clock Criticality via Entanglement Renormalization*
-Shiyong Guo, Brian Swingle
-https://arxiv.org/abs/2604.19876
+- *Stable Wave-Function Zeros Indicate Exciton Topology*
+Yoonseok Hwang, Henry Davenport, Frank Schindler
+https://arxiv.org/abs/2604.21643
 
-- *Quantum many-body scars leading to time-translation symmetry breaking in kicked interacting spin models*
-Ángel L. Corps, Armando Relaño, Angelo Russomanno
-https://arxiv.org/abs/2604.20419
+- *Decomposing Fractional Quantum Hall Wave Functions via Operator Contraction Multiplication*
+Dong-Hao Guan, Licheng Wang, Yuan Zhou, Ai-Lei He, Yi-Fei Wang
+https://arxiv.org/abs/2604.21434
 
-- *Crosscap Defects*
-Nadav Drukker, Shota Komatsu, Anders Wallberg
-https://arxiv.org/abs/2604.19868
+- *Studying 3D O(N) Surface CFT on the Fuzzy Sphere*
+Jiechao Feng, Taige Wang
+https://arxiv.org/abs/2604.21091
