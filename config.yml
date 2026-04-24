@@ -3,3 +3,14 @@
 categories:
   - cond-mat.str-el
   - cond-mat.stat-mech
+
+# Slack connector 並走テスト版（CLAUDE_ROUTINE.md）の投稿先
+# Claude が Slack connector の user/channel 検索ツールで解決するため、自然言語で OK。
+# 例:
+#   "自分への DM"
+#   "#arxiv-digest-test"
+#   "@some-username"
+# 複数ワークスペースを Slack connector に接続している場合は、ワークスペース名も明示する:
+#   "XXX ワークスペースの自分への DM"
+# テスト期間終了・本番切替後は削除
+slack_channel_test: "自分への DM"
