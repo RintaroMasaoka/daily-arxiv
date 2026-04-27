@@ -1,19 +1,15 @@
-- *Symplectic symmetry of quadratic-band-touching Hamiltonians in two dimensions*
-Igor F. Herbut, Samson C. H. Ling
-https://arxiv.org/abs/2604.21524
+- *Decohered color code and emerging mixed toric code by anyon proliferation: Topological entanglement negativity perspective*
+Keisuke Kataoka, Yoshihito Kuno, Takahiro Orito, Ikuo Ichinose
+https://arxiv.org/abs/2604.22521
 
-- *Algorithmic Locality via Provable Convergence in Quantum Tensor Networks*
-Siddhant Midha, Yifan F. Zhang, Daniel Malz, Dmitry A. Abanin, Sarang Gopalakrishnan
-https://arxiv.org/abs/2604.21919
+- *Entanglement and information scrambling in long-range measurement-only circuits*
+Abigail McClain Gomez, Fiona Abney-McPeek, Hong-Ye Hu, Susanne F. Yelin, Ceren B. Dağ
+https://arxiv.org/abs/2604.22022
 
-- *Stable Wave-Function Zeros Indicate Exciton Topology*
-Yoonseok Hwang, Henry Davenport, Frank Schindler
-https://arxiv.org/abs/2604.21643
+- *Exact relations between the density-density correlators of states in a spin multiplet*
+Ritajit Kundu, Ajit C. Balram
+https://arxiv.org/abs/2604.22628
 
-- *Decomposing Fractional Quantum Hall Wave Functions via Operator Contraction Multiplication*
-Dong-Hao Guan, Licheng Wang, Yuan Zhou, Ai-Lei He, Yi-Fei Wang
-https://arxiv.org/abs/2604.21434
-
-- *Studying 3D O(N) Surface CFT on the Fuzzy Sphere*
-Jiechao Feng, Taige Wang
-https://arxiv.org/abs/2604.21091
+- *Replica Tensor Train*
+Miha Srdinsek, Gabriel Gouraud, Xavier Waintal
+https://arxiv.org/abs/2604.22718
