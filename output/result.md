@@ -1,19 +1,19 @@
-- *Non-Abelian Particle-Loop, Fracton, and Planon Condensation in Cage-Net Models*
-Yifei Wang, Yu Zhao, Yingcheng Li, Hao Song, Yidun Wan
-https://arxiv.org/abs/2604.24755
+- *Anomaly and symmetry-charge flow in mixed states*
+Ze-Min Huang, Sebastian Diehl
+https://arxiv.org/abs/2604.24872
 
-- *Peak-valley mechanism for Hilbert space fragmentation*
-Jianlong Fu, Hoi Chun Po
-https://arxiv.org/abs/2604.23659
+- *Dynamical dimer structure factor of the triangular $S=1/2$ Heisenberg antiferromagnet*
+Markus Drescher, Laurens Vanderstraeten, Roderich Moessner, Frank Pollmann, Johannes Knolle
+https://arxiv.org/abs/2604.24868
 
-- *Conformal Invariance of the large-$N$ limit of the $O(N)$ universality class*
-Santiago Cabrera, Gonzalo De Polsi, Adam Rançon, Nicolás Wschebor
-https://arxiv.org/abs/2604.24675
+- *Quantum Rotors on the Fuzzy Sphere and the Cubic CFT*
+Andreas Stergiou
+https://arxiv.org/abs/2604.24840
 
-- *Gauge-covariant projected entangled paired states for interacting systems in a magnetic field*
-Wei Tang, Gunnar Möller, Frank Verstraete, Laurens Vanderstraeten
-https://arxiv.org/abs/2604.24574
+- *Non-magnetic floating phases in frustrated Haldane chains with a single-ion anisotropy*
+Bowy M. La Riviere, Natalia Chepiga
+https://arxiv.org/abs/2604.25493
 
-- *Contracting Tensor Networks with Generalized Belief Propagation*
-Joseph Tindall, Grace M. Sommers, Hilbert Kappen
-https://arxiv.org/abs/2604.24760
+- *Dispersion of Anyon Bloch Bands*
+Kishore Iyer, Andreas Feuerpfeil, Valentin Crépel, Nicolas Regnault, Christophe Mora
+https://arxiv.org/abs/2604.24859
