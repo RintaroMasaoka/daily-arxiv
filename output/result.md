@@ -1,15 +1,23 @@
-- *Criticality on Rényi defects at (2+1)$d$ O(3) quantum critical points*
-Yanzhang Zhu, Zhe Wang, Meng Cheng, Zheng Yan
-https://arxiv.org/abs/2605.00104
+- *Note on Strong Quantum Markov Properties*
+Chi-Fang Chen
+https://arxiv.org/abs/2605.02877
 
-- *Unraveling the Bott spiral*
-Arun Debray, Cameron Krulewski, Luuk Stehouwer
-https://arxiv.org/abs/2605.00316
+- *Lattice Realization of Twist Defects in a $\mathbb{Z}_2\times \mathbb{Z}_2$ Topological Order*
+Gustavo M. Yoshitome
+https://arxiv.org/abs/2605.02039
 
-- *Nonreciprocity-enriched steady phases in open quantum systems*
-Ding Gu, Zhanpeng Fu, Zhong Wang
-https://arxiv.org/abs/2605.00101
+- *Exchange-frustrated quadrupoles on the honeycomb lattice: Flavor-wave spectra, classical degeneracies and parton constructions*
+Partha Sarker, Han Ma, Urban F. P. Seifert
+https://arxiv.org/abs/2605.02336
 
-- *Graph-theory measures capture weak ergodicity breaking on large quantum systems*
-Heiko Georg Menzler, Rafał Świętek, Mari Carmen Bañuls, Fabian Heidrich-Meisner
-https://arxiv.org/abs/2605.00094
+- *Ergodic and Discrete Time Crystal Phases in Periodically Kicked Many-Body Quantum Systems: An Analytical Study*
+Vijay Kumar, Dibyendu Roy
+https://arxiv.org/abs/2605.01969
+
+- *System driven out-of equilibrium by weak contacts with reservoirs*
+Thierry Bodineau, Bernard Derrida
+https://arxiv.org/abs/2605.01900
+
+- *Thermodynamic completeness in quantum and classical Markovian dynamics*
+Yang Tian
+https://arxiv.org/abs/2605.02650
