@@ -1,15 +1,15 @@
-- *Characterizing bulk properties of gapped phases by smeared boundary conformal field theories: Role of duality in unusual ordering*
-Yoshiki Fukusumi, Shuma Nakashiba
-https://arxiv.org/abs/2605.07734
+- *Parafermionizing the Monster*
+Yamato Honda, Justin Kaidi, Ippo Orii
+https://arxiv.org/abs/2605.10902
 
-- *Volume-Independent Spectral Stability of Energy-Truncated Effective Hamiltonians in Quantum Spin Systems*
-Ayumi Ukai
-https://arxiv.org/abs/2605.07410
+- *Local topological order, Haag duality, and reflection positivity*
+Pieter Naaijkens, David Penneys, Daniel Wallick
+https://arxiv.org/abs/2605.10693
 
-- *Universal Symmetry-Breaking Dynamics at Continuous Phase Transitions: Evidence for a New Dynamical Critical Exponent*
-Tobias Wiener, Laurin Brunner, Markus Heyl
-https://arxiv.org/abs/2605.07753
+- *A passive self-correcting quantum memory in three dimensions*
+Shankar Balasubramanian, Margarita Davydova, Ting-Chun Lin
+https://arxiv.org/abs/2605.10943
 
-- *Multiscale Structure of Eigenstate Thermalization*
-Pavel Orlov, Rustem Sharipov, Enej Ilievski
-https://arxiv.org/abs/2605.08079
+- *Lyapunov Exponents as Duality-Invariant Signatures of Critical States*
+Tong Liu, Gao Xianlong
+https://arxiv.org/abs/2605.10746
