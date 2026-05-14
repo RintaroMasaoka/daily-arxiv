@@ -1,15 +1,19 @@
-- *Local Topological Quantum Order and Spectral Gap Stability for the AKLT Models on the Hexagonal and Lieb Lattices*
-Amanda Young, Bruno Nachtergaele, Andrew Jackson
-https://arxiv.org/abs/2605.12184
+- *Lieb-Schultz-Mattis theorem from gauge constraints*
+Bhandaru Phani Parasar
+https://arxiv.org/abs/2605.13606
 
-- *Renormalization of Quantum Operations: Parity-Time Transition and Chaotic Flows*
-Atsushi Oyaizu, Hongchao Li, Masaya Nakagawa, Masahito Ueda
-https://arxiv.org/abs/2605.10459
+- *Lattice Gauging Interfaces and Noninvertible Defects in Higher Dimensions*
+David Hofmeier, Giovanna Pimenta, Weiguang Cao
+https://arxiv.org/abs/2605.12601
 
-- *Exciton-roton mode in moiré fractional Chern insulators*
-Xiaoyang Shen, Zijian Zhou, Ruiping Guo, Renqi Wang, Wenhui Duan, Chong Wang, Yong Xu
-https://arxiv.org/abs/2605.11794
+- *Invertible Symmetry and Spontaneous Duality Breaking in the Transverse-Field Ising Model*
+José Dupont, Jasper van Wezel
+https://arxiv.org/abs/2605.13363
 
-- *Beyond Topological Invariants: Order Parameters from Dominant Fock-state Patterns*
-Tsz Hin Hui, Xiaodan Xia, Pedro D. Sacramento, Wing Chi Yu
-https://arxiv.org/abs/2605.10320
+- *Crossover and universality breaking in the dilute Baxter-Wu model*
+Dimitrios Mataragkas, Alexandros Vasilopoulos, Dong-Hee Kim, Nikolaos G. Fytas
+https://arxiv.org/abs/2605.13238
+
+- *Universal Design and Physical Applications of Non-Uniform Cellular Automata on Translationally Invariant Lattices*
+Xiang-You Huang, Jie-Yu Zhang, Peng Ye
+https://arxiv.org/abs/2605.13379
