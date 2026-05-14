@@ -20,7 +20,8 @@ Execute the production digest workflow from this repository. Use `AGENTS.md` as 
 7. Write only the selected paper list to `output/result.md` in the exact Slack mrkdwn format from `AGENTS.md`.
 8. Append any missed-paper warning required by `total_results`.
 9. Update `data/last_processed.json` by adding all paper IDs from the current `latest.json`, not only selected papers.
-10. Commit and push `output/result.md` and `data/last_processed.json` to `main`. GitHub Actions posts to Slack; do not post to Slack directly.
+10. Commit `output/result.md` and `data/last_processed.json`, then run `git push origin main`. GitHub Actions posts to Slack; do not post to Slack directly.
+11. **Push verification gate** — run the verification block in `AGENTS.md` Step 3 (the `git fetch` + `git rev-parse HEAD` vs `git rev-parse origin/main` check). The task is not complete until that block prints `PUSH_VERIFIED`. If it prints `PUSH_FAILED`, rerun `git push origin main` (escalate sandbox/network permission if needed) and rerun the gate. Never end the task after a successful commit if push has not been verified — commit alone does not trigger the Slack post.
 
 ## Codex Notes
 
