@@ -1,15 +1,15 @@
-- *Parafermionizing the Monster*
-Yamato Honda, Justin Kaidi, Ippo Orii
-https://arxiv.org/abs/2605.10902
+- *Local Topological Quantum Order and Spectral Gap Stability for the AKLT Models on the Hexagonal and Lieb Lattices*
+Amanda Young, Bruno Nachtergaele, Andrew Jackson
+https://arxiv.org/abs/2605.12184
 
-- *Local topological order, Haag duality, and reflection positivity*
-Pieter Naaijkens, David Penneys, Daniel Wallick
-https://arxiv.org/abs/2605.10693
+- *Renormalization of Quantum Operations: Parity-Time Transition and Chaotic Flows*
+Atsushi Oyaizu, Hongchao Li, Masaya Nakagawa, Masahito Ueda
+https://arxiv.org/abs/2605.10459
 
-- *A passive self-correcting quantum memory in three dimensions*
-Shankar Balasubramanian, Margarita Davydova, Ting-Chun Lin
-https://arxiv.org/abs/2605.10943
+- *Exciton-roton mode in moiré fractional Chern insulators*
+Xiaoyang Shen, Zijian Zhou, Ruiping Guo, Renqi Wang, Wenhui Duan, Chong Wang, Yong Xu
+https://arxiv.org/abs/2605.11794
 
-- *Lyapunov Exponents as Duality-Invariant Signatures of Critical States*
-Tong Liu, Gao Xianlong
-https://arxiv.org/abs/2605.10746
+- *Beyond Topological Invariants: Order Parameters from Dominant Fock-state Patterns*
+Tsz Hin Hui, Xiaodan Xia, Pedro D. Sacramento, Wing Chi Yu
+https://arxiv.org/abs/2605.10320
