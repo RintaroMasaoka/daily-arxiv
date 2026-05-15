@@ -1,19 +1,27 @@
-- *Lieb-Schultz-Mattis theorem from gauge constraints*
-Bhandaru Phani Parasar
-https://arxiv.org/abs/2605.13606
+- *Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata*
+Rui Wen, Kansei Inamura, Sakura Schafer-Nameki
+https://arxiv.org/abs/2605.15194
 
-- *Lattice Gauging Interfaces and Noninvertible Defects in Higher Dimensions*
-David Hofmeier, Giovanna Pimenta, Weiguang Cao
-https://arxiv.org/abs/2605.12601
+- *Extensive long-range magic in non-Abelian topological orders*
+Yuzhen Zhang, Isaac H. Kim, Yimu Bao, Sagar Vijay
+https://arxiv.org/abs/2605.15150
 
-- *Invertible Symmetry and Spontaneous Duality Breaking in the Transverse-Field Ising Model*
-José Dupont, Jasper van Wezel
-https://arxiv.org/abs/2605.13363
+- *Mixed-State Long-Range Entanglement from Dimensional Constraints*
+Leonardo A. Lessa, Tsung-Cheng Lu
+https://arxiv.org/abs/2605.15201
 
-- *Crossover and universality breaking in the dilute Baxter-Wu model*
-Dimitrios Mataragkas, Alexandros Vasilopoulos, Dong-Hee Kim, Nikolaos G. Fytas
-https://arxiv.org/abs/2605.13238
+- *Translation symmetry-enforced long-range entanglement in mixed states*
+Ryan Thorngren, Lei Gioia, Carolyn Zhang
+https://arxiv.org/abs/2605.15200
 
-- *Universal Design and Physical Applications of Non-Uniform Cellular Automata on Translationally Invariant Lattices*
-Xiang-You Huang, Jie-Yu Zhang, Peng Ye
-https://arxiv.org/abs/2605.13379
+- *A Twist on Scattering from Defect Anomalies*
+Andrea Antinucci, Christian Copetti, Giovanni Galati, Giovanni Rizi
+https://arxiv.org/abs/2605.13961
+
+- *Non-Invertible Symmetries and Boundaries for Two-Dimensional Fermions*
+Guillermo Arias-Tamargo, Philip Boyle Smith, Rishi Mouland, Maxwell L. Velásquez Cotini Hutt
+https://arxiv.org/abs/2605.13952
+
+- *Fermi Surface Geometry from Charge Fluctuations in Three-Dimensional Metals*
+Pok Man Tam, Yarden Sheffer, Xiao-Chuan Wu, F. D. M. Haldane, Shinsei Ryu
+https://arxiv.org/abs/2605.13951
