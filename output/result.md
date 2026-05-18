@@ -1,27 +1,11 @@
-- *Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata*
-Rui Wen, Kansei Inamura, Sakura Schafer-Nameki
-https://arxiv.org/abs/2605.15194
+- *Lieb-Schultz-Mattis constraints for hyperbolic lattices*
+G. Shankar, Joseph Maciejko
+https://arxiv.org/abs/2605.15974
 
-- *Extensive long-range magic in non-Abelian topological orders*
-Yuzhen Zhang, Isaac H. Kim, Yimu Bao, Sagar Vijay
-https://arxiv.org/abs/2605.15150
+- *Short-time critical dynamics in the classical cubic dimer model*
+Hu-Xiao Peng, Zheng Yan, Shuai Yin
+https://arxiv.org/abs/2605.15730
 
-- *Mixed-State Long-Range Entanglement from Dimensional Constraints*
-Leonardo A. Lessa, Tsung-Cheng Lu
-https://arxiv.org/abs/2605.15201
-
-- *Translation symmetry-enforced long-range entanglement in mixed states*
-Ryan Thorngren, Lei Gioia, Carolyn Zhang
-https://arxiv.org/abs/2605.15200
-
-- *A Twist on Scattering from Defect Anomalies*
-Andrea Antinucci, Christian Copetti, Giovanni Galati, Giovanni Rizi
-https://arxiv.org/abs/2605.13961
-
-- *Non-Invertible Symmetries and Boundaries for Two-Dimensional Fermions*
-Guillermo Arias-Tamargo, Philip Boyle Smith, Rishi Mouland, Maxwell L. Velásquez Cotini Hutt
-https://arxiv.org/abs/2605.13952
-
-- *Fermi Surface Geometry from Charge Fluctuations in Three-Dimensional Metals*
-Pok Man Tam, Yarden Sheffer, Xiao-Chuan Wu, F. D. M. Haldane, Shinsei Ryu
-https://arxiv.org/abs/2605.13951
+- *Critical quench dynamics of Wegner's Z₂ gauge model: a geometric perspective*
+Ramgopal Agrawal, Leticia F. Cugliandolo, Marco Picco
+https://arxiv.org/abs/2605.15841
