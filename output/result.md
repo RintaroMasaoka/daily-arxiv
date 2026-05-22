@@ -1,21 +1,21 @@
-- *Hidden weak-pairing superconductivity of non-interacting anyons obeying $\frac{1}{3}$ statistics*
-Zheng-Duo Fan, Ashvin Vishwanath, Zijian Wang
-https://arxiv.org/abs/2605.19036
+- *Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces*
+Ian Bunner, Corey Jones
+https://arxiv.org/abs/2605.21327
 
-- *Exact Organization of Density Matrices and Entanglement Structure in the Kitaev Spin Liquid*
-Chen-Chih Wang, Yi-Ping Huang, Sungkit Yip
-https://arxiv.org/abs/2605.18002
+- *Non-invertible Symmetries in Weyl Fermions, and Applications to Fermion-Boundary Scattering Problem*
+Pengcheng Wei, Yunqin Zheng
+https://arxiv.org/abs/2605.19363
 
-- *Proof of the absence of local conserved quantities in the Holstein model*
-Fuga Ishii, Mizuki Yamaguchi
-https://arxiv.org/abs/2605.19606
+- *Algebraic locality and non-invertible Gauss laws*
+Nicholas Holfester, Jonathan Sorce
+https://arxiv.org/abs/2605.21591
 
-- *Deconfined Boundary Phase Transition of a Quantum Critical Heisenberg Model*
-Chengxiang Ding, Long Zhang
-https://arxiv.org/abs/2605.19011
+- *Textured phase diagrams of featureless insulators*
+Sashank Singam, Nick G. Jones, Abhishodh Prakash
+https://arxiv.org/abs/2605.20339
 
-- *Graph-Theoretic Detection of Hilbert Space Fragmentation*
-A. Rutkowski, M. Mierzejewski, J. Herbrych
-https://arxiv.org/abs/2605.17951
+- *Large-flavor route to a stable U(1) Dirac spin liquid on the maple-leaf lattice*
+Yunchao Zhang, Andreas Feuerpfeil, Subir Sachdev, Ronny Thomale, Yasir Iqbal
+https://arxiv.org/abs/2605.21587
 
-⚠ cond-mat.stat-mech の新着が 53 件あり、取得上限（50件）を超えたため一部の論文を取得できていません
+⚠ cond-mat.str-el の新着が 58 件あり、取得上限（50件）を超えたため一部の論文を取得できていません
