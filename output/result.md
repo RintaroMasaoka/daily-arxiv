@@ -1,21 +1,15 @@
-- *Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces*
-Ian Bunner, Corey Jones
-https://arxiv.org/abs/2605.21327
+- *Coherent dynamics in chaotic spin chains via interference-protected subspaces*
+Aron Kerschbaumer, Jean-Yves Desaules, Maksym Serbyn
+https://arxiv.org/abs/2605.23873
 
-- *Non-invertible Symmetries in Weyl Fermions, and Applications to Fermion-Boundary Scattering Problem*
-Pengcheng Wei, Yunqin Zheng
-https://arxiv.org/abs/2605.19363
+- *Fractionalization, emergent SU($N$) symmetries, and fragmentation in layered quantum spin-orbital models*
+Pedro M. Cônsoli, Aayush Vijayvargia, Onur Erten
+https://arxiv.org/abs/2605.22908
 
-- *Algebraic locality and non-invertible Gauss laws*
-Nicholas Holfester, Jonathan Sorce
-https://arxiv.org/abs/2605.21591
+- *Interference of local-measurement histories*
+Parveen Kumar, Igor V. Gornyi, Yuval Gefen
+https://arxiv.org/abs/2605.23232
 
-- *Textured phase diagrams of featureless insulators*
-Sashank Singam, Nick G. Jones, Abhishodh Prakash
-https://arxiv.org/abs/2605.20339
-
-- *Large-flavor route to a stable U(1) Dirac spin liquid on the maple-leaf lattice*
-Yunchao Zhang, Andreas Feuerpfeil, Subir Sachdev, Ronny Thomale, Yasir Iqbal
-https://arxiv.org/abs/2605.21587
-
-⚠ cond-mat.str-el の新着が 58 件あり、取得上限（50件）を超えたため一部の論文を取得できていません
+- *Quantum Quenches that Resemble Operator Growth*
+Xiangyu Cao
+https://arxiv.org/abs/2605.23874
