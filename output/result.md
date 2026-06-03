@@ -1,15 +1,19 @@
-- *Strong-to-Weak Spontaneous Symmetry Breaking*
-Chong Wang
-https://arxiv.org/abs/2606.02555
+- *Fracton Topological Holography*
+Yu-Tao Hu, Jie-Yu Zhang, Peng Ye
+https://arxiv.org/abs/2606.03582
 
-- *Information Hierarchy in Many-Body Berry Phase*
-Kai Watanabe
-https://arxiv.org/abs/2606.02155
+- *The bulk spectral gap is semi-decidable: a convergent family of certified upper bounds*
+Xiangling Xu, Matthias Schötz, Jie Wang, Victor Magron, Igor Klep, Omar Fawzi, Marc-Olivier Renou
+https://arxiv.org/abs/2606.03836
 
-- *Boulder Lectures on Thermal Dynamics and Hydrodynamic EFTs*
-Luca V. Delacretaz
-https://arxiv.org/abs/2606.02391
+- *Mott transition of photons: quantum Monte Carlo study of Gross-Neveu criticality in a cavity*
+João C. Inácio, Natanael C. Costa, Fakher F. Assaad
+https://arxiv.org/abs/2606.03733
 
-- *Reduce dimensional quantum criticality for Non-Fermi liquids*
-Phumudzo T. Rabambi, Mario Solís
-https://arxiv.org/abs/2606.02534
+- *Many-Body Non-Hermitian Physics in the Generalized Brillouin Zone*
+Chaoze Lu, Chuanshu Xu, Zhenghao Yang, Xiancong Lu
+https://arxiv.org/abs/2606.03124
+
+- *A mean-field description of strong-to-weak symmetry breaking in the monitored three-dimensional Bose-Hubbard model*
+Yicheng Tang, Pradip Kattel, J. H. Pixley
+https://arxiv.org/abs/2606.02713
