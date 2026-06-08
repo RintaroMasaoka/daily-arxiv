@@ -1,23 +1,19 @@
-- *$E_\infty^{1,2}$-type Lieb-Schultz-Mattis anomalies, deconfined quantum critical points, and non-invertible symmetry breaking*
-Hao-Ran Zhang, Hanlin Lin, Shuo Yang, Qing-Rui Wang
-https://arxiv.org/abs/2606.06343
+- *Nonlinear sigma models, antiperiodic boundary conditions, spin chains, and 't Hooft anomalies*
+Nicholas Read, Hubert Saleur
+https://arxiv.org/abs/2606.07041
 
-- *Understanding deconfined quantum critical points from crystalline categorical Landau paradigm*
-Hiromi Ebisu, Bo Han, Weiguang Cao
-https://arxiv.org/abs/2606.05856
+- *Bootstrap bounds for Quantum Spin Systems using String Operators*
+Nisarg Chadha, Michael G. Scheer, Eslam Khalaf
+https://arxiv.org/abs/2606.06584
 
-- *Hypergroup Symmetry in Relative Quantum Field Theories and Chiral Algebras*
-Terry Gannon, Brandon C. Rayhaun
-https://arxiv.org/abs/2606.05279
+- *Tensor network study of deconfined quantum criticality in a one-dimensional spin-phonon model*
+Anton Romen, Josef Willsher, David Hofmeier, Johannes Knolle, Michael Knap
+https://arxiv.org/abs/2606.06605
 
-- *Soliton-antisoliton pairs in the supersymmetric gapped phase of an interacting Majorana chain*
-Alberto Nocera, Mobin Shakeri, Armin Rahmani, Ian Affleck
-https://arxiv.org/abs/2606.05095
+- *Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions*
+Ha Quang Trung, Bo Yang
+https://arxiv.org/abs/2606.07517
 
-- *Isospectrality and Operator Complexity*
-Pradip Kattel, Yicheng Tang, Natan Andrei
-https://arxiv.org/abs/2606.05294
-
-- *Odd-parity magnons in the Haldane-Hubbard model from topological exciton condensation*
-Rintaro Eto, Johannes Knolle
-https://arxiv.org/abs/2606.05837
+- *Topologically Enforced Lifshitz Multicriticality in One Dimension*
+Kuang-Hung Chou, Xue-Jia Yu
+https://arxiv.org/abs/2606.07380
