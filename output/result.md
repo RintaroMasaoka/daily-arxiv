@@ -1,19 +1,19 @@
-- *Nonlinear sigma models, antiperiodic boundary conditions, spin chains, and 't Hooft anomalies*
-Nicholas Read, Hubert Saleur
-https://arxiv.org/abs/2606.07041
+- *Microscopic universal theory of symmetry-enriched topological quantum spin liquids*
+Yingcheng Li, Liujun Zou
+https://arxiv.org/abs/2606.08558
 
-- *Bootstrap bounds for Quantum Spin Systems using String Operators*
-Nisarg Chadha, Michael G. Scheer, Eslam Khalaf
-https://arxiv.org/abs/2606.06584
+- *Hidden Conformal Boundary Data in Finite-Temperature Stabilizer Entropy*
+Reyhaneh Khasseh, M. A. Rajabpour
+https://arxiv.org/abs/2606.08606
 
-- *Tensor network study of deconfined quantum criticality in a one-dimensional spin-phonon model*
-Anton Romen, Josef Willsher, David Hofmeier, Johannes Knolle, Michael Knap
-https://arxiv.org/abs/2606.06605
+- *Quantum resource localizability transitions in deep thermalization*
+Xiaozhou Feng, Chang Liu, Zihan Cheng, Wen Wei Ho, Matteo Ippoliti
+https://arxiv.org/abs/2606.08756
 
-- *Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions*
-Ha Quang Trung, Bo Yang
-https://arxiv.org/abs/2606.07517
+- *Free fermions in disguise without exponential degeneracies*
+Balázs Pozsgay
+https://arxiv.org/abs/2606.09462
 
-- *Topologically Enforced Lifshitz Multicriticality in One Dimension*
-Kuang-Hung Chou, Xue-Jia Yu
-https://arxiv.org/abs/2606.07380
+- *Dynamic scaling and Family-Vicsek universality in the Hubbard model at infinite temperature*
+Cătălin Paşcu Moca, Doru Sticlet, Balázs Dóra
+https://arxiv.org/abs/2606.09106
