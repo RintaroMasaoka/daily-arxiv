@@ -1,19 +1,15 @@
-- *Microscopic universal theory of symmetry-enriched topological quantum spin liquids*
-Yingcheng Li, Liujun Zou
-https://arxiv.org/abs/2606.08558
+- *Bootstrap Cone of the Multicritical Deconfined Quantum Critical Point*
+Zhijin Li, Tinhong Shen
+https://arxiv.org/abs/2606.09985
 
-- *Hidden Conformal Boundary Data in Finite-Temperature Stabilizer Entropy*
-Reyhaneh Khasseh, M. A. Rajabpour
-https://arxiv.org/abs/2606.08606
+- *Exactly solvable non-planar $\mathbb{Z}_{2}$ dimer liquids on checkerboard and ruby lattices*
+Julia Wildeboer, Zohar Nussinov, Thomas Iadecola, Alexander Seidel
+https://arxiv.org/abs/2606.10003
 
-- *Quantum resource localizability transitions in deep thermalization*
-Xiaozhou Feng, Chang Liu, Zihan Cheng, Wen Wei Ho, Matteo Ippoliti
-https://arxiv.org/abs/2606.08756
+- *Absence of poor local minima in matrix product states*
+Hao-Kai Zhang, Chenghong Zhu, Shuo Liu, Shi-Xin Zhang, Tao Xiang
+https://arxiv.org/abs/2606.09988
 
-- *Free fermions in disguise without exponential degeneracies*
-Balázs Pozsgay
-https://arxiv.org/abs/2606.09462
-
-- *Dynamic scaling and Family-Vicsek universality in the Hubbard model at infinite temperature*
-Cătălin Paşcu Moca, Doru Sticlet, Balázs Dóra
-https://arxiv.org/abs/2606.09106
+- *The Yang-Baxter Equation for the Chiral Potts Model and Integrable Parafermions*
+Zhao Zhang
+https://arxiv.org/abs/2606.11146
