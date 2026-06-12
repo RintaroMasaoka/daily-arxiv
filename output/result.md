@@ -1,19 +1,19 @@
-- *Invariants of Sequential Circuits and Generalized Non-Abelian Statistics*
-Shintaro Sato, Yoshimasa Hidaka, Ryohei Kobayashi
-https://arxiv.org/abs/2606.11527
+- *Infinite-Order Lattice Chiral Anomalies and CPT*
+Elijah Lew-Smith, Salvatore D. Pace, Shu-Heng Shao
+https://arxiv.org/abs/2606.12510
 
-- *From Topological Order to Mixed-State Phases: A Ground-State Probe of Fractionalized Excitations*
-Yunlong Zang, Yu-Bin Li, Shenghan Jiang
-https://arxiv.org/abs/2606.12132
+- *Statistical Mechanics and Symmetries of Non-Abelian Anyon Proliferation: From Deformation to Decoherence*
+Avi Vadali, Robijn Vanhove, Ruben Verresen, Jason Alicea, Pablo Sala
+https://arxiv.org/abs/2606.12527
 
-- *Exact Dynamics of Topological Order Across a CDW--SPT Transition*
-Pradip Kattel, Yicheng Tang, Natan Andrei
-https://arxiv.org/abs/2606.11303
+- *Toward Entanglement Bootstrap for Conformal Field Theory in Any Dimension*
+Rolando Ramirez Camasca, Xiang Li, Ting-Chun Lin, John McGreevy
+https://arxiv.org/abs/2606.12540
 
-- *Exact Entanglement Dynamics Beyond Nearest-Neighbor Dual-Unitary Floquet Systems*
-Tanay Pathak
-https://arxiv.org/abs/2606.11311
+- *Influence-solvability: a systematic theory of $(1+1)D$ solvability and its application to brickwork circuits*
+Friedrich Hübner, Sun Woo P. Kim
+https://arxiv.org/abs/2606.12538
 
-- *Mass generation at a fixed point: A Functional Renormalization Group Study of the tricritical O($N$) model in $d=3$ and $N=\infty$*
-Shunsuke Yabunaka, bertrand Delamotte
-https://arxiv.org/abs/2606.12269
+- *Diffusive Dynamics of Nonstabilizerness*
+Zhenyu Xiao, Shinsei Ryu
+https://arxiv.org/abs/2606.13606
