@@ -1,19 +1,15 @@
-- *Infinite-Order Lattice Chiral Anomalies and CPT*
-Elijah Lew-Smith, Salvatore D. Pace, Shu-Heng Shao
-https://arxiv.org/abs/2606.12510
+- *Universal Crossovers of Stabilizer Entropy Beyond Criticality*
+Reyhaneh Khasseh, E. A. Ramirez Trino, M. A. Rajabpour
+https://arxiv.org/abs/2606.13810
 
-- *Statistical Mechanics and Symmetries of Non-Abelian Anyon Proliferation: From Deformation to Decoherence*
-Avi Vadali, Robijn Vanhove, Ruben Verresen, Jason Alicea, Pablo Sala
-https://arxiv.org/abs/2606.12527
+- *Quantum Entanglement of Bethe States*
+Yu Hao, Yunfeng Jiang, Bi-Quan Yang, De-liang Zhong
+https://arxiv.org/abs/2606.14140
 
-- *Toward Entanglement Bootstrap for Conformal Field Theory in Any Dimension*
-Rolando Ramirez Camasca, Xiang Li, Ting-Chun Lin, John McGreevy
-https://arxiv.org/abs/2606.12540
+- *Altermagnetism and bond-nematicity in the spin-$1/2$ square lattice $J_1-J_2-δ$ model*
+Tanja Đurić, Shenlong Yu, Pinaki Sengupta
+https://arxiv.org/abs/2606.14101
 
-- *Influence-solvability: a systematic theory of $(1+1)D$ solvability and its application to brickwork circuits*
-Friedrich Hübner, Sun Woo P. Kim
-https://arxiv.org/abs/2606.12538
-
-- *Diffusive Dynamics of Nonstabilizerness*
-Zhenyu Xiao, Shinsei Ryu
-https://arxiv.org/abs/2606.13606
+- *RG Dynamics of Irrelevant Fermion Operators and the Drag Coupling Mechanism*
+Jeremias Aguilera-Damia, Diego Rodriguez-Gomez, Jorge Russo
+https://arxiv.org/abs/2606.13792
