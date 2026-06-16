@@ -1,15 +1,11 @@
-- *Universal Crossovers of Stabilizer Entropy Beyond Criticality*
-Reyhaneh Khasseh, E. A. Ramirez Trino, M. A. Rajabpour
-https://arxiv.org/abs/2606.13810
+- *Topological Tricritical Ising Universality Class in One Dimension*
+Sheng Yang, Hai-Qing Lin, Xue-Jia Yu
+https://arxiv.org/abs/2606.15588
 
-- *Quantum Entanglement of Bethe States*
-Yu Hao, Yunfeng Jiang, Bi-Quan Yang, De-liang Zhong
-https://arxiv.org/abs/2606.14140
+- *Extracting Boundary Conformal Data from Periodic Non-Hermitian Critical Chains*
+Yifan Liu, Haruki Shimizu, Dongchang Liu, Kohei Kawabata
+https://arxiv.org/abs/2606.16785
 
-- *Altermagnetism and bond-nematicity in the spin-$1/2$ square lattice $J_1-J_2-δ$ model*
-Tanja Đurić, Shenlong Yu, Pinaki Sengupta
-https://arxiv.org/abs/2606.14101
-
-- *RG Dynamics of Irrelevant Fermion Operators and the Drag Coupling Mechanism*
-Jeremias Aguilera-Damia, Diego Rodriguez-Gomez, Jorge Russo
-https://arxiv.org/abs/2606.13792
+- *Dressed Floquet scars from protected zero modes in a Rydberg chain*
+Saptadip Roy, Bhaskar Mukherjee, K. Sengupta, Arnab Sen
+https://arxiv.org/abs/2606.15605
