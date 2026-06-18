@@ -1,15 +1,15 @@
-- *Monopoles, Center Vortices, Confinement in (3+1)d, and the Lens-Space Twisted Partition Function*
-Yui Hayashi, Yuya Tanizaki
-https://arxiv.org/abs/2606.17708
+- *Bulk-boundary correspondence of (1+1)D symmetric gapped phases*
+Yizhou Ma, Gen Yue, Tian Lan
+https://arxiv.org/abs/2606.19137
 
-- *Making complex CFTs real: The two-dimensional Potts model for $Q>4$ and complex $Q$*
-Jesper Lykke Jacobsen, Kay Joerg Wiese
-https://arxiv.org/abs/2606.18125
+- *Universal entanglement probes of topological order and locally-achiral manifolds*
+Yarden Sheffer
+https://arxiv.org/abs/2606.18361
 
-- *Superconductivity from emergent dipolar interactions in a fractionalized Fermi liquid*
-Mina-Lou Schleith, Arthur Bril, Nick Bultinck
-https://arxiv.org/abs/2606.17159
+- *Topological spectral form factor reveals emergent non-Hermitian single-particle $\mathcal{PT}$ transitions from many-body quantum chaos*
+Daniel Harkin, Chun Y. Leung, Amos Chan
+https://arxiv.org/abs/2606.19331
 
-- *Derivation of height field theory for the two-dimensional classical dimer model from a Grassmann-integral representation*
-Stephen Powell
-https://arxiv.org/abs/2606.17154
+- *Large-deviation tails of critical order-parameter distributions*
+Jinhong Zhu, Yihao Xu, Abbas Ali Saberi, Youjin Deng
+https://arxiv.org/abs/2606.19030
