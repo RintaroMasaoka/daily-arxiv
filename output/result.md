@@ -1,15 +1,19 @@
-- *Bulk-boundary correspondence of (1+1)D symmetric gapped phases*
-Yizhou Ma, Gen Yue, Tian Lan
-https://arxiv.org/abs/2606.19137
+- *Many-body chirality of topological stabilizer states*
+Tyler D. Ellison, Dongjin Lee, Zhi Li, Amin Moharramipour, Yasamin Panahi, Beni Yoshida
+https://arxiv.org/abs/2606.20472
 
-- *Universal entanglement probes of topological order and locally-achiral manifolds*
-Yarden Sheffer
-https://arxiv.org/abs/2606.18361
+- *Three-dimensional Foliated Fractional Quantum Hall Phases*
+Sahana Das, Navketan Batra, Andrea Kouta Dagnino, Dan Mao, Nicolas Regnault, Glenn Wagner, Titus Neupert
+https://arxiv.org/abs/2606.19426
 
-- *Topological spectral form factor reveals emergent non-Hermitian single-particle $\mathcal{PT}$ transitions from many-body quantum chaos*
-Daniel Harkin, Chun Y. Leung, Amos Chan
-https://arxiv.org/abs/2606.19331
+- *Exact operator dynamics in Lindbladian Wess-Zumino-Witten conformal field theories*
+Qicheng Tang, Ruhanshi Barad, Xueda Wen
+https://arxiv.org/abs/2606.19465
 
-- *Large-deviation tails of critical order-parameter distributions*
-Jinhong Zhu, Yihao Xu, Abbas Ali Saberi, Youjin Deng
-https://arxiv.org/abs/2606.19030
+- *Space-time duality approach to (inhomogeneous) integrable quenches*
+Riccardo Travaglino, Pasquale Calabrese, Katja Klobas, Bruno Bertini
+https://arxiv.org/abs/2606.20445
+
+- *Quantum models with the Yang-Lee phase transition*
+Erick Arguello Cruz, Grigory Tarnopolsky
+https://arxiv.org/abs/2606.19732
