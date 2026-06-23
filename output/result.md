@@ -1,19 +1,25 @@
-- *Many-body chirality of topological stabilizer states*
-Tyler D. Ellison, Dongjin Lee, Zhi Li, Amin Moharramipour, Yasamin Panahi, Beni Yoshida
-https://arxiv.org/abs/2606.20472
+- *Emergent Andreev Reflection from a Lattice Duality Defect*
+Atsushi Ueda, Tokiro Numasawa, Boris De Vos, Masataka Watanabe
+https://arxiv.org/abs/2606.23684
 
-- *Three-dimensional Foliated Fractional Quantum Hall Phases*
-Sahana Das, Navketan Batra, Andrea Kouta Dagnino, Dan Mao, Nicolas Regnault, Glenn Wagner, Titus Neupert
-https://arxiv.org/abs/2606.19426
+- *Hierarchy of mixed symmetry protected topological states in extended cluster states under subsystem decoherence*
+Yoshihito Kuno, Takahiro Orito
+https://arxiv.org/abs/2606.22507
 
-- *Exact operator dynamics in Lindbladian Wess-Zumino-Witten conformal field theories*
-Qicheng Tang, Ruhanshi Barad, Xueda Wen
-https://arxiv.org/abs/2606.19465
+- *Perturbative Renormalization and Universality Diagram for Long-Range Quantum Criticality*
+Zhiyi Li, Zhijie Fan, Kun Chen, Youjin Deng
+https://arxiv.org/abs/2606.22407
 
-- *Space-time duality approach to (inhomogeneous) integrable quenches*
-Riccardo Travaglino, Pasquale Calabrese, Katja Klobas, Bruno Bertini
-https://arxiv.org/abs/2606.20445
+- *Multifractality at the Integer Quantum Hall Transition: Acquittal of the Parabolic Law*
+Sen Mu, Abbas Ali Saberi, Martin R. Zirnbauer
+https://arxiv.org/abs/2606.21679
 
-- *Quantum models with the Yang-Lee phase transition*
-Erick Arguello Cruz, Grigory Tarnopolsky
-https://arxiv.org/abs/2606.19732
+- *Hydrodynamic tails in chaotic spin chains with quantum group symmetry*
+Luca V. Delacretaz, Victor Gorbenko, Jiaozi Wang, Bernardo Zan, Aleksandr Zhabin
+https://arxiv.org/abs/2606.20850
+
+- *Trial wavefunction for fractional quantum spin Hall insulators*
+Omri Lesser, Chao-Ming Jian
+https://arxiv.org/abs/2606.21652
+
+⚠ cond-mat.str-el の新着が 58 件あり、取得上限（50件）を超えたため一部の論文を取得できていません
