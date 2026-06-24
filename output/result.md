@@ -1,25 +1,15 @@
-- *Emergent Andreev Reflection from a Lattice Duality Defect*
-Atsushi Ueda, Tokiro Numasawa, Boris De Vos, Masataka Watanabe
-https://arxiv.org/abs/2606.23684
+- *Symmetric mass generation of interacting chiral fermions on a one-dimensional lattice without fermion doubling*
+V. A. Zakharov, Atsushi Ueda, Frank Verstraete, C. W. J. Beenakker
+https://arxiv.org/abs/2606.24713
 
-- *Hierarchy of mixed symmetry protected topological states in extended cluster states under subsystem decoherence*
-Yoshihito Kuno, Takahiro Orito
-https://arxiv.org/abs/2606.22507
+- *Infinite-Level Hierarchy of Solvable Quantum Circuits*
+Michael A. Rampp, Suhail A. Rather, Pieter W. Claeys
+https://arxiv.org/abs/2606.23803
 
-- *Perturbative Renormalization and Universality Diagram for Long-Range Quantum Criticality*
-Zhiyi Li, Zhijie Fan, Kun Chen, Youjin Deng
-https://arxiv.org/abs/2606.22407
+- *On Degeneracies of Density, Magnetic, and Pairing Responses: How Competing Orders Echo Underlying Symmetries in the Hubbard Model*
+Michael Meixner, Herbert Eßl, Matthias Reitner, Alessandro Toschi, Thomas Schäfer
+https://arxiv.org/abs/2606.24755
 
-- *Multifractality at the Integer Quantum Hall Transition: Acquittal of the Parabolic Law*
-Sen Mu, Abbas Ali Saberi, Martin R. Zirnbauer
-https://arxiv.org/abs/2606.21679
-
-- *Hydrodynamic tails in chaotic spin chains with quantum group symmetry*
-Luca V. Delacretaz, Victor Gorbenko, Jiaozi Wang, Bernardo Zan, Aleksandr Zhabin
-https://arxiv.org/abs/2606.20850
-
-- *Trial wavefunction for fractional quantum spin Hall insulators*
-Omri Lesser, Chao-Ming Jian
-https://arxiv.org/abs/2606.21652
-
-⚠ cond-mat.str-el の新着が 58 件あり、取得上限（50件）を超えたため一部の論文を取得できていません
+- *Wavelet Matrix Product States for Quantum Fields*
+Molly Kaplan, Antoine Tilloy
+https://arxiv.org/abs/2606.23823
