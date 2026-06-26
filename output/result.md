@@ -1,19 +1,19 @@
-- *Lattice non-invertible symmetry from non-commuting transfer matrices*
-Eric Vernier, Yuan Miao, Masahito Yamazaki
-https://arxiv.org/abs/2606.25660
+- *Measures of Chirality in Mixed-State Topological Phases*
+Shijun Sun, Bader Aldossari, Rasmit Devkota, Zhu-Xi Luo
+https://arxiv.org/abs/2606.26235
 
-- *Majorana-Pauli stabilizer codes and duality webs of fermionic topological phases*
-Meng Sun, Zongyuan Wang, Nathanan Tantivasadakarn, Yu-An Chen
-https://arxiv.org/abs/2606.25048
+- *Central charges $C_J$ and $C_T$ in QED$_d$-GNY model and scalar QED$_d$*
+Yongwei Guo, Zhijin Li
+https://arxiv.org/abs/2606.26623
 
-- *Higher Berry curvature, second Chern numbers and magnetoelectric coupling in crystalline insulators*
-Niclas Heinsdorf, Ken Shiozaki
-https://arxiv.org/abs/2606.26096
+- *Exact subsystem dynamics in the deterministic Floquet-PXP model*
+Katja Klobas
+https://arxiv.org/abs/2606.27337
 
-- *Fractionalized Vortices Drive Kosterlitz-Thouless Transitions in Dipole-Conserving Systems*
-Han-Xie Wang, Shuai A. Chen, Zheng Yan, Peng Ye
-https://arxiv.org/abs/2606.25340
+- *Dissipation-Induced Deviations from Kibble-Zurek Scaling in Non-Hermitian Quantum Annealing*
+H. Najafzadeh, S. Sadeghizade, R. Jafari, A. Langari
+https://arxiv.org/abs/2606.26870
 
-- *Exactly solvable pair-density wave in topological flat bands from magnetic translation symmetries*
-Zhengzhi Wu, Zhou-Quan Wan, Steven H. Simon
-https://arxiv.org/abs/2606.25038
+- *Dirac fermions in non-Hermitian magnetic fields: Zero modes and index theorem*
+Christopher A. Leong, Bitan Roy
+https://arxiv.org/abs/2606.27370
