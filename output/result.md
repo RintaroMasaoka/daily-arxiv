@@ -1,19 +1,11 @@
-- *Measures of Chirality in Mixed-State Topological Phases*
-Shijun Sun, Bader Aldossari, Rasmit Devkota, Zhu-Xi Luo
-https://arxiv.org/abs/2606.26235
+- *Magnetic long-range order at finite temperature in two-dimensional hyperbolic lattices*
+Alexander Hickey, Joseph Maciejko
+https://arxiv.org/abs/2606.27422
 
-- *Central charges $C_J$ and $C_T$ in QED$_d$-GNY model and scalar QED$_d$*
-Yongwei Guo, Zhijin Li
-https://arxiv.org/abs/2606.26623
+- *Static features from mixing in short- and long-range Lindbladians: Markov property and correlations*
+Paul Rosa-Ruiz, Matteo Scandi, Ángela Capel, Álvaro M. Alhambra
+https://arxiv.org/abs/2606.28054
 
-- *Exact subsystem dynamics in the deterministic Floquet-PXP model*
-Katja Klobas
-https://arxiv.org/abs/2606.27337
-
-- *Dissipation-Induced Deviations from Kibble-Zurek Scaling in Non-Hermitian Quantum Annealing*
-H. Najafzadeh, S. Sadeghizade, R. Jafari, A. Langari
-https://arxiv.org/abs/2606.26870
-
-- *Dirac fermions in non-Hermitian magnetic fields: Zero modes and index theorem*
-Christopher A. Leong, Bitan Roy
-https://arxiv.org/abs/2606.27370
+- *Rare Events Govern Defect Formation under Weak Symmetry Breaking*
+Jiang Liu, Peng Yang, Matteo Baggioli
+https://arxiv.org/abs/2606.27835
