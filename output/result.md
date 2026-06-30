@@ -1,11 +1,15 @@
-- *Magnetic long-range order at finite temperature in two-dimensional hyperbolic lattices*
-Alexander Hickey, Joseph Maciejko
-https://arxiv.org/abs/2606.27422
+- *Provable random-matrix spectral ramp in a static, geometrically local Hamiltonian*
+Matteo Ippoliti
+https://arxiv.org/abs/2606.30635
 
-- *Static features from mixing in short- and long-range Lindbladians: Markov property and correlations*
-Paul Rosa-Ruiz, Matteo Scandi, Ángela Capel, Álvaro M. Alhambra
-https://arxiv.org/abs/2606.28054
+- *A Field-Theoretic Framework for Work Statistics and Universal Scaling in Non-equilibrium Phase Transitions*
+Yanbo Qiao, Ruohan Xu, H. T. Quan
+https://arxiv.org/abs/2606.30503
 
-- *Rare Events Govern Defect Formation under Weak Symmetry Breaking*
-Jiang Liu, Peng Yang, Matteo Baggioli
-https://arxiv.org/abs/2606.27835
+- *Shadow tomography for classical tensor network simulations*
+Jiace Sun, Garnet Kin-Lic Chan
+https://arxiv.org/abs/2606.29133
+
+- *Pseudo entropy and topological phases of matter*
+Pramod Kamal Kharel, Manghang Limbu, Nabaraj Khatri, Ashish Khanal, Kiran Adhikari
+https://arxiv.org/abs/2606.29311
