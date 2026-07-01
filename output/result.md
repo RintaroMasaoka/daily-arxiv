@@ -1,15 +1,19 @@
-- *Provable random-matrix spectral ramp in a static, geometrically local Hamiltonian*
-Matteo Ippoliti
-https://arxiv.org/abs/2606.30635
+- *Exactly solvable non-unitary conformal interfaces in unitary CFTs*
+Qicheng Tang, Zixia Wei, Xueda Wen
+https://arxiv.org/abs/2606.32035
 
-- *A Field-Theoretic Framework for Work Statistics and Universal Scaling in Non-equilibrium Phase Transitions*
-Yanbo Qiao, Ruohan Xu, H. T. Quan
-https://arxiv.org/abs/2606.30503
+- *Non-invertible symmetries and modular invariance in lattice models*
+Yacine Ikhlef
+https://arxiv.org/abs/2606.31313
 
-- *Shadow tomography for classical tensor network simulations*
-Jiace Sun, Garnet Kin-Lic Chan
-https://arxiv.org/abs/2606.29133
+- *Complex Conformal Manifolds*
+Yuma Furuta, Wataru Harada, Yuya Kusuki, Yin Tang
+https://arxiv.org/abs/2606.30720
 
-- *Pseudo entropy and topological phases of matter*
-Pramod Kamal Kharel, Manghang Limbu, Nabaraj Khatri, Ashish Khanal, Kiran Adhikari
-https://arxiv.org/abs/2606.29311
+- *Investigation of the $J_1$-$J_2$ Heisenberg model on the triangular lattice: A study with projected entangled-pair states*
+Litao Ma, Wei-Lin Tu, Didier Poilblanc, Ji-Yao Chen
+https://arxiv.org/abs/2606.31021
+
+- *Athermality of generalized Gibbs ensembles*
+Riccardo Senese, Bruno Bertini, Katja Klobas, Pasquale Calabrese
+https://arxiv.org/abs/2606.30762
