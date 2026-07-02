@@ -1,19 +1,23 @@
-- *Exactly solvable non-unitary conformal interfaces in unitary CFTs*
-Qicheng Tang, Zixia Wei, Xueda Wen
-https://arxiv.org/abs/2606.32035
+- *Phase distinction of Gibbs states without symmetry breaking: topological invariants of the 3D toric code*
+Haruki Watanabe
+https://arxiv.org/abs/2607.00134
 
-- *Non-invertible symmetries and modular invariance in lattice models*
-Yacine Ikhlef
-https://arxiv.org/abs/2606.31313
+- *Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor: a quantum Monte Carlo study*
+Chuang Chen, Subir Sachdev, Zi Yang Meng
+https://arxiv.org/abs/2607.00762
 
-- *Complex Conformal Manifolds*
-Yuma Furuta, Wataru Harada, Yuya Kusuki, Yin Tang
-https://arxiv.org/abs/2606.30720
+- *Dissipation splits the Mott transition in one dimension*
+Oscar Bouverot-Dupuis, Alberto Rosso, Laura Foini
+https://arxiv.org/abs/2607.00086
 
-- *Investigation of the $J_1$-$J_2$ Heisenberg model on the triangular lattice: A study with projected entangled-pair states*
-Litao Ma, Wei-Lin Tu, Didier Poilblanc, Ji-Yao Chen
-https://arxiv.org/abs/2606.31021
+- *Exact dimer ground states of long-range spin chains and ladders*
+Jędrzej Wardyn, Miłosz Panfil
+https://arxiv.org/abs/2607.01081
 
-- *Athermality of generalized Gibbs ensembles*
-Riccardo Senese, Bruno Bertini, Katja Klobas, Pasquale Calabrese
-https://arxiv.org/abs/2606.30762
+- *Universal Short-Imaginary-Time Quantum Critical Dynamics Near Boundaries*
+Yu-Rong Shu, Yuan-Biao Li, Shuai Yin
+https://arxiv.org/abs/2607.01076
+
+- *Monte Carlo reconstruction of symmetry-twisted partition function ratios: the critical 3D Ising*
+José Matos
+https://arxiv.org/abs/2607.00106
