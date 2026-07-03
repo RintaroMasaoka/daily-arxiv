@@ -1,23 +1,27 @@
-- *Phase distinction of Gibbs states without symmetry breaking: topological invariants of the 3D toric code*
-Haruki Watanabe
-https://arxiv.org/abs/2607.00134
+- *Bockstein braiding statistics*
+Po-Shen Hsin, Yu-An Chen
+https://arxiv.org/abs/2607.02280
 
-- *Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor: a quantum Monte Carlo study*
-Chuang Chen, Subir Sachdev, Zi Yang Meng
-https://arxiv.org/abs/2607.00762
+- *Fundamental limitations of single-particle Green's-function zeroes as probes of many-body topology*
+Emile Pangburn, Olivier Gingras
+https://arxiv.org/abs/2607.02326
 
-- *Dissipation splits the Mott transition in one dimension*
-Oscar Bouverot-Dupuis, Alberto Rosso, Laura Foini
-https://arxiv.org/abs/2607.00086
+- *From Dirac Cones to Semions: An Exact Finite-Size Theory of Parity-Anomaly Transport in Chiral Spin Liquids*
+Kumar Ghosh
+https://arxiv.org/abs/2607.01341
 
-- *Exact dimer ground states of long-range spin chains and ladders*
-Jędrzej Wardyn, Miłosz Panfil
-https://arxiv.org/abs/2607.01081
+- *Shallow Unitary Circuits for Kramers-Wannier Dualities*
+Yanting Cheng, Shang Liu
+https://arxiv.org/abs/2607.01624
 
-- *Universal Short-Imaginary-Time Quantum Critical Dynamics Near Boundaries*
-Yu-Rong Shu, Yuan-Biao Li, Shuai Yin
-https://arxiv.org/abs/2607.01076
+- *A Fuzzy Sphere Journey in Critical Phenomena*
+Yin-Chen He, W. Zhu
+https://arxiv.org/abs/2607.01310
 
-- *Monte Carlo reconstruction of symmetry-twisted partition function ratios: the critical 3D Ising*
-José Matos
-https://arxiv.org/abs/2607.00106
+- *Open-boundary integrable quantum circuits with different geometries*
+Miguel García Fernández, Chiara Paletta, Ana L. Retore
+https://arxiv.org/abs/2607.02093
+
+- *On a Rosenzweig-Porter-type model*
+Giorgio Cipolloni, László Erdős, Joscha Henheik
+https://arxiv.org/abs/2607.02446
