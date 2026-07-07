@@ -1,27 +1,29 @@
-- *Bockstein braiding statistics*
-Po-Shen Hsin, Yu-An Chen
-https://arxiv.org/abs/2607.02280
+- *Non-equilibrium coupling to a diffusing density breaks Ising universality*
+Mattia Scandolo, Johannes Pausch, Michael E. Cates, Luca Di Carlo
+https://arxiv.org/abs/2607.02661
 
-- *Fundamental limitations of single-particle Green's-function zeroes as probes of many-body topology*
-Emile Pangburn, Olivier Gingras
-https://arxiv.org/abs/2607.02326
+- *Disentangling Haldane Phase by Generalized Clifford Circuits*
+Minsoo Kim, Changhun Oh, Donghoon Kim
+https://arxiv.org/abs/2607.03939
 
-- *From Dirac Cones to Semions: An Exact Finite-Size Theory of Parity-Anomaly Transport in Chiral Spin Liquids*
-Kumar Ghosh
-https://arxiv.org/abs/2607.01341
+- *Pauli Spectrum and Stabilizer Rényi Entropy in Gapless Symmetry-Protected Topological Phases*
+Ying-Lin Li, Po-Yao Chang
+https://arxiv.org/abs/2607.03762
 
-- *Shallow Unitary Circuits for Kramers-Wannier Dualities*
-Yanting Cheng, Shang Liu
-https://arxiv.org/abs/2607.01624
+- *Thermalization hierarchy from irreducible degrees of freedom*
+Pedro Fittipaldi de Castro, Wladimir A. Benalcazar
+https://arxiv.org/abs/2607.03535
 
-- *A Fuzzy Sphere Journey in Critical Phenomena*
-Yin-Chen He, W. Zhu
-https://arxiv.org/abs/2607.01310
+- *Quantum Computational Resources and Conformal Field Theory: Unifying Spins, Bosons, and Fermions*
+Ryota Matsuda, Masahiro Hoshino, Yuto Ashida
+https://arxiv.org/abs/2607.05343
 
-- *Open-boundary integrable quantum circuits with different geometries*
-Miguel García Fernández, Chiara Paletta, Ana L. Retore
-https://arxiv.org/abs/2607.02093
+- *Entanglement of excited states after measurements in conformal field theory*
+Hui-Huang Chen
+https://arxiv.org/abs/2607.04268
 
-- *On a Rosenzweig-Porter-type model*
-Giorgio Cipolloni, László Erdős, Joscha Henheik
-https://arxiv.org/abs/2607.02446
+- *Fixed-point tensor network for compactified boson conformal field theory*
+Gong Cheng, Dong-Yu Bao, Zheng-Cheng Gu
+https://arxiv.org/abs/2607.03534
+
+⚠ cond-mat.stat-mech の新着が55件あり、取得上限（50件）を超えたため一部の論文を取得できていません
