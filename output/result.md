@@ -1,29 +1,27 @@
-- *Non-equilibrium coupling to a diffusing density breaks Ising universality*
-Mattia Scandolo, Johannes Pausch, Michael E. Cates, Luca Di Carlo
-https://arxiv.org/abs/2607.02661
+- *Bockstein Braiding Statistics Versus Three-Loop Braiding*
+Hanyu Xue
+https://arxiv.org/abs/2607.06279
 
-- *Disentangling Haldane Phase by Generalized Clifford Circuits*
-Minsoo Kim, Changhun Oh, Donghoon Kim
-https://arxiv.org/abs/2607.03939
+- *Instabilities of Fermi Liquids with Arbitrary Forward Scattering: Exact Approach*
+Dmitry Miserev, Joel Hutchinson, Herbert Schoeller, Jelena Klinovaja, Daniel Loss
+https://arxiv.org/abs/2607.06430
 
-- *Pauli Spectrum and Stabilizer Rényi Entropy in Gapless Symmetry-Protected Topological Phases*
-Ying-Lin Li, Po-Yao Chang
-https://arxiv.org/abs/2607.03762
+- *Genuine Multi-Entropy in the Toric Code*
+Sriram Akella, Norihiro Iizuka, Akihiro Miyata
+https://arxiv.org/abs/2607.06050
 
-- *Thermalization hierarchy from irreducible degrees of freedom*
-Pedro Fittipaldi de Castro, Wladimir A. Benalcazar
-https://arxiv.org/abs/2607.03535
+- *Static vacancies as parametrized conformal defects in the critical $J_1$--$J_2$ transverse-field Ising chain*
+R. L. Silva, R. C. Silva, R. J. C. Lopes, A. R. Pereira
+https://arxiv.org/abs/2607.06511
 
-- *Quantum Computational Resources and Conformal Field Theory: Unifying Spins, Bosons, and Fermions*
-Ryota Matsuda, Masahiro Hoshino, Yuto Ashida
-https://arxiv.org/abs/2607.05343
+- *Determination of thermodynamics from entanglement entropy in the finite-density O(N) model*
+Niko Jokela, Aatu Rajala, Tobias Rindlisbacher
+https://arxiv.org/abs/2607.06286
 
-- *Entanglement of excited states after measurements in conformal field theory*
-Hui-Huang Chen
-https://arxiv.org/abs/2607.04268
+- *Anomalous suppression of quantum chaos between two integrable limits*
+Roopayan Ghosh, Henry Davenport, Frank Schindler
+https://arxiv.org/abs/2607.05506
 
-- *Fixed-point tensor network for compactified boson conformal field theory*
-Gong Cheng, Dong-Yu Bao, Zheng-Cheng Gu
-https://arxiv.org/abs/2607.03534
-
-⚠ cond-mat.stat-mech の新着が55件あり、取得上限（50件）を超えたため一部の論文を取得できていません
+- *Entanglement Entropy of Free Fermions on Random Fractal Lattices*
+Arkadiusz Kosior, Jia Wang
+https://arxiv.org/abs/2607.05611
