@@ -1,27 +1,27 @@
-- *Holographic Theory of Mixed-Dimensional Statistics and Conservation-Encoding Hopping-Operator Algebras*
-Hanyu Xue, Xiao-Gang Wen
-https://arxiv.org/abs/2607.08583
+- *Exact Lindbladian Dynamics from Conformal Embeddings and Topological Defects in Conformal Field Theory*
+Chen Bai
+https://arxiv.org/abs/2607.08827
 
-- *Chiral Tube Algebras I: Topological Defect Lines, Twisted Modules, and Finite Gauging*
-Nathan Benjamin, Ho Tat Lam, Conghuan Luo
-https://arxiv.org/abs/2607.07786
+- *Quantum Chaos with a Macroscopic Zero-Mode Sector*
+Cheryne Jonay, Kun W. Kim, Frank Pollmann, Alexander Altland
+https://arxiv.org/abs/2607.09504
 
-- *Renormalization flows for 1D mixed states and a quantum Goursat lemma*
-Léo Le-Nestour, David Pérez-García, Alberto Ruiz-de-Alarcón
-https://arxiv.org/abs/2607.08568
+- *Sixteenfold Classification of Many-Body Multipoles from Rotation-Compatible Canonical Symmetries*
+Shingo Kuniyoshi, Rikuto Oiwa, Satoru Hayami
+https://arxiv.org/abs/2607.09395
 
-- *Universality of Measurement-Induced Criticality under Symmetry-Breaking Measurements*
-Angelo Russotto, Filiberto Ares, Pasquale Calabrese
-https://arxiv.org/abs/2607.08589
+- *Effective theories for many-body systems with nonuniform symmetries*
+Aleksander Głódkowski
+https://arxiv.org/abs/2607.09427
 
-- *Super-Logarithmic Entanglement Scaling in a Monitored Superconducting Chain*
-Rui-Jing Guo, Zhi-Yuan Wei
-https://arxiv.org/abs/2607.07835
+- *Symmetry-Protected Pinch Curves in Classical Spin Liquids*
+Takumi Fukushima, Han Yan
+https://arxiv.org/abs/2607.09470
 
-- *Topology from Decoherence*
-Alexandre Chaduteau, Derek Lee, Frank Schindler, Abhinav Prem
-https://arxiv.org/abs/2607.07801
+- *Level statistics in the fractal phase of generalized Rosenzweig--Porter models*
+Victor Delapalme, Leticia F. Cugliandolo, Alexander K. Hartmann, Marco Tarzia, Davide Venturelli
+https://arxiv.org/abs/2607.09444
 
-- *Seven- and eight-loop critical exponents of the three-dimensional Ising model*
-D. Shapoval, Yu. Honchar, B. Delamotte, M. Dudka, Yu. Holovatch
-https://arxiv.org/abs/2607.07776
+- *Thermalization in a Height-Conserving Quantum Dimer Model*
+Junsheng Feng, Jie Ren, Zheng Yan
+https://arxiv.org/abs/2607.09580
