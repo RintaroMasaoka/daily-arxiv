@@ -1,27 +1,27 @@
-- *Exact Lindbladian Dynamics from Conformal Embeddings and Topological Defects in Conformal Field Theory*
-Chen Bai
-https://arxiv.org/abs/2607.08827
+- *Catalog of Altermagnetism in Magnetic Wallpaper/Space Groups and Nonsymmorphic Altermagnets*
+Congcong Le, Fan Cui, Iao-Fai Io, Moritz Hirschmann, Xianxin Wu, Ching-Kai Chiu
+https://arxiv.org/abs/2607.10857
 
-- *Quantum Chaos with a Macroscopic Zero-Mode Sector*
-Cheryne Jonay, Kun W. Kim, Frank Pollmann, Alexander Altland
-https://arxiv.org/abs/2607.09504
+- *Fractionalized metals from doped anyons: Application to tMoTe2*
+T. Senthil
+https://arxiv.org/abs/2607.11484
 
-- *Sixteenfold Classification of Many-Body Multipoles from Rotation-Compatible Canonical Symmetries*
-Shingo Kuniyoshi, Rikuto Oiwa, Satoru Hayami
-https://arxiv.org/abs/2607.09395
+- *Conformal Nature of Quantum Phase Transitions via Fuzzy Three-Sphere Regularization*
+Xue Meng, Liangdong Hu, Wei Zhu
+https://arxiv.org/abs/2607.11371
 
-- *Effective theories for many-body systems with nonuniform symmetries*
-Aleksander Głódkowski
-https://arxiv.org/abs/2607.09427
+- *Spectral gap of Lee-Yang Hamiltonians*
+Chaithanya Rayudu, Jun Takahashi
+https://arxiv.org/abs/2607.10765
 
-- *Symmetry-Protected Pinch Curves in Classical Spin Liquids*
-Takumi Fukushima, Han Yan
-https://arxiv.org/abs/2607.09470
+- *Unique temporal scaling dimension for quantum criticality in open systems weakly coupled to environment*
+Fan Zhong
+https://arxiv.org/abs/2607.11206
 
-- *Level statistics in the fractal phase of generalized Rosenzweig--Porter models*
-Victor Delapalme, Leticia F. Cugliandolo, Alexander K. Hartmann, Marco Tarzia, Davide Venturelli
-https://arxiv.org/abs/2607.09444
+- *Rigorous bound on the aspect ratio for the formation of a nematic phase in hard rod and hard rectangle systems on $\mathbb{Z}^2$*
+Qidong He
+https://arxiv.org/abs/2607.10510
 
-- *Thermalization in a Height-Conserving Quantum Dimer Model*
-Junsheng Feng, Jie Ren, Zheng Yan
-https://arxiv.org/abs/2607.09580
+- *Finite-time Scaling of the surface special transition in a 3D classical Heisenberg model*
+Dongxu Liu, Zhe Wang, Shuai Yin, Zheng Yan
+https://arxiv.org/abs/2607.11066
