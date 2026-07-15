@@ -1,27 +1,27 @@
-- *Catalog of Altermagnetism in Magnetic Wallpaper/Space Groups and Nonsymmorphic Altermagnets*
-Congcong Le, Fan Cui, Iao-Fai Io, Moritz Hirschmann, Xianxin Wu, Ching-Kai Chiu
-https://arxiv.org/abs/2607.10857
+- *Symmetry-Twisted Multi-Entropies: Order Parameters for 2D SPT Phases*
+Ramanjit Sohal, Michael Levin, Ruben Verresen
+https://arxiv.org/abs/2607.12023
 
-- *Fractionalized metals from doped anyons: Application to tMoTe2*
-T. Senthil
-https://arxiv.org/abs/2607.11484
+- *Mapping vortices to anyons in toric code phases of generalized Kitaev models*
+Li Ern Chern, Roderich Moessner, Claudio Castelnovo
+https://arxiv.org/abs/2607.12027
 
-- *Conformal Nature of Quantum Phase Transitions via Fuzzy Three-Sphere Regularization*
-Xue Meng, Liangdong Hu, Wei Zhu
-https://arxiv.org/abs/2607.11371
+- *Microscopic Spin-1 Parent Hamiltonians for Emergent Valence-Bond Loop Manifolds*
+Hari Borutta, Yasir Iqbal, Kirill Shtengel
+https://arxiv.org/abs/2607.12925
 
-- *Spectral gap of Lee-Yang Hamiltonians*
-Chaithanya Rayudu, Jun Takahashi
-https://arxiv.org/abs/2607.10765
+- *Fractionalized Fermi liquids with the ghost-Gutzwiller Ansatz*
+Ivan Pasqua, Carlos Mejuto-Zaera, Michele Fabrizio
+https://arxiv.org/abs/2607.12410
 
-- *Unique temporal scaling dimension for quantum criticality in open systems weakly coupled to environment*
-Fan Zhong
-https://arxiv.org/abs/2607.11206
+- *From stable periodic orbits to many-body chaos: doubly tunable prethermalization via engineering of an emergent band structure*
+Jianan Wang, Yang Hou, Andrea Pizzi, Johannes Knolle, Roderich Moessner, Hongzheng Zhao
+https://arxiv.org/abs/2607.12355
 
-- *Rigorous bound on the aspect ratio for the formation of a nematic phase in hard rod and hard rectangle systems on $\mathbb{Z}^2$*
-Qidong He
-https://arxiv.org/abs/2607.10510
+- *Thermally Activated Long-Range Entanglement from Non-Abelian Conservation Laws*
+Shuai Zeng
+https://arxiv.org/abs/2607.12710
 
-- *Finite-time Scaling of the surface special transition in a 3D classical Heisenberg model*
-Dongxu Liu, Zhe Wang, Shuai Yin, Zheng Yan
-https://arxiv.org/abs/2607.11066
+- *Measurement-induced phase transition in space*
+Jia-Qiang Li, Liang-Jun Zhai, Shuo Liu, Shuai Yin
+https://arxiv.org/abs/2607.12386
