@@ -1,19 +1,27 @@
-- *Twisting-operator approach to identifying gaplessness in SU(N) fermionic systems*
-Hao Cheng, Hang Su, Yuan Yao
-https://arxiv.org/abs/2607.19694
+- *Gaplessness indicator by topologically trivial twisting operators*
+Yuan Yao, Linhao Li, Feng-Feng Song
+https://arxiv.org/abs/2607.20944
 
-- *Multi-Criticality and RG Topology in the Charge-Kondo-Breakdown Scenario in the Cuprates*
-Stefan Kirchner, Petr Jizba
-https://arxiv.org/abs/2607.19807
+- *Entanglement asymmetry and quantum Mpemba effect for Kramers-Wannier duality*
+Milo Vescovo, Pasquale Calabrese, Filiberto Ares
+https://arxiv.org/abs/2607.21226
 
-- *Stable valleys in the glassy landscape of a low-density parity-check (LDPC) code*
-Grace M. Sommers, David A. Huse
-https://arxiv.org/abs/2607.20421
+- *Perturbatively Stable Self-Correcting Classical Memory from Gauge Averaging*
+Ryan Thorngren
+https://arxiv.org/abs/2607.20605
 
-- *Quantum Fisher Information in semiclassical magnon systems*
-Wolfgang Simeth, Pontus Laurell, Allen Scheie
-https://arxiv.org/abs/2607.20424
+- *Ferromagnetic transition in a chiral spin chain*
+Yuan Xiao, Rimika Jaiswal, Oleg A. Starykh, Leon Balents
+https://arxiv.org/abs/2607.20629
 
-- *Coloring in anyon superconductivity*
-Umang Mehta, Yuto Nakajima, Hart Goldman
-https://arxiv.org/abs/2607.19470
+- *Ideal Bands in Tight-Binding Models*
+Lexu Zhao, Yang Ge, Shinsei Ryu, Jiabin Yu
+https://arxiv.org/abs/2607.20624
+
+- *Sp(4,Z) actions on 3d U(1)^2 symmetric theories: Order-five duality and bilayer quantum Hall hierarchies*
+Yasin F. Alam, Andreas Karch, Da-Chuan Lu, Ryan C. Spieler
+https://arxiv.org/abs/2607.20622
+
+- *Symmetry and Quantum Geometry in Bloch Bands*
+Ziwei Wang, Charlie Raca, Steven H. Simon
+https://arxiv.org/abs/2607.21581
