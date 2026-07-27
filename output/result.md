@@ -1,27 +1,27 @@
-- *Gaplessness indicator by topologically trivial twisting operators*
-Yuan Yao, Linhao Li, Feng-Feng Song
-https://arxiv.org/abs/2607.20944
+- *Mixed-state topological order and error-correction thresholds in non-Abelian codes: rigorous results*
+Sun Woo P. Kim, Max McGinley
+https://arxiv.org/abs/2607.21706
 
-- *Entanglement asymmetry and quantum Mpemba effect for Kramers-Wannier duality*
-Milo Vescovo, Pasquale Calabrese, Filiberto Ares
-https://arxiv.org/abs/2607.21226
+- *Counting Edge Modes with the Higher Berry Curvature: A Bulk Topological Order Parameter for Quantum Spin Chains*
+Adam J. McRoberts, Joe Crossley, Chris Hooley, Joe H. Winter
+https://arxiv.org/abs/2607.21705
 
-- *Perturbatively Stable Self-Correcting Classical Memory from Gauge Averaging*
-Ryan Thorngren
-https://arxiv.org/abs/2607.20605
+- *Non-Invertible Symmetries Mixing with Witt Non-Trivial Quantum Cellular Automata*
+Kansei Inamura, Oskar Wojdel, Lukasz Fidkowski, Sakura Schafer-Nameki
+https://arxiv.org/abs/2607.21698
 
-- *Ferromagnetic transition in a chiral spin chain*
-Yuan Xiao, Rimika Jaiswal, Oleg A. Starykh, Leon Balents
-https://arxiv.org/abs/2607.20629
+- *Non-Clifford quantum cellular automata from invertible topological quantum field theories*
+Meng Sun, Zongyuan Wang, Bowen Yang, Nathanan Tantivasadakarn, Yu-An Chen
+https://arxiv.org/abs/2607.21697
 
-- *Ideal Bands in Tight-Binding Models*
-Lexu Zhao, Yang Ge, Shinsei Ryu, Jiabin Yu
-https://arxiv.org/abs/2607.20624
+- *Quantum Cellular Automata from Kramers-Wannier Dualities and Modular Relations*
+Carolyn Zhang, Po-Shen Hsin
+https://arxiv.org/abs/2607.21728
 
-- *Sp(4,Z) actions on 3d U(1)^2 symmetric theories: Order-five duality and bilayer quantum Hall hierarchies*
-Yasin F. Alam, Andreas Karch, Da-Chuan Lu, Ryan C. Spieler
-https://arxiv.org/abs/2607.20622
+- *Entanglement in Presence of Topological Interfaces and Dualities*
+Christian Northe, Riccardo Poletti, Paolo Rossi
+https://arxiv.org/abs/2607.22451
 
-- *Symmetry and Quantum Geometry in Bloch Bands*
-Ziwei Wang, Charlie Raca, Steven H. Simon
-https://arxiv.org/abs/2607.21581
+- *Real-Space Imaging of Band Topology via Wavefunction Zeros*
+Julian Ingham, Raquel Queiroz
+https://arxiv.org/abs/2607.21699
