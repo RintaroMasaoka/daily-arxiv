@@ -1,27 +1,23 @@
-- *Mixed-state topological order and error-correction thresholds in non-Abelian codes: rigorous results*
-Sun Woo P. Kim, Max McGinley
-https://arxiv.org/abs/2607.21706
+- *Distinct finite-temperature phase diagrams of non-invertible Kennedy--Tasaki duals*
+Weiguang Cao, Haruki Watanabe
+https://arxiv.org/abs/2607.24231
 
-- *Counting Edge Modes with the Higher Berry Curvature: A Bulk Topological Order Parameter for Quantum Spin Chains*
-Adam J. McRoberts, Joe Crossley, Chris Hooley, Joe H. Winter
-https://arxiv.org/abs/2607.21705
+- *Anyon Condensation In Symmetry-Enriched Topological Phases: $G$-Grading of Multifusion Categories*
+Nianrui Fu, Siyuan Wang, Yu Zhao, Yidun Wan
+https://arxiv.org/abs/2607.24740
 
-- *Non-Invertible Symmetries Mixing with Witt Non-Trivial Quantum Cellular Automata*
-Kansei Inamura, Oskar Wojdel, Lukasz Fidkowski, Sakura Schafer-Nameki
-https://arxiv.org/abs/2607.21698
+- *Symmetry Criterion for Van Hove Criticality at Non-Time-Reversal-Invariant Momenta*
+Min-Quan Kuang, Hua-Yu Li
+https://arxiv.org/abs/2607.23985
 
-- *Non-Clifford quantum cellular automata from invertible topological quantum field theories*
-Meng Sun, Zongyuan Wang, Bowen Yang, Nathanan Tantivasadakarn, Yu-An Chen
-https://arxiv.org/abs/2607.21697
+- *Non-Reciprocal yet Equilibrium Critical Dynamics*
+Emir Sezik
+https://arxiv.org/abs/2607.24252
 
-- *Quantum Cellular Automata from Kramers-Wannier Dualities and Modular Relations*
-Carolyn Zhang, Po-Shen Hsin
-https://arxiv.org/abs/2607.21728
+- *Quantum Fisher information and imperfect detection in a monitored fermion chain*
+Giovanni Di Fresco, Davide Valenti, Angelo Carollo
+https://arxiv.org/abs/2607.24438
 
-- *Entanglement in Presence of Topological Interfaces and Dualities*
-Christian Northe, Riccardo Poletti, Paolo Rossi
-https://arxiv.org/abs/2607.22451
-
-- *Real-Space Imaging of Band Topology via Wavefunction Zeros*
-Julian Ingham, Raquel Queiroz
-https://arxiv.org/abs/2607.21699
+- *Dynamical Quantum Phase Transitions in a Pseudo-Hermitian Hamiltonian: The Imbalanced-Pairing Kitaev Model*
+R. Jafari, Alireza Akbari, Shukhrat Mardonov, H. Yavartanoo
+https://arxiv.org/abs/2607.23956
