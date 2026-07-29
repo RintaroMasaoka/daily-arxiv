@@ -1,23 +1,27 @@
-- *Distinct finite-temperature phase diagrams of non-invertible Kennedy--Tasaki duals*
-Weiguang Cao, Haruki Watanabe
-https://arxiv.org/abs/2607.24231
+- *Effective Field Theory of Operator Scrambling from Strong-to-Weak Symmetry Breaking*
+Bai-Lin Cheng, Shao-Kai Jian, Zhi-Cheng Yang
+https://arxiv.org/abs/2607.24925
 
-- *Anyon Condensation In Symmetry-Enriched Topological Phases: $G$-Grading of Multifusion Categories*
-Nianrui Fu, Siyuan Wang, Yu Zhao, Yidun Wan
-https://arxiv.org/abs/2607.24740
+- *Entanglement asymmetry in the gapped XYZ spin-$\frac12$ chain*
+Felipe Taha Sant'Ana
+https://arxiv.org/abs/2607.25625
 
-- *Symmetry Criterion for Van Hove Criticality at Non-Time-Reversal-Invariant Momenta*
-Min-Quan Kuang, Hua-Yu Li
-https://arxiv.org/abs/2607.23985
+- *Charge-6e superconductivity from doping SU(3) spin liquids*
+Yan-Qi Wang, Boran Zhou, Hui Yang, Zhi-Qiang Gao
+https://arxiv.org/abs/2607.25909
 
-- *Non-Reciprocal yet Equilibrium Critical Dynamics*
-Emir Sezik
-https://arxiv.org/abs/2607.24252
+- *Solvable Quantum Circuits with non-Markovian Influence Matrices*
+Samuel H. Pickering, Max McGinley, Bhavik Kumar, Bruno Bertini
+https://arxiv.org/abs/2607.25969
 
-- *Quantum Fisher information and imperfect detection in a monitored fermion chain*
-Giovanni Di Fresco, Davide Valenti, Angelo Carollo
-https://arxiv.org/abs/2607.24438
+- *Interacting hydrodynamic modes in spinless fermions with dephasing noise*
+Fabian H. L. Essler, Patrik Penc
+https://arxiv.org/abs/2607.25938
 
-- *Dynamical Quantum Phase Transitions in a Pseudo-Hermitian Hamiltonian: The Imbalanced-Pairing Kitaev Model*
-R. Jafari, Alireza Akbari, Shukhrat Mardonov, H. Yavartanoo
-https://arxiv.org/abs/2607.23956
+- *Critical Ripples and Dirac Fermions in Crystalline Membranes*
+Sebastián Bahamondes, Rodrigo Soto-Garrido, Enrique Muñoz, Vladimir Juričić
+https://arxiv.org/abs/2607.25767
+
+- *Organizing Principles for Moiré Quantum Matter*
+Qiaoling Xu, Yifan Gao, Tao Zhang, Ammon Fischer, Yi Jiang, Hanqi Pi, Zike Fan, Dongdong An, Kun Zhou, Yingjian Li, Yongqing Li, Yuhao Fu, Lei Wang, Lijun Zhang, B. Andrei Bernevig, Dante M. Kennes, Enge Wang, Angel Rubio, Lede Xian
+https://arxiv.org/abs/2607.24944
