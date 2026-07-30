@@ -1,27 +1,23 @@
-- *Effective Field Theory of Operator Scrambling from Strong-to-Weak Symmetry Breaking*
-Bai-Lin Cheng, Shao-Kai Jian, Zhi-Cheng Yang
-https://arxiv.org/abs/2607.24925
+- *Iterative Gauging is Deconstruction*
+Sebastian Franco, Diego Rodriguez-Gomez
+https://arxiv.org/abs/2607.26126
 
-- *Entanglement asymmetry in the gapped XYZ spin-$\frac12$ chain*
-Felipe Taha Sant'Ana
-https://arxiv.org/abs/2607.25625
+- *On $R$-parastatistics I: Foundation*
+Zhiyuan Wang, Kaden R. A. Hazzard
+https://arxiv.org/abs/2607.26351
 
-- *Charge-6e superconductivity from doping SU(3) spin liquids*
-Yan-Qi Wang, Boran Zhou, Hui Yang, Zhi-Qiang Gao
-https://arxiv.org/abs/2607.25909
+- *Microscopic study of topological phase transitions: Percolation point of view*
+Keisuke Kataoka, Ikuo Ichinose
+https://arxiv.org/abs/2607.26707
 
-- *Solvable Quantum Circuits with non-Markovian Influence Matrices*
-Samuel H. Pickering, Max McGinley, Bhavik Kumar, Bruno Bertini
-https://arxiv.org/abs/2607.25969
+- *Temporal Interference from Topological Transitions in Monitored Quantum Dynamics*
+Qingyuan Wang, Ruoyu Yin, Eli Barkai
+https://arxiv.org/abs/2607.27045
 
-- *Interacting hydrodynamic modes in spinless fermions with dephasing noise*
-Fabian H. L. Essler, Patrik Penc
-https://arxiv.org/abs/2607.25938
+- *Lee-Yang Zeros And Particle Fluctuations*
+Mohamed El Hedi Bahri, Ian Jauslin, Joel L. Lebowitz
+https://arxiv.org/abs/2607.26975
 
-- *Critical Ripples and Dirac Fermions in Crystalline Membranes*
-Sebastián Bahamondes, Rodrigo Soto-Garrido, Enrique Muñoz, Vladimir Juričić
-https://arxiv.org/abs/2607.25767
-
-- *Organizing Principles for Moiré Quantum Matter*
-Qiaoling Xu, Yifan Gao, Tao Zhang, Ammon Fischer, Yi Jiang, Hanqi Pi, Zike Fan, Dongdong An, Kun Zhou, Yingjian Li, Yongqing Li, Yuhao Fu, Lei Wang, Lijun Zhang, B. Andrei Bernevig, Dante M. Kennes, Enge Wang, Angel Rubio, Lede Xian
-https://arxiv.org/abs/2607.24944
+- *Interface evolution in the two-dimensional quantum Ising model*
+Georgios Kampanis, Marianna Sorba, Gesualdo Delfino
+https://arxiv.org/abs/2607.26662
