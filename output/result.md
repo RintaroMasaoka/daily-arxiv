@@ -1,23 +1,23 @@
-- *Iterative Gauging is Deconstruction*
-Sebastian Franco, Diego Rodriguez-Gomez
-https://arxiv.org/abs/2607.26126
+- *Non-relativistic Floquet Conformal Field Theory*
+Diptarka Das, Sumit R. Das, Arnab Kundu, Krishnendu Sengupta
+https://arxiv.org/abs/2607.27668
 
-- *On $R$-parastatistics I: Foundation*
-Zhiyuan Wang, Kaden R. A. Hazzard
-https://arxiv.org/abs/2607.26351
+- *Universality of Energy-Space Entanglement in Quantum Impurity Models*
+Geng-Dong Zhou, Zhi-Da Song
+https://arxiv.org/abs/2607.27394
 
-- *Microscopic study of topological phase transitions: Percolation point of view*
-Keisuke Kataoka, Ikuo Ichinose
-https://arxiv.org/abs/2607.26707
+- *Interacting Quantum Symmetric Exclusion Process*
+Denis Bernard, Friedrich Hübner, Stefano Scopa
+https://arxiv.org/abs/2607.28255
 
-- *Temporal Interference from Topological Transitions in Monitored Quantum Dynamics*
-Qingyuan Wang, Ruoyu Yin, Eli Barkai
-https://arxiv.org/abs/2607.27045
+- *Lattice composite Fermi liquid with broken inversion symmetry*
+Pavel A. Nosov, Zhengyan Darius Shi
+https://arxiv.org/abs/2607.28613
 
-- *Lee-Yang Zeros And Particle Fluctuations*
-Mohamed El Hedi Bahri, Ian Jauslin, Joel L. Lebowitz
-https://arxiv.org/abs/2607.26975
+- *Quantum Chaos and Diffusive Transport from Geometric Randomness*
+Bibek Saha, Abhishek Dhar, Sthitadhi Roy
+https://arxiv.org/abs/2607.28579
 
-- *Interface evolution in the two-dimensional quantum Ising model*
-Georgios Kampanis, Marianna Sorba, Gesualdo Delfino
-https://arxiv.org/abs/2607.26662
+- *Three-Dimensional Kardar--Parisi--Zhang Scaling in Polariton Condensates*
+Junhui Cao, Denis Novokreschenov, Artem Alexandrov, Timothy Halpin-Healy, Alexey Kavokin
+https://arxiv.org/abs/2607.28106
