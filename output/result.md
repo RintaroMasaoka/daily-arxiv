@@ -1,23 +1,19 @@
-- *Non-relativistic Floquet Conformal Field Theory*
-Diptarka Das, Sumit R. Das, Arnab Kundu, Krishnendu Sengupta
-https://arxiv.org/abs/2607.27668
+- *Gapped Parent Hamiltonians for the Strongly Deformed Toric Code*
+Nandagopal Manoj, Zack Weinstein, Jason Alicea
+https://arxiv.org/abs/2607.28740
 
-- *Universality of Energy-Space Entanglement in Quantum Impurity Models*
-Geng-Dong Zhou, Zhi-Da Song
-https://arxiv.org/abs/2607.27394
+- *Free to Interacting Map for Crystalline SPT Phases: Equivariance vs Crystalline Equivalence*
+Daniel Sheinbaum, Omar Antolín-Camarena
+https://arxiv.org/abs/2607.28811
 
-- *Interacting Quantum Symmetric Exclusion Process*
-Denis Bernard, Friedrich Hübner, Stefano Scopa
-https://arxiv.org/abs/2607.28255
+- *A Simple Necessary and Sufficient Condition for Yang--Baxter Integrability*
+Mizuki Sanatani, Naoto Shiraishi, Fuga Ishii
+https://arxiv.org/abs/2607.29660
 
-- *Lattice composite Fermi liquid with broken inversion symmetry*
-Pavel A. Nosov, Zhengyan Darius Shi
-https://arxiv.org/abs/2607.28613
+- *Gaussian-augmented bosonic matrix-product states: theory and applications*
+Erickson Tjoa, J. Ignacio Cirac
+https://arxiv.org/abs/2607.28753
 
-- *Quantum Chaos and Diffusive Transport from Geometric Randomness*
-Bibek Saha, Abhishek Dhar, Sthitadhi Roy
-https://arxiv.org/abs/2607.28579
-
-- *Three-Dimensional Kardar--Parisi--Zhang Scaling in Polariton Condensates*
-Junhui Cao, Denis Novokreschenov, Artem Alexandrov, Timothy Halpin-Healy, Alexey Kavokin
-https://arxiv.org/abs/2607.28106
+- *Exact Results for the Symmetric Dyson Exclusion Process*
+Ali Zahra, Jerome Dubail, Gunter M. Schutz
+https://arxiv.org/abs/2607.28807
