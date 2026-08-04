@@ -1,19 +1,19 @@
-- *Gapped Parent Hamiltonians for the Strongly Deformed Toric Code*
-Nandagopal Manoj, Zack Weinstein, Jason Alicea
-https://arxiv.org/abs/2607.28740
+- *Topological Defects in Triple-$Q$ Magnetic Orders: A Fixed-Lattice Homotopy Classification*
+Jin-Tao Jin, Yi Zhou
+https://arxiv.org/abs/2608.01838
 
-- *Free to Interacting Map for Crystalline SPT Phases: Equivariance vs Crystalline Equivalence*
-Daniel Sheinbaum, Omar Antolín-Camarena
-https://arxiv.org/abs/2607.28811
+- *Optimized Tensor-Network Renormalization for Quantum Dynamics: Resolving the Spectral Function of $\mathrm{K_2Co(SeO_3)_2}$*
+Jiahang Hu, Runze Chi, B. Normand, Hai-Jun Liao, T. Xiang
+https://arxiv.org/abs/2608.02473
 
-- *A Simple Necessary and Sufficient Condition for Yang--Baxter Integrability*
-Mizuki Sanatani, Naoto Shiraishi, Fuga Ishii
-https://arxiv.org/abs/2607.29660
+- *Emergent modular Luttinger liquid from spin-partitioned entanglement in the one-dimensional Hubbard model*
+Ádám Bácsi, Catalin Pascu Moca, Balázs Dóra
+https://arxiv.org/abs/2608.01817
 
-- *Gaussian-augmented bosonic matrix-product states: theory and applications*
-Erickson Tjoa, J. Ignacio Cirac
-https://arxiv.org/abs/2607.28753
+- *Inhomogeneous Ising Model on 2D kagomé Lattice: Fermionic field approach*
+Shahane A. Khachatryan, Zhidong Zhang, Ara G. Sedrakyan
+https://arxiv.org/abs/2608.02156
 
-- *Exact Results for the Symmetric Dyson Exclusion Process*
-Ali Zahra, Jerome Dubail, Gunter M. Schutz
-https://arxiv.org/abs/2607.28807
+- *Long and short time linear response of metals: a geometric approach*
+Nishchhal Verma, Raquel Queiroz
+https://arxiv.org/abs/2608.02298
