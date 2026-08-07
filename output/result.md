@@ -1,27 +1,27 @@
-- *1+1d Lattice Dirac Fermions from Non-Onsite Vector and Axial Symmetries*
-Tabin Dharanikota, Lukasz Fidkowski
-https://arxiv.org/abs/2608.02722
+- *Self-dual $S_3$ gauge theory in 2+1d: lattice model and topological phase transitions*
+Da-Chuan Lu, Chong Wang, Ashvin Vishwanath
+https://arxiv.org/abs/2608.05294
 
-- *Fermionic Villain model with exact lattice chiral symmetries*
-Zhiyao Lu, Shu-Heng Shao
-https://arxiv.org/abs/2608.02728
+- *Quantized topological invariant of symmetry-projected Gibbs states*
+Weiguang Cao, Haruki Watanabe
+https://arxiv.org/abs/2608.04350
 
-- *Structure of matrix product locally purifiable density operators*
-Yale Yauk, Yuhan Liu, Ignacio Cirac
-https://arxiv.org/abs/2608.02724
+- *Theory of Measurement-Altered Criticality*
+Kabir Khanna, Sara Murciano, Romain Vasseur
+https://arxiv.org/abs/2608.05289
 
-- *Particle-Vortex Duality of Hydrodynamics*
-Cenke Xu, Matthew P. A. Fisher
-https://arxiv.org/abs/2608.02732
+- *Dissipation-induced bulk and boundary criticality in the Haldane chain*
+Zhenjiu Wang, Manuel Weber
+https://arxiv.org/abs/2608.05984
 
-- *Universal crossovers in weakly-monitored quantum critical states*
-Abhishek Kumar, Rushikesh A. Patil, Andreas W. W. Ludwig, Romain Vasseur
-https://arxiv.org/abs/2608.02716
+- *Measurement-induced entanglement Hamiltonian*
+Viktor Eisler, Erik Tonni
+https://arxiv.org/abs/2608.06006
 
-- *Two-Parameter Ansatz for the Violation of Eigenstate Thermalization*
-Kohei Ohgane, Lev Vidmar
-https://arxiv.org/abs/2608.02744
+- *Approximate Quantum Error Correction at Chiral Topological Edges*
+Yuntai Song, Zejun Liu, Zhencheng Wang, Jong Yeon Lee, Bowen Shi
+https://arxiv.org/abs/2608.06258
 
-- *Antisymmetric Dynamical Spin Correlations: Spin-Space-Group Constraints and Frequency-Moment Sum Rules*
-Tsutomu Momoi
-https://arxiv.org/abs/2608.03786
+- *Generalized comodule tube algebras for boundary and domain wall defects of (2+1)D topological order*
+Zhian Jia, Sheng Tan
+https://arxiv.org/abs/2608.05071
