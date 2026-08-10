@@ -1,27 +1,23 @@
-- *Self-dual $S_3$ gauge theory in 2+1d: lattice model and topological phase transitions*
-Da-Chuan Lu, Chong Wang, Ashvin Vishwanath
-https://arxiv.org/abs/2608.05294
+- *A quantum geometric mechanism for chiral domain wall metastability: Application to twisted transition-metal dichalcogenides*
+Nisarg Chadha, Qiang Gao, Eslam Khalaf, Zhaoyu Han
+https://arxiv.org/abs/2608.07443
 
-- *Quantized topological invariant of symmetry-projected Gibbs states*
-Weiguang Cao, Haruki Watanabe
-https://arxiv.org/abs/2608.04350
+- *Quantum-State Projectors on Grassmannian: Geometry, Holonomy, and Topology*
+Shin-Ming Huang
+https://arxiv.org/abs/2608.06777
 
-- *Theory of Measurement-Altered Criticality*
-Kabir Khanna, Sara Murciano, Romain Vasseur
-https://arxiv.org/abs/2608.05289
+- *Exciton Alchemy: Chern Excitons from Trivial Bands*
+Yoonseok Hwang, Henry Davenport, Frank Schindler
+https://arxiv.org/abs/2608.07372
 
-- *Dissipation-induced bulk and boundary criticality in the Haldane chain*
-Zhenjiu Wang, Manuel Weber
-https://arxiv.org/abs/2608.05984
+- *Fugacity-Resolved Stabilizer Entropy in Critical Quantum Chains: Discrete Selberg Sums and Exactly Solvable Rényi Indices*
+Reyhaneh Khasseh, M. A. Rajabpour
+https://arxiv.org/abs/2608.06995
 
-- *Measurement-induced entanglement Hamiltonian*
-Viktor Eisler, Erik Tonni
-https://arxiv.org/abs/2608.06006
+- *Critical dynamics of a scalar field near four spatial dimensions*
+Laura Batini, Eduardo Grossi
+https://arxiv.org/abs/2608.07292
 
-- *Approximate Quantum Error Correction at Chiral Topological Edges*
-Yuntai Song, Zejun Liu, Zhencheng Wang, Jong Yeon Lee, Bowen Shi
-https://arxiv.org/abs/2608.06258
-
-- *Generalized comodule tube algebras for boundary and domain wall defects of (2+1)D topological order*
-Zhian Jia, Sheng Tan
-https://arxiv.org/abs/2608.05071
+- *Many-Body Mobility Edge and Non-Hermitian Skin Effect in an Interacting Quasi-Periodic Spin Chain*
+Lavoisier Wah, Ayan Banerjee, Flore K. Kunst
+https://arxiv.org/abs/2608.07083
