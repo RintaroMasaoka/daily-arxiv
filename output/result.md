@@ -1,23 +1,23 @@
-- *A quantum geometric mechanism for chiral domain wall metastability: Application to twisted transition-metal dichalcogenides*
-Nisarg Chadha, Qiang Gao, Eslam Khalaf, Zhaoyu Han
-https://arxiv.org/abs/2608.07443
+- *Decoupling 2D translation-invariant topological CSS codes*
+Yifei Wang, Zhongyi Ni, Mingxin He, Jinguo Liu, Yingfei Gu
+https://arxiv.org/abs/2608.09915
 
-- *Quantum-State Projectors on Grassmannian: Geometry, Holonomy, and Topology*
-Shin-Ming Huang
-https://arxiv.org/abs/2608.06777
+- *From Koszul-Complex Stabilizer Models to Superselection Profiles: Topological Rigidity and Nonsplit Extensions*
+Hao Song
+https://arxiv.org/abs/2608.09913
 
-- *Exciton Alchemy: Chern Excitons from Trivial Bands*
-Yoonseok Hwang, Henry Davenport, Frank Schindler
-https://arxiv.org/abs/2608.07372
+- *Scalene Yang--Baxter triples as a source of hidden symmetries beyond the ordinary Yang--Baxter equation*
+Pramod Padmanabhan, Somnath Maity, Vladimir Korepin
+https://arxiv.org/abs/2608.09081
 
-- *Fugacity-Resolved Stabilizer Entropy in Critical Quantum Chains: Discrete Selberg Sums and Exactly Solvable Rényi Indices*
-Reyhaneh Khasseh, M. A. Rajabpour
-https://arxiv.org/abs/2608.06995
+- *Spread of Entanglement in Generalized Kicked Ising Chain*
+Tanay Pathak, Hiromi Ebisu, Tomaž Prosen
+https://arxiv.org/abs/2608.09695
 
-- *Critical dynamics of a scalar field near four spatial dimensions*
-Laura Batini, Eduardo Grossi
-https://arxiv.org/abs/2608.07292
+- *Quantized Stabilizer-Rényi Boundary Response across Fermionic SPT Transitions*
+M. A. Rajabpour
+https://arxiv.org/abs/2608.09749
 
-- *Many-Body Mobility Edge and Non-Hermitian Skin Effect in an Interacting Quasi-Periodic Spin Chain*
-Lavoisier Wah, Ayan Banerjee, Flore K. Kunst
-https://arxiv.org/abs/2608.07083
+- *Cell Natural Orbitals in Interacting Topological Bands*
+Nishchhal Verma, Harshitra Mahalingam, Daniel Muñoz-Segovia, Raquel Queiroz
+https://arxiv.org/abs/2608.09932
