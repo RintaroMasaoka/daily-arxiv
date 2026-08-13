@@ -1,23 +1,23 @@
-- *Coupled-Layer Codes: Beyond Quantum Product Constructions*
-Shuyu Zhang, Tzu-Chieh Wei, Nathanan Tantivasadakarn
-https://arxiv.org/abs/2608.10069
+- *Proliferation Transitions for Non-Abelian Anyons*
+Sakura Schafer-Nameki, Yunqin Zheng, Andrea Antinucci
+https://arxiv.org/abs/2608.12303
 
-- *Universal scaling of spatially extended zero modes in inhomogeneous SSH chains*
-Gilles Parez, Nicolas Crampé, Quentin Labriet, Lucia Morey, Luc Vinet
-https://arxiv.org/abs/2608.11021
+- *The Fate of Crystalline Topological Phenomena in the Continuum*
+Rajas Chari, Taylor L. Hughes
+https://arxiv.org/abs/2608.11302
 
-- *Symmetrized Block-Product Periodic Marginals in Infinite Translation-Invariant Quantum Chains*
-Xiao Zeng, Kaiyan Yang, Lingxia Zhang, Zizhu Wang
-https://arxiv.org/abs/2608.10365
+- *Interface phases and dynamics in two-dimensional quantum magnets: A "holographic" approach from universality to quantum simulation*
+Abhishodh Prakash, Jaydev Singh Rao, Siddharth A. Parameswaran, Alessio Lerose
+https://arxiv.org/abs/2608.12312
 
-- *Spin Splitter without Spin-Split Bands: A Reconfigurable Altermagnetic Texture*
-Bin Xi, Jie Lu, Qiang Luo, Ken Chen, Jia-Wei Mei, Hong-Gang Luo, Jize Zhao
-https://arxiv.org/abs/2608.10958
+- *Connecting the tensor-categorical formulation of anyon condensation with operator algebras and entropic order parameters*
+Hua-Chen Zhang
+https://arxiv.org/abs/2608.12157
 
-- *The Renormalization Group as a Stochastic Exploration Process*
-Denis Bernard
-https://arxiv.org/abs/2608.11106
+- *Geometry of Noisy Quantum Many-Body Dynamics with Continuous Symmetries: Entanglement and Correlations*
+Marco Lastres, Sanjay Moudgalya
+https://arxiv.org/abs/2608.11297
 
-- *Role of Goldstone mode in nonequilibrium insulator under DC electric field*
-Xi Chen, Jong E. Han
-https://arxiv.org/abs/2608.10547
+- *Conditional dependence and Scrooge ensembles in shallow random quantum circuits*
+Yinchen Liu, Max McGinley, Thomas Schuster, David Gosset
+https://arxiv.org/abs/2608.12255
