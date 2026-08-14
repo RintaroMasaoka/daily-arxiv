@@ -1,23 +1,23 @@
-- *Proliferation Transitions for Non-Abelian Anyons*
-Sakura Schafer-Nameki, Yunqin Zheng, Andrea Antinucci
-https://arxiv.org/abs/2608.12303
+- *Fermionic Anomalies of Finite Symmetries on Lattices*
+Ameya Chavda, Ryohei Kobayashi
+https://arxiv.org/abs/2608.12455
 
-- *The Fate of Crystalline Topological Phenomena in the Continuum*
-Rajas Chari, Taylor L. Hughes
-https://arxiv.org/abs/2608.11302
+- *Correlation versus Causation in Quantum Criticality*
+Conrad Wichmann, Ryan Thorngren, Ruben Verresen
+https://arxiv.org/abs/2608.12770
 
-- *Interface phases and dynamics in two-dimensional quantum magnets: A "holographic" approach from universality to quantum simulation*
-Abhishodh Prakash, Jaydev Singh Rao, Siddharth A. Parameswaran, Alessio Lerose
-https://arxiv.org/abs/2608.12312
+- *Emergent Symmetry-Protected Topological Phases via Polyakov Confinement in Quantum Spin Systems*
+Li-Wei He, Shun-Li Yu, Jian-Xin Li
+https://arxiv.org/abs/2608.13238
 
-- *Connecting the tensor-categorical formulation of anyon condensation with operator algebras and entropic order parameters*
-Hua-Chen Zhang
-https://arxiv.org/abs/2608.12157
+- *Aperiodicity is sufficient for macroscopic thermalization*
+Amit Vikram
+https://arxiv.org/abs/2608.13462
 
-- *Geometry of Noisy Quantum Many-Body Dynamics with Continuous Symmetries: Entanglement and Correlations*
-Marco Lastres, Sanjay Moudgalya
-https://arxiv.org/abs/2608.11297
+- *Local and quasilocal conservation laws of three-state IRF cellular automata and their quantum deformations*
+Tomaž Prosen
+https://arxiv.org/abs/2608.13080
 
-- *Conditional dependence and Scrooge ensembles in shallow random quantum circuits*
-Yinchen Liu, Max McGinley, Thomas Schuster, David Gosset
-https://arxiv.org/abs/2608.12255
+- *Boundary phases and thermodynamics of the Kondo spin-s chain: from overscreened Kondo to boundary-bound states*
+Abay Zhakenov, Pradip Kattel, Andreas Gleis, Natan Andrei
+https://arxiv.org/abs/2608.12453
