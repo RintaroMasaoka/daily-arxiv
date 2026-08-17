@@ -1,23 +1,23 @@
-- *Fermionic Anomalies of Finite Symmetries on Lattices*
-Ameya Chavda, Ryohei Kobayashi
-https://arxiv.org/abs/2608.12455
+- *Topological phases and quantum criticality from SU(2) Chern-Simons-matter theories*
+Yunchao Hao, Yingcheng Li, Kangle Li, Liujun Zou
+https://arxiv.org/abs/2608.14180
 
-- *Correlation versus Causation in Quantum Criticality*
-Conrad Wichmann, Ryan Thorngren, Ruben Verresen
-https://arxiv.org/abs/2608.12770
+- *Far-from-equilibrium topological phase transition in one dimension*
+Ze-Min Huang, Gustav John, Sebastian Diehl
+https://arxiv.org/abs/2608.13658
 
-- *Emergent Symmetry-Protected Topological Phases via Polyakov Confinement in Quantum Spin Systems*
-Li-Wei He, Shun-Li Yu, Jian-Xin Li
-https://arxiv.org/abs/2608.13238
+- *Far-from-equilibrium scaling of non-abelian Goldstone modes*
+Carl Philipp Zelle, Gustav John, Orla Supple, Romain Daviet, Sebastian Diehl
+https://arxiv.org/abs/2608.13666
 
-- *Aperiodicity is sufficient for macroscopic thermalization*
-Amit Vikram
-https://arxiv.org/abs/2608.13462
+- *Entanglement spectrum ordering and flavor polarization in the two-flavor Schwinger model at vacuum angle θ = π*
+Boliang Yu, Ruixin Zhou, Meisen Gao
+https://arxiv.org/abs/2608.14296
 
-- *Local and quasilocal conservation laws of three-state IRF cellular automata and their quantum deformations*
-Tomaž Prosen
-https://arxiv.org/abs/2608.13080
+- *Quantum Snapshots Reveal a Compact Conformal Boundary Mode*
+M. A. Rajabpour
+https://arxiv.org/abs/2608.14327
 
-- *Boundary phases and thermodynamics of the Kondo spin-s chain: from overscreened Kondo to boundary-bound states*
-Abay Zhakenov, Pradip Kattel, Andreas Gleis, Natan Andrei
-https://arxiv.org/abs/2608.12453
+- *Quantum Geometric Kondo Cloud*
+Grant Z. X. Yang, K. T. Law
+https://arxiv.org/abs/2608.14072
