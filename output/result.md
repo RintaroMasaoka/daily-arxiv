@@ -1,23 +1,27 @@
-- *Topological phases and quantum criticality from SU(2) Chern-Simons-matter theories*
-Yunchao Hao, Yingcheng Li, Kangle Li, Liujun Zou
-https://arxiv.org/abs/2608.14180
+- *Zero-point theorems in quantum many-body physics*
+Yuan Yao
+https://arxiv.org/abs/2608.15542
 
-- *Far-from-equilibrium topological phase transition in one dimension*
-Ze-Min Huang, Gustav John, Sebastian Diehl
-https://arxiv.org/abs/2608.13658
+- *Non-invertible Lattice 1-Form Symmetries for Non-Abelian Topological Order*
+Rafael Flores-Calderón, Frank Pollmann, Michael Knap
+https://arxiv.org/abs/2608.16520
 
-- *Far-from-equilibrium scaling of non-abelian Goldstone modes*
-Carl Philipp Zelle, Gustav John, Orla Supple, Romain Daviet, Sebastian Diehl
-https://arxiv.org/abs/2608.13666
+- *Local observable errors from truncating interaction tails in gapped quantum lattice systems*
+Kangle Li
+https://arxiv.org/abs/2608.15576
 
-- *Entanglement spectrum ordering and flavor polarization in the two-flavor Schwinger model at vacuum angle θ = π*
-Boliang Yu, Ruixin Zhou, Meisen Gao
-https://arxiv.org/abs/2608.14296
+- *Postselection-Free Reconstruction of Monitored SPT Flux-Charge Responses*
+Shuai Zeng
+https://arxiv.org/abs/2608.15477
 
-- *Quantum Snapshots Reveal a Compact Conformal Boundary Mode*
-M. A. Rajabpour
-https://arxiv.org/abs/2608.14327
+- *Universal Frame Potential Hierarchy in Critical Projected Ensembles*
+Hui-Huang Chen
+https://arxiv.org/abs/2608.15467
 
-- *Quantum Geometric Kondo Cloud*
-Grant Z. X. Yang, K. T. Law
-https://arxiv.org/abs/2608.14072
+- *Accessing Gapped Chiral Phase with Auxiliary-Assisted PEPS*
+Sen Niu, Rui-Zhen Huang
+https://arxiv.org/abs/2608.15732
+
+- *The Hodge structure of Berry-phase transport: topology, geometry, and noise*
+Zhi-Wei Wang, Samuel L. Braunstein
+https://arxiv.org/abs/2608.15789
