@@ -1,27 +1,19 @@
-- *Zero-point theorems in quantum many-body physics*
-Yuan Yao
-https://arxiv.org/abs/2608.15542
+- *Absence of nontrivial local conserved quantities in a class of $U(1)$-symmetric spin-1 chains*
+Shunsuke Sengoku, Haruki Watanabe
+https://arxiv.org/abs/2608.17548
 
-- *Non-invertible Lattice 1-Form Symmetries for Non-Abelian Topological Order*
-Rafael Flores-Calderón, Frank Pollmann, Michael Knap
-https://arxiv.org/abs/2608.16520
+- *Gauge-constrained Spinon Complexes Near Deconfined Quantum Criticality*
+Zhi-Yao Ning, Xue-Feng Zhang, Naoki Kawashima, Jun Takahashi
+https://arxiv.org/abs/2608.17631
 
-- *Local observable errors from truncating interaction tails in gapped quantum lattice systems*
-Kangle Li
-https://arxiv.org/abs/2608.15576
+- *Equilibrium and nonequlibrium scaling behaviors of localization transition in a non-Hermitian Aubry-André model with onsite gain and loss*
+Wen-Jing Yu, Yue-Mei Sun, Xin-Yu Wang, Liang-Jun Zhai
+https://arxiv.org/abs/2608.17527
 
-- *Postselection-Free Reconstruction of Monitored SPT Flux-Charge Responses*
-Shuai Zeng
-https://arxiv.org/abs/2608.15477
+- *Long-range Nonlinear Sigma Model for a Singular Quantum Kicked Rotor*
+Weitao Chen, Yunxiang Liao
+https://arxiv.org/abs/2608.17649
 
-- *Universal Frame Potential Hierarchy in Critical Projected Ensembles*
-Hui-Huang Chen
-https://arxiv.org/abs/2608.15467
-
-- *Accessing Gapped Chiral Phase with Auxiliary-Assisted PEPS*
-Sen Niu, Rui-Zhen Huang
-https://arxiv.org/abs/2608.15732
-
-- *The Hodge structure of Berry-phase transport: topology, geometry, and noise*
-Zhi-Wei Wang, Samuel L. Braunstein
-https://arxiv.org/abs/2608.15789
+- *Spontaneous symmetry-breaking in equilibrium tree-packing configurations of a kinetically constrained cubic-lattice system*
+Hai-Jun Zhou
+https://arxiv.org/abs/2608.17308
