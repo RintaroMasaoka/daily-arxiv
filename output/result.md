@@ -1,19 +1,23 @@
-- *Absence of nontrivial local conserved quantities in a class of $U(1)$-symmetric spin-1 chains*
-Shunsuke Sengoku, Haruki Watanabe
-https://arxiv.org/abs/2608.17548
+- *Chern insulator boundary criticality*
+Benjamin Moy, Eduardo Fradkin
+https://arxiv.org/abs/2608.18199
 
-- *Gauge-constrained Spinon Complexes Near Deconfined Quantum Criticality*
-Zhi-Yao Ning, Xue-Feng Zhang, Naoki Kawashima, Jun Takahashi
-https://arxiv.org/abs/2608.17631
+- *Anti-spin Laue groups: classification of anti-altermagnets and their representative minimal models*
+Colin Lange, Rodrigo Jaeschke-Ubiergo, Alexander Mook, Jairo Sinova
+https://arxiv.org/abs/2608.19056
 
-- *Equilibrium and nonequlibrium scaling behaviors of localization transition in a non-Hermitian Aubry-André model with onsite gain and loss*
-Wen-Jing Yu, Yue-Mei Sun, Xin-Yu Wang, Liang-Jun Zhai
-https://arxiv.org/abs/2608.17527
+- *Cluster Representation of Renormalization Group Transformations and a Rigorous Proof for Convergence of the RG-Flow of the Ising Model to Trivial Fixed Points away from Criticality*
+Fabio Arz
+https://arxiv.org/abs/2608.18862
 
-- *Long-range Nonlinear Sigma Model for a Singular Quantum Kicked Rotor*
-Weitao Chen, Yunxiang Liao
-https://arxiv.org/abs/2608.17649
+- *Topology is not silent in the transport noise of multiband bosons*
+Zhi-Wei Wang, Samuel L. Braunstein
+https://arxiv.org/abs/2608.18527
 
-- *Spontaneous symmetry-breaking in equilibrium tree-packing configurations of a kinetically constrained cubic-lattice system*
-Hai-Jun Zhou
-https://arxiv.org/abs/2608.17308
+- *Unconventional bond- and current-density waves on hexagonal lattices*
+Andras Szabo, Hannes Braun, Laura Classen
+https://arxiv.org/abs/2608.19185
+
+- *Equations of Tree Tensor Network Varieties*
+Serkan Hoşten, Niharika Chakrabarty Paul, Otto T. P. Schmidt, Dmitry Skurt
+https://arxiv.org/abs/2608.19071
