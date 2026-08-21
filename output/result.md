@@ -1,23 +1,27 @@
-- *Chern insulator boundary criticality*
-Benjamin Moy, Eduardo Fradkin
-https://arxiv.org/abs/2608.18199
+- *Rigorous existence and location of quantum phase transitions in lattice Hamiltonian systems*
+Massimo Ostilli, Carlo Presilla
+https://arxiv.org/abs/2608.20209
 
-- *Anti-spin Laue groups: classification of anti-altermagnets and their representative minimal models*
-Colin Lange, Rodrigo Jaeschke-Ubiergo, Alexander Mook, Jairo Sinova
-https://arxiv.org/abs/2608.19056
+- *Torus Berry Data Determine All-Genus Abelian Topological Orders*
+Daniel Galviz
+https://arxiv.org/abs/2608.20330
 
-- *Cluster Representation of Renormalization Group Transformations and a Rigorous Proof for Convergence of the RG-Flow of the Ising Model to Trivial Fixed Points away from Criticality*
-Fabio Arz
-https://arxiv.org/abs/2608.18862
+- *Statistical Mechanics of Non-Abelian Learnability Transitions*
+Ruochen Ma, Romain Vasseur
+https://arxiv.org/abs/2608.19325
 
-- *Topology is not silent in the transport noise of multiband bosons*
-Zhi-Wei Wang, Samuel L. Braunstein
-https://arxiv.org/abs/2608.18527
+- *Universal meson spectra near (1+1)-dimensional Ising criticality*
+Xiao Wang, Jianda Wu
+https://arxiv.org/abs/2608.20221
 
-- *Unconventional bond- and current-density waves on hexagonal lattices*
-Andras Szabo, Hannes Braun, Laura Classen
-https://arxiv.org/abs/2608.19185
+- *Learning Potts Models and Z3 Toric Codes: Higher and Ordinary Nishimori Criticality*
+Rushikesh A. Patil, Malte Pütz, Rohit Mukherjee, Guo-Yi Zhu, Simon Trebst, Andreas W. W. Ludwig
+https://arxiv.org/abs/2608.20268
 
-- *Equations of Tree Tensor Network Varieties*
-Serkan Hoşten, Niharika Chakrabarty Paul, Otto T. P. Schmidt, Dmitry Skurt
-https://arxiv.org/abs/2608.19071
+- *Kibble-Zurek Scaling in the Dicke Model at Mesoscopic Scales*
+Haowei Li, Hanteng Wang
+https://arxiv.org/abs/2608.20067
+
+- *Biorthogonal Conformal Dynamics in Non-Hermitian Quantum Quenches*
+Yifan Liu
+https://arxiv.org/abs/2608.20156
