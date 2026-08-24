@@ -1,27 +1,19 @@
-- *Rigorous existence and location of quantum phase transitions in lattice Hamiltonian systems*
-Massimo Ostilli, Carlo Presilla
-https://arxiv.org/abs/2608.20209
+- *Note on proliferation transitions of non-Abelian anyons*
+Meng Cheng
+https://arxiv.org/abs/2608.20604
 
-- *Torus Berry Data Determine All-Genus Abelian Topological Orders*
-Daniel Galviz
-https://arxiv.org/abs/2608.20330
+- *A Classification of Translation-Invariant Quantum Codes in Any Dimension*
+Andrew Li, Dominic J. Williamson
+https://arxiv.org/abs/2608.20981
 
-- *Statistical Mechanics of Non-Abelian Learnability Transitions*
-Ruochen Ma, Romain Vasseur
-https://arxiv.org/abs/2608.19325
+- *Spin models with critical ground space degeneracy from Lie algebra relations*
+Andras Molnar, Efekan Kökcü, Norbert Schuch, Bojko N. Bakalov
+https://arxiv.org/abs/2608.20849
 
-- *Universal meson spectra near (1+1)-dimensional Ising criticality*
-Xiao Wang, Jianda Wu
-https://arxiv.org/abs/2608.20221
+- *Entangling Power Dynamics: Ergodicity and Mixing*
+Rahul V, Ranjan Modak, Shaon Sahoo, S Aravinda
+https://arxiv.org/abs/2608.21151
 
-- *Learning Potts Models and Z3 Toric Codes: Higher and Ordinary Nishimori Criticality*
-Rushikesh A. Patil, Malte Pütz, Rohit Mukherjee, Guo-Yi Zhu, Simon Trebst, Andreas W. W. Ludwig
-https://arxiv.org/abs/2608.20268
-
-- *Kibble-Zurek Scaling in the Dicke Model at Mesoscopic Scales*
-Haowei Li, Hanteng Wang
-https://arxiv.org/abs/2608.20067
-
-- *Biorthogonal Conformal Dynamics in Non-Hermitian Quantum Quenches*
-Yifan Liu
-https://arxiv.org/abs/2608.20156
+- *Two-dimensional percolation with algebraically decaying interactions II: Critical exponents in the long-range regime*
+Ziyu Liu, Tianning Xiao, Zhijie Fan, Youjin Deng
+https://arxiv.org/abs/2608.20750
