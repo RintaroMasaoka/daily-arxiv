@@ -1,19 +1,19 @@
-- *Note on proliferation transitions of non-Abelian anyons*
-Meng Cheng
-https://arxiv.org/abs/2608.20604
+- *Universal equilibrium magic in quantum many-body systems*
+Soumyadeep Sarma, Tobias Haug, John Preskill, Wai-Keong Mok
+https://arxiv.org/abs/2608.22939
 
-- *A Classification of Translation-Invariant Quantum Codes in Any Dimension*
-Andrew Li, Dominic J. Williamson
-https://arxiv.org/abs/2608.20981
+- *Correlation inequalities for transversal field models with application to quantum glasses*
+Chokri Manai, Simone Warzel
+https://arxiv.org/abs/2608.23177
 
-- *Spin models with critical ground space degeneracy from Lie algebra relations*
-Andras Molnar, Efekan Kökcü, Norbert Schuch, Bojko N. Bakalov
-https://arxiv.org/abs/2608.20849
+- *Quaternionic Hermitian Band Geometry in Four Dimensions: Realization on $S^4$ and Obstruction on $T^4$*
+Dongju Hwang, Minjae Yu, Gil Young Cho
+https://arxiv.org/abs/2608.23556
 
-- *Entangling Power Dynamics: Ergodicity and Mixing*
-Rahul V, Ranjan Modak, Shaon Sahoo, S Aravinda
-https://arxiv.org/abs/2608.21151
+- *Quantum Monte Carlo in the Age of Many-Body Quantum Information*
+Yi-Ming Ding, Bin-Bin Mao, Zheng Yan
+https://arxiv.org/abs/2608.23231
 
-- *Two-dimensional percolation with algebraically decaying interactions II: Critical exponents in the long-range regime*
-Ziyu Liu, Tianning Xiao, Zhijie Fan, Youjin Deng
-https://arxiv.org/abs/2608.20750
+- *Universality of superdiffusion in simple random graphs*
+Mrinal Sarkar, Nicolò Defenu, Tilman Enss
+https://arxiv.org/abs/2608.23207
