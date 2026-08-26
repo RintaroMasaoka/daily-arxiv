@@ -1,19 +1,23 @@
-- *Universal equilibrium magic in quantum many-body systems*
-Soumyadeep Sarma, Tobias Haug, John Preskill, Wai-Keong Mok
-https://arxiv.org/abs/2608.22939
+- *Critical bifurcation and deconfined quantum criticality in an interacting cluster Ising chain*
+Sourabh, Bachana Beradze, Mikheil Tsitsishvili, Alexander Nersesyan, Titas Chanda
+https://arxiv.org/abs/2608.24248
 
-- *Correlation inequalities for transversal field models with application to quantum glasses*
-Chokri Manai, Simone Warzel
-https://arxiv.org/abs/2608.23177
+- *Reality and Complexity of $F$-symbols in $2+1$d Topological Phases*
+Matthew Buican, Peter Huston, Jiannis K. Pachos
+https://arxiv.org/abs/2608.23693
 
-- *Quaternionic Hermitian Band Geometry in Four Dimensions: Realization on $S^4$ and Obstruction on $T^4$*
-Dongju Hwang, Minjae Yu, Gil Young Cho
-https://arxiv.org/abs/2608.23556
+- *Classification of Non-Hermitian Flat Bands*
+Chang-geun Oh, Jun-Won Rhim
+https://arxiv.org/abs/2608.23769
 
-- *Quantum Monte Carlo in the Age of Many-Body Quantum Information*
-Yi-Ming Ding, Bin-Bin Mao, Zheng Yan
-https://arxiv.org/abs/2608.23231
+- *Transport interpretation of entanglement Hamiltonian cumulants in integrable quantum quenches*
+Riccardo Travaglino, Pasquale Calabrese
+https://arxiv.org/abs/2608.24613
 
-- *Universality of superdiffusion in simple random graphs*
-Mrinal Sarkar, Nicolò Defenu, Tilman Enss
-https://arxiv.org/abs/2608.23207
+- *Long-Range Order and Composite Boson Condensation in Lattice Quantum Hall States*
+Fabian J. Pauw, Nathan Goldman, Felix A. Palm
+https://arxiv.org/abs/2608.24628
+
+- *Boundary Free Energies, Quenched Mixing, and Gibbs-State Selection in Disordered Ising Models*
+Mauris Chueng, Hexiang Wang, Keheng Zhu
+https://arxiv.org/abs/2608.24261
