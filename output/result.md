@@ -1,23 +1,23 @@
-- *Critical bifurcation and deconfined quantum criticality in an interacting cluster Ising chain*
-Sourabh, Bachana Beradze, Mikheil Tsitsishvili, Alexander Nersesyan, Titas Chanda
-https://arxiv.org/abs/2608.24248
+- *Parity Anomaly as Modular Commutator with Massless Dirac Fermion*
+Meng Zeng
+https://arxiv.org/abs/2608.26078
 
-- *Reality and Complexity of $F$-symbols in $2+1$d Topological Phases*
-Matthew Buican, Peter Huston, Jiannis K. Pachos
-https://arxiv.org/abs/2608.23693
+- *Dynamical splitting and a nodal Bose liquid in 2d chiral XYZ model*
+Tarun Grover
+https://arxiv.org/abs/2608.25224
 
-- *Classification of Non-Hermitian Flat Bands*
-Chang-geun Oh, Jun-Won Rhim
-https://arxiv.org/abs/2608.23769
+- *Yang-Lee Criticality as a Dissipative Dynamical Phase Transition: Quantum Simulation of non-Hermitian Physics without Post-selection*
+Stephen W. Yan
+https://arxiv.org/abs/2608.26082
 
-- *Transport interpretation of entanglement Hamiltonian cumulants in integrable quantum quenches*
-Riccardo Travaglino, Pasquale Calabrese
-https://arxiv.org/abs/2608.24613
+- *Convergence of the conformal Ward identity in the derivative expansion approximation*
+Jorge Ibañez, Matthieu Tissier, Gonzalo De Polsi
+https://arxiv.org/abs/2608.25103
 
-- *Long-Range Order and Composite Boson Condensation in Lattice Quantum Hall States*
-Fabian J. Pauw, Nathan Goldman, Felix A. Palm
-https://arxiv.org/abs/2608.24628
+- *The Effects of Inter-Valley Coupling of Dirac Fermions near Four Dimensions*
+S. Thiagarajan, F. Krüger
+https://arxiv.org/abs/2608.25132
 
-- *Boundary Free Energies, Quenched Mixing, and Gibbs-State Selection in Disordered Ising Models*
-Mauris Chueng, Hexiang Wang, Keheng Zhu
-https://arxiv.org/abs/2608.24261
+- *Fluctuation-dissipation structure of quantum geometry*
+Per Moosavi
+https://arxiv.org/abs/2608.25006
