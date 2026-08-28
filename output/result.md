@@ -1,23 +1,23 @@
-- *Parity Anomaly as Modular Commutator with Massless Dirac Fermion*
-Meng Zeng
-https://arxiv.org/abs/2608.26078
+- *Quantum cellular automata and invertible phases of matter*
+Corey Jones, Nikita Sopenko, Ryan Thorngren
+https://arxiv.org/abs/2608.26456
 
-- *Dynamical splitting and a nodal Bose liquid in 2d chiral XYZ model*
-Tarun Grover
-https://arxiv.org/abs/2608.25224
+- *Lieb-Schultz-Mattis Constraints for Quantum Channels: A Spacetime-Duality View*
+Sarang Gopalakrishnan, Yu-Jie Liu, Tsung-Cheng Lu, Frank Pollmann, Yizhi You
+https://arxiv.org/abs/2608.26266
 
-- *Yang-Lee Criticality as a Dissipative Dynamical Phase Transition: Quantum Simulation of non-Hermitian Physics without Post-selection*
-Stephen W. Yan
-https://arxiv.org/abs/2608.26082
+- *Metallogenic quantum criticality: Fermi surface nucleation at transitions between gapped phases*
+Zhengyan Darius Shi
+https://arxiv.org/abs/2608.27453
 
-- *Convergence of the conformal Ward identity in the derivative expansion approximation*
-Jorge Ibañez, Matthieu Tissier, Gonzalo De Polsi
-https://arxiv.org/abs/2608.25103
+- *Exact Stiffness and Dynamical Responses from Fock-Space Fragmentation*
+Jonah Herzog-Arbeitman, Eslam Khalaf, Zhaoyu Han
+https://arxiv.org/abs/2608.27446
 
-- *The Effects of Inter-Valley Coupling of Dirac Fermions near Four Dimensions*
-S. Thiagarajan, F. Krüger
-https://arxiv.org/abs/2608.25132
+- *Dynamics of local quantum information in random unitary circuits*
+Ratul Thakur, Sthitadhi Roy
+https://arxiv.org/abs/2608.27440
 
-- *Fluctuation-dissipation structure of quantum geometry*
-Per Moosavi
-https://arxiv.org/abs/2608.25006
+- *2-Morita Theory of $E_2$-Algebras and Module Categories*
+Rongge Xu, Holiverse Yang
+https://arxiv.org/abs/2608.27228
