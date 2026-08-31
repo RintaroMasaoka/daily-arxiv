@@ -1,23 +1,23 @@
-- *Quantum cellular automata and invertible phases of matter*
-Corey Jones, Nikita Sopenko, Ryan Thorngren
-https://arxiv.org/abs/2608.26456
+- *Exact quantification of nonlocal magic*
+Piotr Sierant
+https://arxiv.org/abs/2608.28563
 
-- *Lieb-Schultz-Mattis Constraints for Quantum Channels: A Spacetime-Duality View*
-Sarang Gopalakrishnan, Yu-Jie Liu, Tsung-Cheng Lu, Frank Pollmann, Yizhi You
-https://arxiv.org/abs/2608.26266
+- *Fractional Hall Conductance of Laughlin States from a Topological Index*
+Sven Bachmann, Severin Schraven, Jacob Shapiro, Simone Warzel
+https://arxiv.org/abs/2608.27767
 
-- *Metallogenic quantum criticality: Fermi surface nucleation at transitions between gapped phases*
-Zhengyan Darius Shi
-https://arxiv.org/abs/2608.27453
+- *Solvable relaxation in discrete unitary systems: Ruelle-Pollicott resonances and CMV matrices*
+Urban Duh, Friedrich Hübner, Marko Žnidarič
+https://arxiv.org/abs/2608.28575
 
-- *Exact Stiffness and Dynamical Responses from Fock-Space Fragmentation*
-Jonah Herzog-Arbeitman, Eslam Khalaf, Zhaoyu Han
-https://arxiv.org/abs/2608.27446
+- *Interaction corrections to topological density three-point functions in two-dimensional Fermi liquids: a coadjoint orbit perspective*
+Akshay Pal, Andrew Lucas, Umang Mehta
+https://arxiv.org/abs/2608.28588
 
-- *Dynamics of local quantum information in random unitary circuits*
-Ratul Thakur, Sthitadhi Roy
-https://arxiv.org/abs/2608.27440
+- *Positivity constraints on the dynamics of cusped impurities in CFTs*
+Jeevan Chandra
+https://arxiv.org/abs/2608.28531
 
-- *2-Morita Theory of $E_2$-Algebras and Module Categories*
-Rongge Xu, Holiverse Yang
-https://arxiv.org/abs/2608.27228
+- *Pulling strings in real time: flux tube dynamics in (2+1)-d $\mathbb{Z}_2$-Higgs Gauge Theories*
+Zeno Bacciconi, Martina Frau, Luca Tagliacozzo, Michele Caselle, Marcello Dalmonte
+https://arxiv.org/abs/2608.27561
