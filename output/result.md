@@ -1,23 +1,27 @@
-- *Exact quantification of nonlocal magic*
-Piotr Sierant
-https://arxiv.org/abs/2608.28563
+- *Chiral Color Ice: Exact Local Handedness Constraints and Möbius Zero Modes in Frustrated Magnets*
+Péter Kránitz, Yasir Iqbal, Karlo Penc
+https://arxiv.org/abs/2608.30802
 
-- *Fractional Hall Conductance of Laughlin States from a Topological Index*
-Sven Bachmann, Severin Schraven, Jacob Shapiro, Simone Warzel
-https://arxiv.org/abs/2608.27767
+- *Symmetry-Enforced Topological Structures in Quantum Phase Diagrams*
+Linhao Li, Yuan Yao
+https://arxiv.org/abs/2608.29915
 
-- *Solvable relaxation in discrete unitary systems: Ruelle-Pollicott resonances and CMV matrices*
-Urban Duh, Friedrich Hübner, Marko Žnidarič
-https://arxiv.org/abs/2608.28575
+- *Holographic Representations of Topological Quantum Criticality: Emergent Symmetry Approach around the Bott Clock*
+Fan Yang, Fei Zhou
+https://arxiv.org/abs/2608.30335
 
-- *Interaction corrections to topological density three-point functions in two-dimensional Fermi liquids: a coadjoint orbit perspective*
-Akshay Pal, Andrew Lucas, Umang Mehta
-https://arxiv.org/abs/2608.28588
+- *Efficient search for excitable zero-modes in constrained systems*
+Jean-Yves Desaules
+https://arxiv.org/abs/2608.31165
 
-- *Positivity constraints on the dynamics of cusped impurities in CFTs*
-Jeevan Chandra
-https://arxiv.org/abs/2608.28531
+- *Boundary Quantum Knizhnik-Zamolodchikov Equations and Integrability of Quantum Field Theories with Time-Dependent Bulk and Boundary Coupling Strengths*
+Parameshwar R. Pasnoori
+https://arxiv.org/abs/2608.31080
 
-- *Pulling strings in real time: flux tube dynamics in (2+1)-d $\mathbb{Z}_2$-Higgs Gauge Theories*
-Zeno Bacciconi, Martina Frau, Luca Tagliacozzo, Michele Caselle, Marcello Dalmonte
-https://arxiv.org/abs/2608.27561
+- *Exact Entanglement Swapping through Single-Occupancy Measurements in Gaussian Fermion States*
+Jiyuan Fang
+https://arxiv.org/abs/2608.29933
+
+- *Phase Diagram and Critical Behaviour of the Two-Dimensional Potts Model with Long-Range Quenched Disorder*
+Rodolfo Rocha, Leticia F. Cugliandolo, Marco Picco
+https://arxiv.org/abs/2608.29710
