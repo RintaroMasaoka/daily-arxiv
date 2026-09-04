@@ -1,19 +1,27 @@
-- *Universal fingerprint of topological defect cores*
-Zi-Qiang Zhao, Nayun Jia, Zhang-Yu Nie, Hua-Bi Zeng, Jing-Fei Zhang, Xin Zhang
-https://arxiv.org/abs/2609.02521
+- *Fractalizing spacetime: Floquet codes with fractonic excitations that are immobile in space and time*
+Juliette Soule, Dominic J. Williamson
+https://arxiv.org/abs/2609.03703
 
-- *Nonequilibrium corrections to conserved Ising criticality in scalar active matter: Ward identities, spectrum, and long crossovers*
-Piotr Zdybel
-https://arxiv.org/abs/2609.02351
+- *Quantum thermalization achieves optimal approximate quantum error correction*
+Aditi Venkatesh, Richard R. Allen, Saúl Pilatowsky-Cameo, Bingtian Ye, Soonwon Choi
+https://arxiv.org/abs/2609.04121
 
-- *Renormalization group and long-range conditional mutual information in hierarchical models*
-Yu-Hsueh Chen
-https://arxiv.org/abs/2609.02141
+- *Universal Driven Critical Dynamics of Entanglement Entropy*
+Chang-Yu Shen, Shuai Yin, Zi-Xiang Li
+https://arxiv.org/abs/2609.03854
 
-- *Memory-driven Topological Defects and Unconventional Long-Range Order*
-Ziyang Ding, Zi Cai
-https://arxiv.org/abs/2609.02586
+- *Wavefunctions for Anyon Superconductors*
+Donghae Seo, Taegon Lee, Gil Young Cho
+https://arxiv.org/abs/2609.04187
 
-- *Effective quasiparticle conserving Lindbladians in the thermodynamic limit*
-Lea Lenke, Kai Phillip Schmidt
-https://arxiv.org/abs/2609.02725
+- *Microscopically exact transport equation for the quantum Calogero model*
+Vir B. Bulchandani, Fabian H. L. Essler
+https://arxiv.org/abs/2609.03018
+
+- *HyperDet Wavefunction: A Phase-Agnostic Ansatz for Strongly Correlated Systems*
+Xiaodong Hu, Guan-Lin Lin, Ying Ran, Di Xiao
+https://arxiv.org/abs/2609.04146
+
+- *Effective Hamiltonian description on monitored Majorana chains: correlated power-law hoppings and unconventional entanglement scaling*
+Ken Mochizuki, Hisanori Oshima, Ryusuke Hamazaki, Yohei Fuji
+https://arxiv.org/abs/2609.04091
