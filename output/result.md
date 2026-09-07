@@ -1,27 +1,23 @@
-- *Fractalizing spacetime: Floquet codes with fractonic excitations that are immobile in space and time*
-Juliette Soule, Dominic J. Williamson
-https://arxiv.org/abs/2609.03703
+- *Exact quantum spin liquids with topological order on maple-leaf and trellis lattices*
+Li Ern Chern, Roderich Moessner, Claudio Castelnovo
+https://arxiv.org/abs/2609.04319
 
-- *Quantum thermalization achieves optimal approximate quantum error correction*
-Aditi Venkatesh, Richard R. Allen, Saúl Pilatowsky-Cameo, Bingtian Ye, Soonwon Choi
-https://arxiv.org/abs/2609.04121
+- *Eye-opening bounds on cusps*
+Ryan A. Lanzetta, Ian Moult, Yifan Wang
+https://arxiv.org/abs/2609.04302
 
-- *Universal Driven Critical Dynamics of Entanglement Entropy*
-Chang-Yu Shen, Shuai Yin, Zi-Xiang Li
-https://arxiv.org/abs/2609.03854
+- *On the growth of operator entanglement in brickwork circuits with Yang--Baxter gates*
+Balázs Pozsgay
+https://arxiv.org/abs/2609.05121
 
-- *Wavefunctions for Anyon Superconductors*
-Donghae Seo, Taegon Lee, Gil Young Cho
-https://arxiv.org/abs/2609.04187
+- *Spin-Charge Subordination in the Infinite-$U$ $SU(N)$ Hubbard Chain*
+Cătălin Paşcu Moca, Ovidiu I. Pâţu, Gergely Zaránd, Balázs Dóra
+https://arxiv.org/abs/2609.04814
 
-- *Microscopically exact transport equation for the quantum Calogero model*
-Vir B. Bulchandani, Fabian H. L. Essler
-https://arxiv.org/abs/2609.03018
+- *Fukui-Kawakami chains: spectrum and hidden $\mathfrak{gl}(1|1)$-symmetry*
+Rob Klabbers, Antoine Lefebvre
+https://arxiv.org/abs/2609.04378
 
-- *HyperDet Wavefunction: A Phase-Agnostic Ansatz for Strongly Correlated Systems*
-Xiaodong Hu, Guan-Lin Lin, Ying Ran, Di Xiao
-https://arxiv.org/abs/2609.04146
-
-- *Effective Hamiltonian description on monitored Majorana chains: correlated power-law hoppings and unconventional entanglement scaling*
-Ken Mochizuki, Hisanori Oshima, Ryusuke Hamazaki, Yohei Fuji
-https://arxiv.org/abs/2609.04091
+- *Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration*
+Soumya Kanti Pal, Shamik Gupta
+https://arxiv.org/abs/2609.05391
