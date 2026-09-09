@@ -1,23 +1,27 @@
-- *Exact quantum spin liquids with topological order on maple-leaf and trellis lattices*
-Li Ern Chern, Roderich Moessner, Claudio Castelnovo
-https://arxiv.org/abs/2609.04319
+- *Ginzburg-Landau Theory for Non-Invertible Symmetry-Breaking Transitions*
+Vibhu Ravindran, Luisa Eck, Xie Chen
+https://arxiv.org/abs/2609.06751
 
-- *Eye-opening bounds on cusps*
-Ryan A. Lanzetta, Ian Moult, Yifan Wang
-https://arxiv.org/abs/2609.04302
+- *Modular commutator as a robust topological invariant and approximate Markovianity*
+Tai Hsuan Yang
+https://arxiv.org/abs/2609.09019
 
-- *On the growth of operator entanglement in brickwork circuits with Yang--Baxter gates*
-Balázs Pozsgay
-https://arxiv.org/abs/2609.05121
+- *Exact fermionic dual of the Bose-Hubbard model*
+Lei Su, Ivar Martin, Aashish A. Clerk
+https://arxiv.org/abs/2609.07830
 
-- *Spin-Charge Subordination in the Infinite-$U$ $SU(N)$ Hubbard Chain*
-Cătălin Paşcu Moca, Ovidiu I. Pâţu, Gergely Zaránd, Balázs Dóra
-https://arxiv.org/abs/2609.04814
+- *Exact spin form factors and correlations at a massive Kramers-Wannier interface*
+Zoltan Bajnok, Yizhuang Liu
+https://arxiv.org/abs/2609.07612
 
-- *Fukui-Kawakami chains: spectrum and hidden $\mathfrak{gl}(1|1)$-symmetry*
-Rob Klabbers, Antoine Lefebvre
-https://arxiv.org/abs/2609.04378
+- *Truncated Polyakov bootstrap for BCFTs: Neumann-Dirichlet flow and Ising special transition*
+Kaushik Kangsabanik, Apratim Kaviraj, Astha Tiwari
+https://arxiv.org/abs/2609.07841
 
-- *Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration*
-Soumya Kanti Pal, Shamik Gupta
-https://arxiv.org/abs/2609.05391
+- *Divergent Orbital Diamagnetism from Chiral Edge States in Chern Insulators*
+Nobuyuki Okuma
+https://arxiv.org/abs/2609.09065
+
+- *Restricted typicality in non-equilibrium quantum many-body systems*
+Konrad Pawlik, Piotr Sierant, Jakub Zakrzewski
+https://arxiv.org/abs/2609.07832
