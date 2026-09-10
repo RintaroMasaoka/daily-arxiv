@@ -1,27 +1,27 @@
-- *Ginzburg-Landau Theory for Non-Invertible Symmetry-Breaking Transitions*
-Vibhu Ravindran, Luisa Eck, Xie Chen
-https://arxiv.org/abs/2609.06751
+- *Fermionic quantum cellular automata in 2d are trivial*
+Jeffrey Kwan, David M. Long, Jeongwan Haah
+https://arxiv.org/abs/2609.09317
 
-- *Modular commutator as a robust topological invariant and approximate Markovianity*
-Tai Hsuan Yang
-https://arxiv.org/abs/2609.09019
+- *Convex-Gaussianity of fermionic Gibbs states in perturbation theory*
+Kaifeng Bu, Yuanjie Ren
+https://arxiv.org/abs/2609.09608
 
-- *Exact fermionic dual of the Bose-Hubbard model*
-Lei Su, Ivar Martin, Aashish A. Clerk
-https://arxiv.org/abs/2609.07830
+- *Symmetry structure dependent diagnostic of the Quantum Mpemba Effect*
+Tamizhselvan S, Manju C, Bijay Kumar Agarwalla, Uma Divakaran
+https://arxiv.org/abs/2609.10470
 
-- *Exact spin form factors and correlations at a massive Kramers-Wannier interface*
-Zoltan Bajnok, Yizhuang Liu
-https://arxiv.org/abs/2609.07612
+- *Distinguishability Transitions from Global Quantum Snapshots*
+Catherine McCarthy, Sarang Gopalakrishnan, Romain Vasseur
+https://arxiv.org/abs/2609.09296
 
-- *Truncated Polyakov bootstrap for BCFTs: Neumann-Dirichlet flow and Ising special transition*
-Kaushik Kangsabanik, Apratim Kaviraj, Astha Tiwari
-https://arxiv.org/abs/2609.07841
+- *Phase transitions in first-detection statistics of monitored long-range quantum walks*
+Sayan Roy, Shamik Gupta, Giovanna Morigi, Gabriele Perfetto
+https://arxiv.org/abs/2609.10510
 
-- *Divergent Orbital Diamagnetism from Chiral Edge States in Chern Insulators*
-Nobuyuki Okuma
-https://arxiv.org/abs/2609.09065
+- *Transient and universal regimes in quantum reaction-transport kinetics*
+Hossein Hosseinabadi, Roderich Moessner
+https://arxiv.org/abs/2609.09305
 
-- *Restricted typicality in non-equilibrium quantum many-body systems*
-Konrad Pawlik, Piotr Sierant, Jakub Zakrzewski
-https://arxiv.org/abs/2609.07832
+- *Sub-extensive non-stabilizerness in the Dyck-Fredkin spin chain*
+Yasunori Lee
+https://arxiv.org/abs/2609.09545
