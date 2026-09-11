@@ -1,27 +1,27 @@
-- *Fermionic quantum cellular automata in 2d are trivial*
-Jeffrey Kwan, David M. Long, Jeongwan Haah
-https://arxiv.org/abs/2609.09317
+- *Gauss Law, Monodromy Defect, Magnetic Lattice Translation, and Lattice Duality*
+Pengcheng Wei, Yunqin Zheng
+https://arxiv.org/abs/2609.11417
 
-- *Convex-Gaussianity of fermionic Gibbs states in perturbation theory*
-Kaifeng Bu, Yuanjie Ren
-https://arxiv.org/abs/2609.09608
+- *Lattice 2-group symmetries: operators, defects, and gauging*
+Lucas Z. Brito, Salvatore D. Pace
+https://arxiv.org/abs/2609.10682
 
-- *Symmetry structure dependent diagnostic of the Quantum Mpemba Effect*
-Tamizhselvan S, Manju C, Bijay Kumar Agarwalla, Uma Divakaran
-https://arxiv.org/abs/2609.10470
+- *Detecting one-dimensional bosonic SPT phases via twisted entropic order parameter*
+Kosei Fujiki, Tsubasa Oishi, Soichiro Shimamori
+https://arxiv.org/abs/2609.11089
 
-- *Distinguishability Transitions from Global Quantum Snapshots*
-Catherine McCarthy, Sarang Gopalakrishnan, Romain Vasseur
-https://arxiv.org/abs/2609.09296
+- *Krylov Edge Spectroscopy of Symmetry-Protected Topological Phases*
+Heiko Georg Menzler, Rishabh Jha
+https://arxiv.org/abs/2609.10676
 
-- *Phase transitions in first-detection statistics of monitored long-range quantum walks*
-Sayan Roy, Shamik Gupta, Giovanna Morigi, Gabriele Perfetto
-https://arxiv.org/abs/2609.10510
+- *Hierarchy of Rényi Coherent Information in Stabilizer Codes*
+Akash Vijay, Luis Colmenarez, Jong Yeon Lee
+https://arxiv.org/abs/2609.11930
 
-- *Transient and universal regimes in quantum reaction-transport kinetics*
-Hossein Hosseinabadi, Roderich Moessner
-https://arxiv.org/abs/2609.09305
+- *3d Ising Field Theory with Magnetic Deformation: Fuzzy Sphere Meets TCSA*
+Giulia Fardelli, A. Liam Fitzpatrick, Emanuel Katz, Yuan Xin
+https://arxiv.org/abs/2609.10670
 
-- *Sub-extensive non-stabilizerness in the Dyck-Fredkin spin chain*
-Yasunori Lee
-https://arxiv.org/abs/2609.09545
+- *Floquet Majorana XYZ Codes with Tunable Logical Dynamics*
+Xinyu Sun, Hong Yao
+https://arxiv.org/abs/2609.10683
