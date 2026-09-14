@@ -1,27 +1,23 @@
-- *Gauss Law, Monodromy Defect, Magnetic Lattice Translation, and Lattice Duality*
-Pengcheng Wei, Yunqin Zheng
-https://arxiv.org/abs/2609.11417
+- *Remarks on invertible phases with non-onsite symmetry*
+Ryohei Kobayashi, Kansei Inamura, Ken Shiozaki
+https://arxiv.org/abs/2609.12042
 
-- *Lattice 2-group symmetries: operators, defects, and gauging*
-Lucas Z. Brito, Salvatore D. Pace
-https://arxiv.org/abs/2609.10682
+- *Superstrip Algebras and Nonperturbative Spectra in Fermionic Theories*
+Jin Chen, Zhihao Duan, Qiang Jia, Sungjay Lee
+https://arxiv.org/abs/2609.12750
 
-- *Detecting one-dimensional bosonic SPT phases via twisted entropic order parameter*
-Kosei Fujiki, Tsubasa Oishi, Soichiro Shimamori
-https://arxiv.org/abs/2609.11089
+- *Emergent universality in Kraus maps of quantum chaotic many-body dynamics*
+Qi Camm Huang, Wai-Keong Mok, Tobias Haug, Wen Wei Ho
+https://arxiv.org/abs/2609.12689
 
-- *Krylov Edge Spectroscopy of Symmetry-Protected Topological Phases*
-Heiko Georg Menzler, Rishabh Jha
-https://arxiv.org/abs/2609.10676
+- *Conformal defects of general dimensions at finite temperature*
+Yucheng Li, Haruki Nakayama, Tatsuma Nishioka
+https://arxiv.org/abs/2609.12720
 
-- *Hierarchy of Rényi Coherent Information in Stabilizer Codes*
-Akash Vijay, Luis Colmenarez, Jong Yeon Lee
-https://arxiv.org/abs/2609.11930
+- *Persistence of BKT phase transition in the 2D nonanalytic XY model*
+Sihan Hu, Xianzhi Pan, Kun Chen, Yi Jiang, Youjin Deng
+https://arxiv.org/abs/2609.12560
 
-- *3d Ising Field Theory with Magnetic Deformation: Fuzzy Sphere Meets TCSA*
-Giulia Fardelli, A. Liam Fitzpatrick, Emanuel Katz, Yuan Xin
-https://arxiv.org/abs/2609.10670
-
-- *Floquet Majorana XYZ Codes with Tunable Logical Dynamics*
-Xinyu Sun, Hong Yao
-https://arxiv.org/abs/2609.10683
+- *Synchronized Spin Trajectories under Collective Weak Measurements*
+Yiwen Han, Konghao Sun, Wei Yi, Johannes Schachenmayer
+https://arxiv.org/abs/2609.12736
