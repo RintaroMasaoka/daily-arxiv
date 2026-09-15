@@ -1,23 +1,23 @@
-- *Remarks on invertible phases with non-onsite symmetry*
-Ryohei Kobayashi, Kansei Inamura, Ken Shiozaki
-https://arxiv.org/abs/2609.12042
+- *Borromean Criticality in Two Dimensions*
+Alexandru Golic, Igor Timoshuk, Albert Samoilenka, Egor Babaev, Boris Svistunov
+https://arxiv.org/abs/2609.15259
 
-- *Superstrip Algebras and Nonperturbative Spectra in Fermionic Theories*
-Jin Chen, Zhihao Duan, Qiang Jia, Sungjay Lee
-https://arxiv.org/abs/2609.12750
+- *Fractional vortices in a spin-isotropic spiral spin liquid*
+Cecilie Glittum, Han Yan, Johannes Reuther
+https://arxiv.org/abs/2609.15941
 
-- *Emergent universality in Kraus maps of quantum chaotic many-body dynamics*
-Qi Camm Huang, Wai-Keong Mok, Tobias Haug, Wen Wei Ho
-https://arxiv.org/abs/2609.12689
+- *Conserved quantities in a bosonic tight-binding chain with non-Hermitian quartic terms*
+Tetsuya Iwasaki, Hosho Katsura
+https://arxiv.org/abs/2609.14556
 
-- *Conformal defects of general dimensions at finite temperature*
-Yucheng Li, Haruki Nakayama, Tatsuma Nishioka
-https://arxiv.org/abs/2609.12720
+- *Charge order before superconductivity in the doped kagome Dirac spin liquid*
+Yasir Iqbal
+https://arxiv.org/abs/2609.15947
 
-- *Persistence of BKT phase transition in the 2D nonanalytic XY model*
-Sihan Hu, Xianzhi Pan, Kun Chen, Yi Jiang, Youjin Deng
-https://arxiv.org/abs/2609.12560
+- *Universal Defect Statistics in Reverse Quenches*
+Eduard J. Braun, Daniel Rubin, Margaux Cartier, Gerhard Zürn, Matthias Weidemüller
+https://arxiv.org/abs/2609.14960
 
-- *Synchronized Spin Trajectories under Collective Weak Measurements*
-Yiwen Han, Konghao Sun, Wei Yi, Johannes Schachenmayer
-https://arxiv.org/abs/2609.12736
+- *Correlation comparisons and critical curves for disordered XY models*
+Yan Ru Pei
+https://arxiv.org/abs/2609.14201
