@@ -111,6 +111,7 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
 
     req = urllib.request.Request(url)
     req.add_header("User-Agent", "daily-arxiv-bot/1.0 (https://github.com/RintaroMasaoka/daily-arxiv)")
+    req.add_header("Accept", "application/atom+xml,application/xml,text/xml;q=0.9,*/*;q=0.8")
 
     data = None
     for attempt in range(1, MAX_RETRIES + 1):
