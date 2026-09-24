@@ -112,6 +112,8 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
     req = urllib.request.Request(url)
     req.add_header("User-Agent", "daily-arxiv-bot/1.0 (https://github.com/RintaroMasaoka/daily-arxiv)")
     req.add_header("Accept", "application/atom+xml,application/xml,text/xml;q=0.9,*/*;q=0.8")
+    req.add_header("Accept-Encoding", "identity")
+    req.add_header("Connection", "close")
 
     data = None
     for attempt in range(1, MAX_RETRIES + 1):
@@ -121,10 +123,14 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
                 print(f"  HTTP {resp.status}, {len(data)} bytes")
                 break
         except urllib.error.HTTPError as e:
-            print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): HTTP {e.code} {e.reason}")
-            if e.code in (429, 500, 503) and attempt < MAX_RETRIES:
-                print(f"  Retrying in {RETRY_WAIT}s...")
-                time.sleep(RETRY_WAIT)
+            body = e.read()[:300].decode("utf-8", errors="replace")
+            print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): HTTP {e.code} {e.reason} | body: {body!r}")
+            # 406 has been observed as transient edge throttling on arXiv's
+            # side rather than a malformed-request response, so retry it too.
+            if e.code in (406, 429, 500, 503) and attempt < MAX_RETRIES:
+                wait = RETRY_WAIT * attempt
+                print(f"  Retrying in {wait}s...")
+                time.sleep(wait)
                 continue
             return [], 0
         except urllib.error.URLError as e:
