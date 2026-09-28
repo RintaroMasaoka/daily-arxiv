@@ -1,23 +1,27 @@
-- *Borromean Criticality in Two Dimensions*
-Alexandru Golic, Igor Timoshuk, Albert Samoilenka, Egor Babaev, Boris Svistunov
-https://arxiv.org/abs/2609.15259
+- *Disentangling the Toric Code*
+Lei Gioia, Salvatore D. Pace, Ruben Verresen, Shu-Heng Shao, Ryan Thorngren
+https://arxiv.org/abs/2609.30363
 
-- *Fractional vortices in a spin-isotropic spiral spin liquid*
-Cecilie Glittum, Han Yan, Johannes Reuther
-https://arxiv.org/abs/2609.15941
+- *Full macroscopic thermalization and the formation of Schrödinger's cats by unitary time evolution in the weakly perturbed Ising model - Applications of the Roos-Sugimoto-Teufel-Tumulka-Vogel theory*
+Hal Tasaki
+https://arxiv.org/abs/2609.21757
 
-- *Conserved quantities in a bosonic tight-binding chain with non-Hermitian quartic terms*
-Tetsuya Iwasaki, Hosho Katsura
-https://arxiv.org/abs/2609.14556
+- *Statistics, 't Hooft Anomaly, and the Else-Nayak Index: a careful comparison of concepts*
+Hanyu Xue
+https://arxiv.org/abs/2609.20813
 
-- *Charge order before superconductivity in the doped kagome Dirac spin liquid*
-Yasir Iqbal
-https://arxiv.org/abs/2609.15947
+- *Non-Abelian Anyon Condensation: a Path-Integral Monte Carlo Approach*
+Rafael Flores-Calderón, Frank Pollmann, Michael Knap
+https://arxiv.org/abs/2609.19282
 
-- *Universal Defect Statistics in Reverse Quenches*
-Eduard J. Braun, Daniel Rubin, Margaux Cartier, Gerhard Zürn, Matthias Weidemüller
-https://arxiv.org/abs/2609.14960
+- *When Is Kramers-Wannier Duality Invertible?*
+Akash Sinha, Pramod Padmanabhan, Vladimir Korepin
+https://arxiv.org/abs/2609.20090
 
-- *Correlation comparisons and critical curves for disordered XY models*
-Yan Ru Pei
-https://arxiv.org/abs/2609.14201
+- *Frustration-Free Models for Topological Holography: Fusion Spin Chains as Boundary Algebras*
+Zhengwei Liu, Zishuo Zhao
+https://arxiv.org/abs/2609.28120
+
+- *Statistical mechanics of classical fractons on a line*
+Ylias Sadki, Abhishodh Prakash, S. L. Sondhi
+https://arxiv.org/abs/2609.25999
