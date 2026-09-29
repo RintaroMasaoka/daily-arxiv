@@ -1,27 +1,23 @@
-- *Disentangling the Toric Code*
-Lei Gioia, Salvatore D. Pace, Ruben Verresen, Shu-Heng Shao, Ryan Thorngren
-https://arxiv.org/abs/2609.30363
-
-- *Full macroscopic thermalization and the formation of Schrödinger's cats by unitary time evolution in the weakly perturbed Ising model - Applications of the Roos-Sugimoto-Teufel-Tumulka-Vogel theory*
+- *The equivalence of topological indices for $\mathrm{U}(1)\rtimes\mathbb{Z}_2$-symmetric quantum spin chains*
 Hal Tasaki
-https://arxiv.org/abs/2609.21757
+https://arxiv.org/abs/2609.34119
 
-- *Statistics, 't Hooft Anomaly, and the Else-Nayak Index: a careful comparison of concepts*
-Hanyu Xue
-https://arxiv.org/abs/2609.20813
+- *Inequivalent modular tensor categories with identical $S$, $T$ and $W$*
+Ran Luo, Jiahua Tian
+https://arxiv.org/abs/2609.33231
 
-- *Non-Abelian Anyon Condensation: a Path-Integral Monte Carlo Approach*
-Rafael Flores-Calderón, Frank Pollmann, Michael Knap
-https://arxiv.org/abs/2609.19282
+- *Cylinder Defect Casimir Energy and Weyl Anomalies*
+Yang Zhou
+https://arxiv.org/abs/2609.34529
 
-- *When Is Kramers-Wannier Duality Invertible?*
-Akash Sinha, Pramod Padmanabhan, Vladimir Korepin
-https://arxiv.org/abs/2609.20090
+- *RG Limit Cycles in BKT Flows $\equiv$ Periodic Real-Time Dynamics in the Current-Current Perturbed $SU(2)_1$ WZW Model*
+Parameshwar R. Pasnoori
+https://arxiv.org/abs/2609.34248
 
-- *Frustration-Free Models for Topological Holography: Fusion Spin Chains as Boundary Algebras*
-Zhengwei Liu, Zishuo Zhao
-https://arxiv.org/abs/2609.28120
+- *Out-of-equilibrium finite-time percolation transitions and spinodal-like behaviors after quenches across magnetic first-order transitions of Ising systems*
+Andrea Pelissetto, Davide Rossini, Ettore Vicari
+https://arxiv.org/abs/2609.35485
 
-- *Statistical mechanics of classical fractons on a line*
-Ylias Sadki, Abhishodh Prakash, S. L. Sondhi
-https://arxiv.org/abs/2609.25999
+- *Perfect Born Sampling of Symmetric Thermal Tensor Network for Quantum Lattice Models*
+Jianxin Gao, Qiaoyi Li, Yuan Gao, Chuanshu Xu, Guoliang Wu, Su Yi, Bin-Bin Chen, Wei Li
+https://arxiv.org/abs/2609.35754
