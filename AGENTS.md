@@ -1,6 +1,6 @@
 # Daily arXiv Digest
 
-このタスクは arXiv 新着論文の取得・選別・Slack 投稿を行う。Codex の計算環境では `export.arxiv.org` にアクセスできないため、論文取得は GitHub Actions に委譲し、このタスクがトリガーする。
+このタスクは arXiv 新着論文の取得・選別・Slack 投稿を行う。Claude / Codex の計算環境では `export.arxiv.org` にアクセスできない場合があるため、論文取得は GitHub Actions に委譲し、このタスクがトリガーする。
 
 ---
 
@@ -32,10 +32,10 @@ GitHub Actions の `fetch-arxiv` ワークフローをトリガーし、最新�
    exit 1
    ```
    - 結果が `UPDATED` なら Step 1 へ進む
-   - 結果が `TIMEOUT`（終了コード1）なら、出力された `trigger_sha` に対応する GitHub Actions の `fetch-arxiv` 実行結果を確認する。実行中なら完了まで待つ。失敗していた場合は、Actions のログから対象カテゴリ・日付、HTTP ステータス、試行回数、記録された応答ヘッダーと本文の抜粋、実行URLを確認し、取得できた範囲のデバッグ情報を **Codex タスクの結果として報告**して終了する。GitHub Actions も既存の Slack Webhook に簡潔な失敗通知を送る。成功していて `latest.json` が更新されなかった場合は、新しい論文がなかったと判断して終了する。いずれの場合も既存の `latest.json` を処理してはならない。
+   - 結果が `TIMEOUT`（終了コード1）なら、出力された `trigger_sha` に対応する GitHub Actions の `fetch-arxiv` 実行結果を確認する。実行中なら完了まで待つ。失敗していた場合は、Actions のログから対象カテゴリ・日付、HTTP ステータス、試行回数、記録された応答ヘッダーと本文の抜粋、実行URLを確認し、取得できた範囲のデバッグ情報を **このタスクの結果として報告**して終了する。GitHub Actions も既存の Slack Webhook に簡潔な失敗通知を送る。成功していて `latest.json` が更新されなかった場合は、新しい論文がなかったと判断して終了する。いずれの場合も既存の `latest.json` を処理してはならない。
    - 対応する実行は GitHub Actions の `fetch-arxiv` 履歴から `trigger_sha` で特定する。GitHub API を使う場合は `https://api.github.com/repos/RintaroMasaoka/daily-arxiv/actions/workflows/fetch-arxiv.yml/runs?head_sha={trigger_sha}` を参照する。
 
-**重要**: Scheduled Task は `codex/*` または `Codex/*` ブランチ上で開始されることがあるが、トリガーには main への push が必要なため、最初に main に切り替えること。
+**重要**: Scheduled Task は `claude/*`、`codex/*` または `Codex/*` ブランチ上で開始されることがあるが、トリガーには main への push が必要なため、最初に main に切り替えること。
 
 **Codex 実行時の注意**: `git pull` / `git push` が sandbox や network 権限で失敗した場合は、同じコマンドを権限昇格して再実行する。GitHub Actions への委譲がこのワークフローの前提なので、`export.arxiv.org` へ直接アクセスして代替取得しようとしない。
 
