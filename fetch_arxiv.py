@@ -53,6 +53,10 @@ NS = {
 }
 
 
+class FetchError(RuntimeError):
+    """An arXiv response could not be fetched or validated."""
+
+
 def read_previous() -> tuple[Optional[str], set[str]]:
     """Read date_to and paper IDs from previous latest.json.
 
@@ -132,31 +136,39 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
                 print(f"  Retrying in {wait}s...")
                 time.sleep(wait)
                 continue
-            return [], 0
+            raise FetchError(f"{category} {date_from}: HTTP {e.code} {e.reason}") from e
         except urllib.error.URLError as e:
             print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): {e.reason}")
             if attempt < MAX_RETRIES:
                 print(f"  Retrying in {RETRY_WAIT}s...")
                 time.sleep(RETRY_WAIT)
                 continue
-            return [], 0
+            raise FetchError(f"{category} {date_from}: {e.reason}") from e
         except Exception as e:
             print(f"  ERROR: {type(e).__name__}: {e}")
-            return [], 0
+            raise FetchError(f"{category} {date_from}: {type(e).__name__}: {e}") from e
 
     if data is None:
-        return [], 0
+        raise FetchError(f"{category} {date_from}: no response from arXiv")
 
     try:
         root = ET.fromstring(data)
     except ET.ParseError as e:
         print(f"  ERROR: XML parse failed: {e}")
         print(f"  Response body (first 500 chars): {data[:500].decode('utf-8', errors='replace')}")
-        return [], 0
+        raise FetchError(f"{category} {date_from}: invalid XML response") from e
+
+    if root.tag != f"{{{NS['atom']}}}feed":
+        raise FetchError(f"{category} {date_from}: response is not an Atom feed")
 
     # Total results from OpenSearch
     total_el = root.find("opensearch:totalResults", NS)
-    total_results = int(total_el.text) if total_el is not None else 0
+    if total_el is None or total_el.text is None:
+        raise FetchError(f"{category} {date_from}: response has no totalResults")
+    try:
+        total_results = int(total_el.text)
+    except ValueError as e:
+        raise FetchError(f"{category} {date_from}: invalid totalResults") from e
     print(f"  totalResults={total_results}")
 
     papers = []
@@ -254,7 +266,7 @@ def main():
         d += timedelta(days=1)
 
     request_count = 0
-    errors = 0
+    empty_queries = 0
     for single_date in dates:
         for category in categories:
             if request_count > 0:
@@ -265,14 +277,14 @@ def main():
             date_fmt = f"{single_date[:4]}-{single_date[4:6]}-{single_date[6:]}"
             print(f"  {category} ({date_fmt}): {len(papers)} fetched, {total} total on arXiv")
             if total == 0 and len(papers) == 0:
-                errors += 1
+                empty_queries += 1
             all_papers.extend(papers)
             # Accumulate totals per category across all dates
             total_results[category] = total_results.get(category, 0) + total
             request_count += 1
 
     all_papers = deduplicate(all_papers)
-    print(f"After deduplication: {len(all_papers)} papers ({errors}/{request_count} queries returned 0)")
+    print(f"After deduplication: {len(all_papers)} papers ({empty_queries}/{request_count} queries returned 0)")
 
     if not all_papers:
         print("No papers found. Keeping previous data unchanged.")
