@@ -20,6 +20,7 @@ GitHub Actions の `fetch-arxiv` ワークフローをトリガーし、最新�
    ```
 3. 以下のシェルスクリプトを **1回の `bash` コマンドとして実行** し、`data/latest.json` が更新されるまで poll する:
    ```bash
+   TRIGGER_SHA=$(git rev-parse HEAD)
    OLD=$(cat data/latest.json 2>/dev/null | python3 -c "import sys,json; print(json.load(sys.stdin).get('fetched_at',''))" 2>/dev/null || echo "")
    for i in $(seq 1 20); do
      sleep 15
@@ -27,11 +28,12 @@ GitHub Actions の `fetch-arxiv` ワークフローをトリガーし、最新�
      NEW=$(cat data/latest.json 2>/dev/null | python3 -c "import sys,json; print(json.load(sys.stdin).get('fetched_at',''))" 2>/dev/null || echo "")
      if [ "$NEW" != "$OLD" ] && [ -n "$NEW" ]; then echo "UPDATED"; exit 0; fi
    done
-   echo "TIMEOUT"
+   echo "TIMEOUT trigger_sha=$TRIGGER_SHA"
    exit 1
    ```
    - 結果が `UPDATED` なら Step 1 へ進む
-   - 結果が `TIMEOUT`（終了コード1）なら、**新しい論文がなかったと判断し、何も送信せず終了する**（既存の `latest.json` を処理してはならない）
+   - 結果が `TIMEOUT`（終了コード1）なら、出力された `trigger_sha` に対応する GitHub Actions の `fetch-arxiv` 実行結果を確認する。実行中なら完了まで待つ。失敗していた場合は、Actions のログから対象カテゴリ・日付、HTTP ステータス、試行回数、記録された応答ヘッダーと本文の抜粋、実行URLを確認し、取得できた範囲のデバッグ情報を **Codex タスクの結果として報告**して終了する。GitHub Actions も既存の Slack Webhook に簡潔な失敗通知を送る。成功していて `latest.json` が更新されなかった場合は、新しい論文がなかったと判断して終了する。いずれの場合も既存の `latest.json` を処理してはならない。
+   - 対応する実行は GitHub Actions の `fetch-arxiv` 履歴から `trigger_sha` で特定する。GitHub API を使う場合は `https://api.github.com/repos/RintaroMasaoka/daily-arxiv/actions/workflows/fetch-arxiv.yml/runs?head_sha={trigger_sha}` を参照する。
 
 **重要**: Scheduled Task は `codex/*` または `Codex/*` ブランチ上で開始されることがあるが、トリガーには main への push が必要なため、最初に main に切り替えること。
 

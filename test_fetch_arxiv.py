@@ -19,15 +19,45 @@ class FetchCategoryTests(unittest.TestCase):
     @patch("fetch_arxiv.urllib.request.urlopen")
     def test_http_failure_exhausts_retries_and_raises(self, urlopen, sleep):
         def rejected(request, timeout):
-            raise urllib.error.HTTPError(request.full_url, 406, "Not Acceptable", {}, io.BytesIO(b""))
+            raise urllib.error.HTTPError(request.full_url, 406, "Not Acceptable",
+                                         {"Server": "edge", "Retry-After": "60"}, io.BytesIO(b""))
 
         urlopen.side_effect = rejected
 
-        with self.assertRaisesRegex(fetch_arxiv.FetchError, "HTTP 406"):
+        with self.assertRaisesRegex(fetch_arxiv.FetchError, "HTTP 406") as failure:
+            fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928")
+
+        self.assertEqual(urlopen.call_count, len(fetch_arxiv.RETRY_406_DELAYS) + 1)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], list(fetch_arxiv.RETRY_406_DELAYS))
+        self.assertIn("after 4 attempts", str(failure.exception))
+        self.assertIn("'Server': 'edge'", str(failure.exception))
+
+    @patch("fetch_arxiv.time.sleep")
+    @patch("fetch_arxiv.urllib.request.urlopen")
+    def test_http_406_recovery_after_retry(self, urlopen, sleep):
+        rejected = urllib.error.HTTPError("https://export.arxiv.org/api/query", 406,
+                                          "Not Acceptable", {}, io.BytesIO(b""))
+        response = urlopen.return_value
+        response.__enter__.return_value.read.return_value = ATOM_FEED
+        response.__enter__.return_value.status = 200
+        urlopen.side_effect = [rejected, response]
+
+        self.assertEqual(fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928"), ([], 0))
+        self.assertEqual(urlopen.call_count, 2)
+        sleep.assert_called_once_with(fetch_arxiv.RETRY_406_DELAYS[0])
+
+    @patch("fetch_arxiv.time.sleep")
+    @patch("fetch_arxiv.urllib.request.urlopen")
+    def test_other_http_error_keeps_short_retry_limit(self, urlopen, sleep):
+        def rejected(request, timeout):
+            raise urllib.error.HTTPError(request.full_url, 503, "Unavailable", {}, io.BytesIO(b""))
+
+        urlopen.side_effect = rejected
+
+        with self.assertRaisesRegex(fetch_arxiv.FetchError, "HTTP 503"):
             fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928")
 
         self.assertEqual(urlopen.call_count, fetch_arxiv.MAX_RETRIES)
-        self.assertEqual(sleep.call_count, fetch_arxiv.MAX_RETRIES - 1)
 
     @patch("fetch_arxiv.urllib.request.urlopen")
     def test_valid_empty_feed_is_not_a_failure(self, urlopen):
