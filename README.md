@@ -21,8 +21,7 @@ output/result.md を push ─────→  post-slack 起動
 ## ファイル構成
 
 ```
-├── CLAUDE.md                  # Claude Scheduled Task 用の実行手順書
-├── AGENTS.md                  # Codex Scheduled Task 用の実行手順書
+├── AGENTS.md                  # Claude / Codex 共通の実行手順書
 ├── CODEX_PROMPT.md            # Codex Scheduled Task に入れるプロンプト例
 ├── .codex/skills/
 │   └── daily-arxiv-digest/    # Codex 用 skill
@@ -77,7 +76,7 @@ output/result.md を push ─────→  post-slack 起動
 3. 「Repository」欄で Fork した自分のリポジトリ（`<ユーザ名>/daily-arxiv`）を選択する
 4. スケジュールを **Everyday** で好みの配信時刻に設定（実行時刻は論文の取得範囲に影響しない。詳細は「時刻と日付の扱い」を参照）
 5. **Allow unrestricted branch pushes** を有効にする（main への push に必要）
-6. プロンプトに `Read CLAUDE.md and follow the instructions.` と入力する
+6. プロンプトに `Read AGENTS.md and follow the instructions exactly.` と入力する
 
 #### Codex を使う場合
 
