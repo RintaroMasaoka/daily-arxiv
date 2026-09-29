@@ -13,7 +13,7 @@ Execute the production digest workflow from this repository. Use `AGENTS.md` as 
 
 1. Read `AGENTS.md` completely before taking action.
 2. Follow Step 0 exactly: switch to `main`, pull, push `data/trigger.txt`, then poll for a changed `data/latest.json`.
-3. If polling returns `TIMEOUT`, stop. Do not process the previous `data/latest.json`.
+3. If polling returns `TIMEOUT`, inspect the `fetch-arxiv` GitHub Actions run for the printed trigger SHA and wait if it is still running. If it failed, report available debug details from the run log (category, date, HTTP status, attempt count, response headers and body excerpt) and the run URL in the Codex task result; the workflow sends a short Slack alert. If it succeeded without updating `data/latest.json`, stop quietly. Never process the previous `data/latest.json`.
 4. Read `data/latest.json` and `data/last_processed.json`; exclude papers whose `arxiv_id` is already in `seen_ids`.
 5. If `papers` is empty or every paper is already seen, stop without posting or pushing a result.
 6. Read `criteria.md`, rank the unseen papers by the stated research criteria, and select roughly 3 to 7 papers unless the day genuinely warrants fewer or none.

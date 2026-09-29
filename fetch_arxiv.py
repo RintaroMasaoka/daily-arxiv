@@ -41,6 +41,7 @@ def load_categories() -> list[str]:
 REQUEST_INTERVAL = 3  # seconds between API requests
 MAX_RETRIES = 3  # retry count for transient API errors (503, etc.)
 RETRY_WAIT = 5  # seconds to wait between retries
+RETRY_406_DELAYS = (15, 30, 60)  # four attempts within the five-minute polling window
 
 # Timezones
 JST = timezone(timedelta(hours=9))
@@ -120,7 +121,7 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
     req.add_header("Connection", "close")
 
     data = None
-    for attempt in range(1, MAX_RETRIES + 1):
+    for attempt in range(1, max(MAX_RETRIES, len(RETRY_406_DELAYS) + 1) + 1):
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 data = resp.read()
@@ -128,22 +129,35 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
                 break
         except urllib.error.HTTPError as e:
             body = e.read()[:300].decode("utf-8", errors="replace")
-            print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): HTTP {e.code} {e.reason} | body: {body!r}")
-            # 406 has been observed as transient edge throttling on arXiv's
-            # side rather than a malformed-request response, so retry it too.
-            if e.code in (406, 429, 500, 503) and attempt < MAX_RETRIES:
+            max_attempts = max(attempt, len(RETRY_406_DELAYS) + 1 if e.code == 406 else MAX_RETRIES)
+            diagnostic_headers = {
+                name: e.headers.get(name)
+                for name in ("Server", "Via", "X-Cache", "Retry-After")
+                if e.headers and e.headers.get(name)
+            }
+            print(f"  ERROR (attempt {attempt}/{max_attempts}): HTTP {e.code} {e.reason}"
+                  f" | body: {body!r} | headers: {diagnostic_headers}")
+            if e.code == 406 and attempt < max_attempts:
+                wait = RETRY_406_DELAYS[attempt - 1]
+                print(f"  Retrying in {wait}s...")
+                time.sleep(wait)
+                continue
+            if e.code in (429, 500, 503) and attempt < MAX_RETRIES:
                 wait = RETRY_WAIT * attempt
                 print(f"  Retrying in {wait}s...")
                 time.sleep(wait)
                 continue
-            raise FetchError(f"{category} {date_from}: HTTP {e.code} {e.reason}") from e
+            raise FetchError(
+                f"{category} {date_from}: HTTP {e.code} {e.reason} after {attempt} attempts"
+                f"; headers={diagnostic_headers}; body={body!r}"
+            ) from e
         except urllib.error.URLError as e:
             print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): {e.reason}")
             if attempt < MAX_RETRIES:
                 print(f"  Retrying in {RETRY_WAIT}s...")
                 time.sleep(RETRY_WAIT)
                 continue
-            raise FetchError(f"{category} {date_from}: {e.reason}") from e
+            raise FetchError(f"{category} {date_from}: {e.reason} after {attempt} attempts") from e
         except Exception as e:
             print(f"  ERROR: {type(e).__name__}: {e}")
             raise FetchError(f"{category} {date_from}: {type(e).__name__}: {e}") from e

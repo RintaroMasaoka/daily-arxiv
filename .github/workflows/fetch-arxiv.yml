@@ -22,7 +22,36 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch papers from arXiv
+        id: fetch
         run: python fetch_arxiv.py
+
+      - name: Notify Slack if fetch failed
+        if: ${{ failure() && steps.fetch.conclusion == 'failure' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python3 << 'PYEOF'
+          import json
+          import os
+          import urllib.request
+
+          webhook = os.environ["SLACK_WEBHOOK_URL"]
+          run_url = (
+              f"{os.environ['GITHUB_SERVER_URL']}/"
+              f"{os.environ['GITHUB_REPOSITORY']}/actions/runs/"
+              f"{os.environ['GITHUB_RUN_ID']}"
+          )
+          payload = {
+              "text": f"⚠ arXiv論文の取得に失敗しました（再試行済み）。詳細: <{run_url}|GitHub Actions>"
+          }
+          request = urllib.request.Request(
+              webhook,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={"Content-Type": "application/json"},
+              method="POST",
+          )
+          urllib.request.urlopen(request, timeout=30).read()
+          PYEOF
 
       - name: Commit and push if changed
         run: |
