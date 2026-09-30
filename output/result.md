@@ -1,23 +1,27 @@
-- *The equivalence of topological indices for $\mathrm{U}(1)\rtimes\mathbb{Z}_2$-symmetric quantum spin chains*
-Hal Tasaki
-https://arxiv.org/abs/2609.34119
+- *Collectivity limits quantum entanglement*
+Donghoon Kim, Tomotaka Kuwahara
+https://arxiv.org/abs/2609.36113
 
-- *Inequivalent modular tensor categories with identical $S$, $T$ and $W$*
-Ran Luo, Jiahua Tian
-https://arxiv.org/abs/2609.33231
+- *On the Spectrum of Some Temperley-Lieb Spin Chains*
+Robert Ferydouni, Bruno Nachtergaele
+https://arxiv.org/abs/2609.38074
 
-- *Cylinder Defect Casimir Energy and Weyl Anomalies*
-Yang Zhou
-https://arxiv.org/abs/2609.34529
+- *Strong-to-Weak Spontaneous Symmetry Breaking of Dephased Fermions*
+Abhijat Sarma
+https://arxiv.org/abs/2609.37965
 
-- *RG Limit Cycles in BKT Flows $\equiv$ Periodic Real-Time Dynamics in the Current-Current Perturbed $SU(2)_1$ WZW Model*
-Parameshwar R. Pasnoori
-https://arxiv.org/abs/2609.34248
+- *One-dimensional quantum Gibbs states in constant circuit depth*
+Saúl Pilatowsky-Cameo, Georgios Styliaris, Ainesh Bakshi, Daniel Malz
+https://arxiv.org/abs/2609.35973
 
-- *Out-of-equilibrium finite-time percolation transitions and spinodal-like behaviors after quenches across magnetic first-order transitions of Ising systems*
-Andrea Pelissetto, Davide Rossini, Ettore Vicari
-https://arxiv.org/abs/2609.35485
+- *Advancing Fuzzy-Sphere CFTs: $\mathrm{SO}(3)$-Rotation-Resolving Exact Diagonalization, 3D Ising Heavy Primaries, and Quasi-Hole-Space Projection*
+Zheng Zhou, Yin-Chen He
+https://arxiv.org/abs/2609.35960
 
-- *Perfect Born Sampling of Symmetric Thermal Tensor Network for Quantum Lattice Models*
-Jianxin Gao, Qiaoyi Li, Yuan Gao, Chuanshu Xu, Guoliang Wu, Su Yi, Bin-Bin Chen, Wei Li
-https://arxiv.org/abs/2609.35754
+- *Boundary Criticality in (2+1)-dimensional U(1) Dirac Quantum Spin Liquid*
+Huan Jiang, Zhiming Pan, Xue-Jia Yu, Shao-Kai Jian
+https://arxiv.org/abs/2609.38088
+
+- *Out-of-Time-Ordered Correlators Beyond Lindblad*
+Elisa Vallini, Felix Fritzsch, Pieter W. Claeys
+https://arxiv.org/abs/2609.36029
