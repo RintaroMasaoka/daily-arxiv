@@ -27,9 +27,9 @@ class FetchCategoryTests(unittest.TestCase):
         with self.assertRaisesRegex(fetch_arxiv.FetchError, "HTTP 406") as failure:
             fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928")
 
-        self.assertEqual(urlopen.call_count, len(fetch_arxiv.RETRY_406_DELAYS) + 1)
-        self.assertEqual([call.args[0] for call in sleep.call_args_list], list(fetch_arxiv.RETRY_406_DELAYS))
-        self.assertIn("after 4 attempts", str(failure.exception))
+        self.assertEqual(urlopen.call_count, fetch_arxiv.MAX_RETRIES)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], list(fetch_arxiv.RETRY_DELAYS))
+        self.assertIn("after 5 attempts", str(failure.exception))
         self.assertIn("'Server': 'edge'", str(failure.exception))
 
     @patch("fetch_arxiv.time.sleep")
@@ -44,7 +44,7 @@ class FetchCategoryTests(unittest.TestCase):
 
         self.assertEqual(fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928"), ([], 0))
         self.assertEqual(urlopen.call_count, 2)
-        sleep.assert_called_once_with(fetch_arxiv.RETRY_406_DELAYS[0])
+        sleep.assert_called_once_with(fetch_arxiv.RETRY_DELAYS[0])
 
     @patch("fetch_arxiv.time.sleep")
     @patch("fetch_arxiv.urllib.request.urlopen")
