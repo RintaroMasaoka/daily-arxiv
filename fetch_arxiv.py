@@ -2,20 +2,28 @@
 """Fetch recent arXiv papers from cond-mat.str-el and cond-mat.stat-mech.
 
 Queries the arXiv API (export.arxiv.org) and writes results to data/latest.json.
-Designed to be run by GitHub Actions on a daily cron schedule.
+GitHub Actions uses urllib by default; the scheduled task can use curl for recovery.
 """
 
 from __future__ import annotations
 
+import argparse
+import io
 import json
 import os
 import re
+import subprocess
 import sys
+import tempfile
 import time
+import urllib.error
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from email.parser import Parser
+from http import HTTPStatus
+from pathlib import Path
 from typing import Optional
 
 # --- Configuration ---
@@ -59,6 +67,51 @@ class FetchError(RuntimeError):
     """An arXiv response could not be fetched or validated."""
 
 
+def fetch_with_curl(req: urllib.request.Request) -> tuple[int, bytes]:
+    """Use curl in the task environment while preserving HTTP diagnostics."""
+    with tempfile.TemporaryDirectory(prefix="arxiv-curl-") as directory:
+        body_path = os.path.join(directory, "body")
+        headers_path = os.path.join(directory, "headers")
+        command = [
+            "curl", "--globoff", "--silent", "--show-error", "--location",
+            "--connect-timeout", "10", "--max-time", "60",
+            "--dump-header", headers_path, "--output", body_path,
+            "--write-out", "%{http_code}",
+        ]
+        for name, value in req.header_items():
+            command.extend(("--header", f"{name}: {value}"))
+        command.append(req.full_url)
+
+        try:
+            result = subprocess.run(command, capture_output=True, text=True, check=False)
+        except OSError as error:
+            raise urllib.error.URLError(f"curl could not start: {error}") from error
+
+        body = Path(body_path).read_bytes() if os.path.exists(body_path) else b""
+        raw_headers = Path(headers_path).read_text(encoding="iso-8859-1") if os.path.exists(headers_path) else ""
+        blocks = re.split(r"\r?\n\r?\n", raw_headers)
+        final_block = next((block for block in reversed(blocks) if block.startswith("HTTP/")), "")
+        headers = Parser().parsestr("\n".join(final_block.splitlines()[1:]))
+
+        if result.returncode == 6:
+            raise FetchError(f"curl DNS resolution failed: {result.stderr.strip()[:300]}")
+        if result.returncode != 0:
+            raise urllib.error.URLError(f"curl exit {result.returncode}: {result.stderr.strip()[:300]}")
+        try:
+            status = int(result.stdout.strip())
+        except ValueError as error:
+            raise urllib.error.URLError(f"curl returned invalid HTTP status: {result.stdout!r}") from error
+        if status == 0:
+            raise urllib.error.URLError("curl did not receive an HTTP response")
+        if status != 200:
+            try:
+                reason = HTTPStatus(status).phrase
+            except ValueError:
+                reason = "HTTP error"
+            raise urllib.error.HTTPError(req.full_url, status, reason, headers, io.BytesIO(body))
+        return status, body
+
+
 def read_previous() -> tuple[Optional[str], set[str]]:
     """Read date_to and paper IDs from previous latest.json.
 
@@ -100,7 +153,8 @@ def get_date_range(today_jst: datetime) -> Optional[tuple[str, str]]:
     return (date_from, date_to)
 
 
-def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[dict], int]:
+def fetch_category(category: str, date_from: str, date_to: str,
+                   transport: str = "urllib") -> tuple[list[dict], int]:
     """Fetch papers for a single category. Returns (papers, total_results)."""
     # Build submittedDate filter: [YYYYMMDD0000+TO+YYYYMMDD2359]
     date_filter = f"[{date_from}0000+TO+{date_to}2359]"
@@ -124,12 +178,18 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
     data = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                data = resp.read()
-                print(f"  HTTP {resp.status}, {len(data)} bytes")
-                break
+            if transport == "curl":
+                status, data = fetch_with_curl(req)
+            elif transport == "urllib":
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    status, data = resp.status, resp.read()
+            else:
+                raise ValueError(f"Unknown transport: {transport}")
+            print(f"  HTTP {status}, {len(data)} bytes")
+            break
         except urllib.error.HTTPError as e:
             body = e.read()[:300].decode("utf-8", errors="replace")
+            e.close()
             diagnostic_headers = {
                 name: e.headers.get(name)
                 for name in ("Server", "Via", "X-Cache", "Retry-After")
@@ -243,7 +303,7 @@ def deduplicate(papers: list[dict]) -> list[dict]:
     return unique
 
 
-def main():
+def main(transport: str = "urllib"):
     now_jst = datetime.now(JST)
     print(f"Current time (JST): {now_jst.isoformat()}")
 
@@ -251,7 +311,7 @@ def main():
 
     if date_range is None:
         print("Nothing to fetch (already up to date). Exiting.")
-        print(f"  prev_date_to in latest.json: {read_previous_date_to()}")
+        print(f"  prev_date_to in latest.json: {read_previous()[0]}")
         return
 
     date_from, date_to = date_range
@@ -283,7 +343,7 @@ def main():
                 print(f"Waiting {REQUEST_INTERVAL}s (rate limit)...")
                 time.sleep(REQUEST_INTERVAL)
 
-            papers, total = fetch_category(category, single_date, single_date)
+            papers, total = fetch_category(category, single_date, single_date, transport=transport)
             date_fmt = f"{single_date[:4]}-{single_date[4:6]}-{single_date[6:]}"
             print(f"  {category} ({date_fmt}): {len(papers)} fetched, {total} total on arXiv")
             if total == 0 and len(papers) == 0:
@@ -328,4 +388,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--transport", choices=("urllib", "curl"), default="urllib")
+    main(transport=parser.parse_args().transport)
