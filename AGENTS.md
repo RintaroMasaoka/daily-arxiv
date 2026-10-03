@@ -1,6 +1,6 @@
 # Daily arXiv Digest
 
-このタスクは arXiv 新着論文の取得・選別・Slack 投稿を行う。Claude / Codex の計算環境では `export.arxiv.org` にアクセスできない場合があるため、論文取得は GitHub Actions に委譲し、このタスクがトリガーする。
+このタスクは arXiv 新着論文の取得・選別・Slack 投稿を行う。論文取得はまず GitHub Actions に委譲する。Actions の取得が失敗した場合に限り、タスク側の `curl` 経路で復旧を試みる。
 
 ---
 
@@ -32,12 +32,19 @@ GitHub Actions の `fetch-arxiv` ワークフローをトリガーし、最新�
    exit 1
    ```
    - 結果が `UPDATED` なら Step 1 へ進む
-   - 結果が `TIMEOUT`（終了コード1）なら、出力された `trigger_sha` に対応する GitHub Actions の `fetch-arxiv` 実行結果を確認する。実行中なら完了まで待つ。失敗していた場合は、Actions のログから対象カテゴリ・日付、HTTP ステータス、試行回数、記録された応答ヘッダーと本文の抜粋、実行URLを確認し、取得できた範囲のデバッグ情報を **このタスクの結果として報告**して終了する。GitHub Actions も既存の Slack Webhook に簡潔な失敗通知を送る。成功していて `latest.json` が更新されなかった場合は、新しい論文がなかったと判断して終了する。いずれの場合も既存の `latest.json` を処理してはならない。
+   - 結果が `TIMEOUT`（終了コード1）なら、出力された `trigger_sha` に対応する GitHub Actions の `fetch-arxiv` 実行結果を確認する。実行中なら完了まで待ち、`git pull origin main` して `latest.json` を再確認する。`git show {trigger_sha}:data/latest.json` の `fetched_at` と比較し、更新されていれば Step 1 へ進む。取得ステップが失敗していた場合は、Actions のログから対象カテゴリ・日付、HTTP ステータス、試行回数、記録された応答ヘッダーと本文の抜粋、実行URLを確認し、以下の `curl` 復旧経路を試す。GitHub Actions も既存の Slack Webhook に簡潔な失敗通知を送る。成功していて `latest.json` が更新されなかった場合は、新しい論文がなかったと判断して終了する。いずれの場合も既存の `latest.json` を処理してはならない。
    - 対応する実行は GitHub Actions の `fetch-arxiv` 履歴から `trigger_sha` で特定する。GitHub API を使う場合は `https://api.github.com/repos/RintaroMasaoka/daily-arxiv/actions/workflows/fetch-arxiv.yml/runs?head_sha={trigger_sha}` を参照する。
 
 **重要**: Scheduled Task は `claude/*`、`codex/*` または `Codex/*` ブランチ上で開始されることがあるが、トリガーには main への push が必要なため、最初に main に切り替えること。
 
-**Codex 実行時の注意**: `git pull` / `git push` が sandbox や network 権限で失敗した場合は、同じコマンドを権限昇格して再実行する。GitHub Actions への委譲がこのワークフローの前提なので、`export.arxiv.org` へ直接アクセスして代替取得しようとしない。
+### Actions 取得失敗時の `curl` 復旧経路
+
+1. Actions の取得ステップが失敗し、実行が完了したことを確認する。`data/latest.json` の現在の `fetched_at` を記録する。
+2. main の作業ツリーで `python3 fetch_arxiv.py --transport curl` を実行する。これは Actions と同じ日付計算・カテゴリ・Atom 検証・重複除去を使い、各 API リクエストのみ `curl` で行う。sandbox の DNS/network 制限で失敗した場合は、同じコマンドを通常の Mac 環境で権限昇格して再実行する（DNS 失敗はコードが長い再試行なしで終了する）。arXiv が HTTP 429 などを返した場合はコード内の再試行に任せる。
+3. コマンドが失敗した場合は既存の `latest.json` を処理せず、Actions と `curl` の両方の取得エラーをこのタスクの結果として報告して終了する。成功しても `fetched_at` が変わらなければ、新しい論文がなかったものとして投稿せず終了する。
+4. `fetched_at` が変わった場合は `data/latest.json` だけを commit して main に push し、Step 3 の `PUSH_VERIFIED` ゲートで push を確認してから Step 1 に進む。復旧成功時も、Actions の失敗と `curl` による復旧をこのタスクの結果に記す。無関係な作業ツリーの変更は保持する。
+
+**Codex 実行時の注意**: `git pull` / `git push` が sandbox や network 権限で失敗した場合は、同じコマンドを権限昇格して再実行する。`export.arxiv.org` へのタスク側の直接アクセスは、上記の復旧経路に限る。
 
 ---
 
