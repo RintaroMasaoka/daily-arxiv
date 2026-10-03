@@ -48,7 +48,7 @@ class FetchCategoryTests(unittest.TestCase):
 
     @patch("fetch_arxiv.time.sleep")
     @patch("fetch_arxiv.urllib.request.urlopen")
-    def test_other_http_error_keeps_short_retry_limit(self, urlopen, sleep):
+    def test_http_503_uses_longer_retry_schedule(self, urlopen, sleep):
         def rejected(request, timeout):
             raise urllib.error.HTTPError(request.full_url, 503, "Unavailable", {}, io.BytesIO(b""))
 
@@ -58,6 +58,23 @@ class FetchCategoryTests(unittest.TestCase):
             fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928")
 
         self.assertEqual(urlopen.call_count, fetch_arxiv.MAX_RETRIES)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], list(fetch_arxiv.RETRY_DELAYS))
+
+    @patch("fetch_arxiv.time.sleep")
+    @patch("fetch_arxiv.urllib.request.urlopen")
+    def test_http_503_recovers_on_fifth_attempt(self, urlopen, sleep):
+        def rejected():
+            return urllib.error.HTTPError("https://export.arxiv.org/api/query", 503,
+                                          "Unavailable", {}, io.BytesIO(b""))
+
+        response = urlopen.return_value
+        response.__enter__.return_value.read.return_value = ATOM_FEED
+        response.__enter__.return_value.status = 200
+        urlopen.side_effect = [rejected() for _ in fetch_arxiv.RETRY_DELAYS] + [response]
+
+        self.assertEqual(fetch_arxiv.fetch_category("cond-mat.str-el", "20260928", "20260928"), ([], 0))
+        self.assertEqual(urlopen.call_count, fetch_arxiv.MAX_RETRIES)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], list(fetch_arxiv.RETRY_DELAYS))
 
     @patch("fetch_arxiv.urllib.request.urlopen")
     def test_valid_empty_feed_is_not_a_failure(self, urlopen):
