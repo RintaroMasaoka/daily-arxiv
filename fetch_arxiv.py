@@ -39,8 +39,8 @@ def load_categories() -> list[str]:
         sys.exit("Error: no categories found in config.yml")
     return categories
 REQUEST_INTERVAL = 3  # seconds between API requests
-MAX_RETRIES = 3  # retry count for transient API errors (503, etc.)
-RETRY_WAIT = 5  # seconds to wait between retries
+RETRY_DELAYS = (15, 30, 60, 120)  # five attempts for transient API errors (503, etc.)
+MAX_RETRIES = len(RETRY_DELAYS) + 1
 RETRY_406_DELAYS = (15, 30, 60)  # four attempts within the five-minute polling window
 
 # Timezones
@@ -143,7 +143,7 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
                 time.sleep(wait)
                 continue
             if e.code in (429, 500, 503) and attempt < MAX_RETRIES:
-                wait = RETRY_WAIT * attempt
+                wait = RETRY_DELAYS[attempt - 1]
                 print(f"  Retrying in {wait}s...")
                 time.sleep(wait)
                 continue
@@ -154,8 +154,9 @@ def fetch_category(category: str, date_from: str, date_to: str) -> tuple[list[di
         except urllib.error.URLError as e:
             print(f"  ERROR (attempt {attempt}/{MAX_RETRIES}): {e.reason}")
             if attempt < MAX_RETRIES:
-                print(f"  Retrying in {RETRY_WAIT}s...")
-                time.sleep(RETRY_WAIT)
+                wait = RETRY_DELAYS[attempt - 1]
+                print(f"  Retrying in {wait}s...")
+                time.sleep(wait)
                 continue
             raise FetchError(f"{category} {date_from}: {e.reason} after {attempt} attempts") from e
         except Exception as e:
