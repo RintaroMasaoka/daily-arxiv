@@ -118,5 +118,5 @@ Scheduled Task の実行時刻は論文の取得範囲に影響しない（2日�
 ## 既知の制限事項
 
 - **egress proxy と API 制限**: Scheduled Task の sandbox から `export.arxiv.org` の DNS 解決ができない場合があり、通常の Mac 環境でも API が HTTP 429 を返す場合がある。通常取得は GitHub Actions に任せ、失敗時だけ `curl` 経路を試す。復旧できない場合は古い `latest.json` を処理しない。
-- **arXiv API 上限**: 1クエリあたり最大50件。新着が50件を超えるカテゴリでは一部の論文を取りこぼす可能性がある。取りこぼしが発生した場合は Slack 投稿に注記が付く。
+- **arXiv API 上限**: 1クエリあたり最大100件。新着が100件を超えるカテゴリでは一部の論文を取りこぼす可能性がある。取りこぼしが発生した場合は Slack 投稿に注記が付く。
 - **Slack Connector 不安定**: Claude Code の Slack Connector が不安定なため（[#43397](https://github.com/anthropics/claude-code/issues/43397)）、GitHub Actions + Incoming Webhook 経由で投稿する設計を採用している。
