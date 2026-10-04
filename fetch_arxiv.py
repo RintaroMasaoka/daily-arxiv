@@ -29,7 +29,7 @@ from typing import Optional
 # --- Configuration ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.yml")
-MAX_RESULTS = 50
+MAX_RESULTS = 100
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 OUTPUT_PATH = os.path.join(BASE_DIR, "data", "latest.json")
 
@@ -326,7 +326,7 @@ def main(transport: str = "urllib"):
     print(f"Categories: {categories}")
 
     # Build list of individual dates to query (1 day at a time to reduce
-    # the chance of hitting the 50-paper-per-request limit).
+    # the chance of hitting the 100-paper-per-request limit).
     from_dt = datetime.strptime(date_from, "%Y%m%d")
     to_dt = datetime.strptime(date_to, "%Y%m%d")
     dates = []
