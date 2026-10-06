@@ -1,19 +1,19 @@
-- *Fractionalization-Induced Time-Reversal Symmetry Breaking at Continuous Superconducting Transitions in Low-Symmetry Kondo Lattices*
-Wonjune Choi, Shi-Zeng Lin
-https://arxiv.org/abs/2610.02635
+- *Interacting quantum criticality with U(1) symmetry breaking in 1+1 dimensions*
+Mutsumi Shimomura, Kohei Kawabata
+https://arxiv.org/abs/2610.06682
 
-- *Decohering Kitaev's Sixteenfold Way: A Holographic Approach*
-Shuyu Zhang, Linhao Li, Zhen Bi, Tzu-Chieh Wei, Zijian Song
-https://arxiv.org/abs/2610.03610
+- *Climbing the Fusion Tree: Center Ordering and Decoding Hierarchy in Non-Abelian Mixed States*
+Pablo Sala, Vlad Temkin, Cenke Xu, Daniel Podolsky, Ehud Altman
+https://arxiv.org/abs/2610.06692
 
-- *Functional renormalization group in an external field: constant field versus constant order parameter*
-Julia von Rothkirch, Andreas Rückriegel, Peter Kopietz
-https://arxiv.org/abs/2610.03365
+- *Rewire and reset are all you need: Minimal resources for manipulating non-Abelions*
+Chiu Fan Bowen Lo, Rohith Sajith, Anasuya Lyons, Ashvin Vishwanath, Ruben Verresen
+https://arxiv.org/abs/2610.06845
 
-- *Exact Recovery for Non-Abelian Surface Codes*
-Alison Warman, Nathanan Tantivasadakarn, Sakura Schafer-Nameki
-https://arxiv.org/abs/2610.03677
+- *Complete Entanglement Structure of the Kitaev Honeycomb Spin Liquid from Exact Tensor Networks*
+Hidehiro Saito, Chisa Hotta
+https://arxiv.org/abs/2610.05395
 
-- *Modified logarithmic Sobolev inequality for 1D non-commuting Hamiltonians*
-Ángela Capel, David Pérez-García, Matteo Scandi
-https://arxiv.org/abs/2610.03683
+- *Parisi's solution of the Sherrington--Kirkpatrick model from synchronous Monte Carlo dynamics*
+Yoshiyuki Kabashima
+https://arxiv.org/abs/2610.05557
