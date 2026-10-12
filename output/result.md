@@ -1,27 +1,27 @@
-- *Gauging Modulated Symmetries: Bond Algebras, Higher-Form Symmetries, and Symmetry-Enriched Topological Order*
-Gustavo M. Yoshitome, Pedro R. S. Gomes, Guilherme Delfino
-https://arxiv.org/abs/2610.10764
+- *Scalene Yang-Baxter triples realize all nearest-neighbour Hamiltonians with global additive symmetries*
+Pramod Padmanabhan, Somnath Maity, Akash Sinha, Vladimir Korepin
+https://arxiv.org/abs/2610.13782
 
-- *Spin Chain with Continuous Exponential Symmetry: Topological Phase and Beyond*
-Biao Lian, Zhen Bi
-https://arxiv.org/abs/2610.10682
+- *Dissipative Majorana Chain---Anomalies and Non-Invertible Symmetries*
+Hung-Hsuan Teh, Tokiro Numasawa
+https://arxiv.org/abs/2610.12607
 
-- *SC$^\sharp$: superconductivity intertwined with topological order*
-Zhi-Qiang Gao, Yan-Qi Wang, Hui Yang, Zhaoyu Han, Ashvin Vishwanath
-https://arxiv.org/abs/2610.10679
+- *An Instability of the Quantum Markov Length*
+David C. Newsom, Michael Levin
+https://arxiv.org/abs/2610.12929
 
-- *Theory of Topologically Ordered Superfluids in 2+1 Dimensions*
-Chao-Ming Jian
-https://arxiv.org/abs/2610.10668
+- *Replica Transition at Measurement-Altered Ising Criticality*
+Kabir Khanna, Sara Murciano, Romain Vasseur
+https://arxiv.org/abs/2610.13802
 
-- *Competing symmetry breaking and topology in quantum spin chains*
-Anthony Rey, Ömer M. Aksoy, Claudio Chamon, Akira Furusaki, Christopher Mudry
-https://arxiv.org/abs/2610.10694
+- *Improving the lower bound on the Laughlin gap: An SDP search*
+Qiang Gao
+https://arxiv.org/abs/2610.12700
 
-- *Markov length can diverge in systems whose universal physics is spatially Markovian*
-Yu-Hsueh Chen, Tarun Grover
-https://arxiv.org/abs/2610.11235
+- *Robust Golden Ratio universality as a consequence of a circulant symmetry*
+Luka Paljk, Johannes Schmidt, Vladislav Popkov
+https://arxiv.org/abs/2610.13842
 
-- *Symmetric Mode Ansatz: Theory of Magnon Collective Modes in Chern Insulators*
-Miguel Gonçalves, Jonah Herzog-Arbeitman, Juan Felipe Mendez-Valderrama, Andreas Feuerpfeil, B. Andrei Bernevig, Nicolas Regnault
-https://arxiv.org/abs/2610.10706
+- *Locality-Preparation Time Tradeoffs in Dissipative Quantum Systems*
+Philipp Westhoff, Sara Murciano, Mattia Moroder
+https://arxiv.org/abs/2610.13784
