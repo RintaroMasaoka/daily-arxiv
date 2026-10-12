@@ -1,67 +1,20 @@
-name: Fetch arXiv papers
-
+name: One-off arXiv trend metadata trial
 on:
-  push:
-    branches: [main]
-    paths: [data/trigger.txt]
   workflow_dispatch:
-
 permissions:
-  contents: write
-
+  contents: read
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Fetch papers from arXiv
-        id: fetch
-        run: python fetch_arxiv.py
-
-      - name: Notify Slack if fetch failed
-        if: ${{ failure() && steps.fetch.conclusion == 'failure' }}
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          python3 << 'PYEOF'
-          import json
-          import os
-          import urllib.request
-
-          webhook = os.environ["SLACK_WEBHOOK_URL"]
-          run_url = (
-              f"{os.environ['GITHUB_SERVER_URL']}/"
-              f"{os.environ['GITHUB_REPOSITORY']}/actions/runs/"
-              f"{os.environ['GITHUB_RUN_ID']}"
-          )
-          payload = {
-              "text": f"⚠ arXiv論文の取得に失敗しました（再試行済み）。詳細: <{run_url}|GitHub Actions>"
-          }
-          request = urllib.request.Request(
-              webhook,
-              data=json.dumps(payload).encode("utf-8"),
-              headers={"Content-Type": "application/json"},
-              method="POST",
-          )
-          urllib.request.urlopen(request, timeout=30).read()
-          PYEOF
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update data/latest.json ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-            git pull --rebase
-            git push
-          fi
+          python-version: '3.12'
+      - run: python research/trends/fetch_trial.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: arxiv-trend-trial
+          path: research/trends/
