@@ -1,15 +1,23 @@
 """One-off metadata trial. No daily state updates or publication."""
-import json,time,urllib.request,urllib.parse,urllib.error,xml.etree.ElementTree as ET
+import argparse,json,time,urllib.request,urllib.parse,urllib.error,xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime,timezone
 N={'a':'http://www.w3.org/2005/Atom','o':'http://a9.com/-/spec/opensearch/1.1/','x':'http://arxiv.org/schemas/atom'}
 OUT=Path('research/trends/raw'); OUT.mkdir(parents=True,exist_ok=True)
-bounds=['20260410','20260510','20260610','20260710','20260810','20260910','20261010']
-from datetime import timedelta
+from datetime import timedelta,date
+from analyze_trial import shift_months
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--until-exclusive', default=(datetime.now(timezone.utc).date()-timedelta(days=2)).isoformat())
+parser.add_argument('--category', default='cond-mat.str-el')
+parser.add_argument('--framework', type=Path, default=Path('research/trends/framework.json'))
+args=parser.parse_args()
+config=json.loads(args.framework.read_text())
+window_end=date.fromisoformat(args.until_exclusive)
+bounds=[shift_months(window_end,i).strftime('%Y%m%d') for i in range(-12*config['history_years'],1)]
 papers={}; queries=[]
 for lo,hi in zip(bounds,bounds[1:]):
  end=(datetime.strptime(hi,'%Y%m%d')-timedelta(days=1)).strftime('%Y%m%d')
- q=f'cat:cond-mat.str-el AND submittedDate:[{lo}0000 TO {end}2359]'
+ q=f'cat:{args.category} AND submittedDate:[{lo}0000 TO {end}2359]'
  offset=0; expected=None; batch=set()
  while True:
   params={'search_query':q,'start':offset,'max_results':1000,'sortBy':'submittedDate','sortOrder':'ascending'}
@@ -46,6 +54,6 @@ for lo,hi in zip(bounds,bounds[1:]):
   if not entries: raise ValueError('Incomplete pagination')
  if len(batch)!=expected: raise ValueError(f'Incomplete slice: {len(batch)} != {expected}')
  queries.append({'from':lo,'until_exclusive':hi,'query':q,'total_results':expected,'unique_fetched':len(batch)})
-result={'fetched_at':datetime.now(timezone.utc).isoformat(),'target_from':'2026-07-10','target_until_exclusive':'2026-10-10','baseline_from':'2026-04-10','category':'cond-mat.str-el','queries':queries,'papers':sorted(papers.values(),key=lambda p:p['published'])}
+result={'fetched_at':datetime.now(timezone.utc).isoformat(),'target_from':shift_months(window_end,-config['recent_months']).isoformat(),'target_until_exclusive':window_end.isoformat(),'context_from':shift_months(window_end,-12*config['history_years']).isoformat(),'category':args.category,'queries':queries,'papers':sorted(papers.values(),key=lambda p:p['published'])}
 Path('research/trends/corpus.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
 print(f'COMPLETE {len(papers)} unique papers',flush=True)
