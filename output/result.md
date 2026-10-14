@@ -1,27 +1,27 @@
-- *Scalene Yang-Baxter triples realize all nearest-neighbour Hamiltonians with global additive symmetries*
-Pramod Padmanabhan, Somnath Maity, Akash Sinha, Vladimir Korepin
-https://arxiv.org/abs/2610.13782
+- *Holographic theory of non-invertible gravitational anomalies*
+Xiao-Gang Wen
+https://arxiv.org/abs/2610.15358
 
-- *Dissipative Majorana Chain---Anomalies and Non-Invertible Symmetries*
-Hung-Hsuan Teh, Tokiro Numasawa
-https://arxiv.org/abs/2610.12607
+- *Entanglement Sudden Death in Gapped Ground States*
+Robert Ferydouni, Thomas Jackson, Samuel O. Scalet
+https://arxiv.org/abs/2610.17038
 
-- *An Instability of the Quantum Markov Length*
-David C. Newsom, Michael Levin
-https://arxiv.org/abs/2610.12929
+- *A hierarchy of exact lower bounds on the Laughlin spectral gap*
+Michael G. Scheer, Eslam Khalaf
+https://arxiv.org/abs/2610.18854
 
-- *Replica Transition at Measurement-Altered Ising Criticality*
-Kabir Khanna, Sara Murciano, Romain Vasseur
-https://arxiv.org/abs/2610.13802
+- *Breakdown of thermalization in quantum spin systems with long-range interactions*
+Filippo Caleca, Fabio Mezzacapo, Tommaso Roscilde
+https://arxiv.org/abs/2610.15530
 
-- *Improving the lower bound on the Laughlin gap: An SDP search*
-Qiang Gao
-https://arxiv.org/abs/2610.12700
+- *From Lyapunov Growth to Weak Quantum Chaos*
+Sašo Grozdanov, Tomaž Prosen
+https://arxiv.org/abs/2610.15880
 
-- *Robust Golden Ratio universality as a consequence of a circulant symmetry*
-Luka Paljk, Johannes Schmidt, Vladislav Popkov
-https://arxiv.org/abs/2610.13842
+- *Scalable Quantum Monte Carlo for Shannon-Rényi Entropy: An Experiment-visitable Probe of Quantum Phases and Criticality*
+Dong-Xu Liu, Zhe Wang, Zenan Liu Yi-Ming Ding, Zheng Yan
+https://arxiv.org/abs/2610.16494
 
-- *Locality-Preparation Time Tradeoffs in Dissipative Quantum Systems*
-Philipp Westhoff, Sara Murciano, Mattia Moroder
-https://arxiv.org/abs/2610.13784
+- *Non-Hermitian Statistical Geometry*
+Xi Hu, Yan-Qiong Ma, Su-Peng Kou
+https://arxiv.org/abs/2610.18175
