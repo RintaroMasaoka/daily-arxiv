@@ -1,27 +1,27 @@
-- *Holographic theory of non-invertible gravitational anomalies*
-Xiao-Gang Wen
-https://arxiv.org/abs/2610.15358
+- *Anomalies, higher symmetries, and homotopy theory I: crossed precosheaves and a nonabelian Cech construction*
+Anton Kapustin, Shixiong Xu
+https://arxiv.org/abs/2610.19004
 
-- *Entanglement Sudden Death in Gapped Ground States*
-Robert Ferydouni, Thomas Jackson, Samuel O. Scalet
-https://arxiv.org/abs/2610.17038
+- *Invertible subalgebras for chiral semion topological order*
+Yu-An Chen, Meng Sun, Nathanan Tantivasadakarn, Zongyuan Wang, Bowen Yang
+https://arxiv.org/abs/2610.18953
 
-- *A hierarchy of exact lower bounds on the Laughlin spectral gap*
-Michael G. Scheer, Eslam Khalaf
-https://arxiv.org/abs/2610.18854
+- *Measurement-induced criticality for non-Abelian anyons: The monitored golden chain*
+Zhaohui Zhi, Bo Han, Romain Vasseur, Andreas W. W. Ludwig, Simon Trebst, Guo-Yi Zhu
+https://arxiv.org/abs/2610.18965
 
-- *Breakdown of thermalization in quantum spin systems with long-range interactions*
-Filippo Caleca, Fabio Mezzacapo, Tommaso Roscilde
-https://arxiv.org/abs/2610.15530
+- *Droplets obstruct Onsager-type solutions of the Ising model in a magnetic field*
+Ran Luo, Jiahua Tian
+https://arxiv.org/abs/2610.20569
 
-- *From Lyapunov Growth to Weak Quantum Chaos*
-Sašo Grozdanov, Tomaž Prosen
-https://arxiv.org/abs/2610.15880
+- *Instability of Markov chains under infinitesimal coherent dissipation*
+Amir-Reza Negari, Yijian Zou, Timothy H. Hsieh
+https://arxiv.org/abs/2610.18983
 
-- *Scalable Quantum Monte Carlo for Shannon-Rényi Entropy: An Experiment-visitable Probe of Quantum Phases and Criticality*
-Dong-Xu Liu, Zhe Wang, Zenan Liu Yi-Ming Ding, Zheng Yan
-https://arxiv.org/abs/2610.16494
+- *Beyond the lemon: Spectra of random Lindblad operators with a Hamiltonian component*
+Mykhailo Hontarenko, Wojciech Tarnowski, Sergey Denisov, Karol Życzkowski
+https://arxiv.org/abs/2610.19261
 
-- *Non-Hermitian Statistical Geometry*
-Xi Hu, Yan-Qiong Ma, Su-Peng Kou
-https://arxiv.org/abs/2610.18175
+- *Kinetic Equations and Turbulence in Large $N$ Vector and SYK-like Models*
+Vladimir Rosenhaus, Daniel Schubring
+https://arxiv.org/abs/2610.19130
