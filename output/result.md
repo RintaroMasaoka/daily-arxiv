@@ -1,27 +1,27 @@
-- *Anomalies, higher symmetries, and homotopy theory I: crossed precosheaves and a nonabelian Cech construction*
-Anton Kapustin, Shixiong Xu
-https://arxiv.org/abs/2610.19004
+- *Region bounds, error margins and certified positivity in the numerical conformal bootstrap; Or the first mathematically rigorous bounds on the 3d Ising CFT critical exponents*
+Marten Reehorst
+https://arxiv.org/abs/2610.20701
 
-- *Invertible subalgebras for chiral semion topological order*
-Yu-An Chen, Meng Sun, Nathanan Tantivasadakarn, Zongyuan Wang, Bowen Yang
-https://arxiv.org/abs/2610.18953
+- *Long-lived local coherences at high temperature from frozen domain walls*
+Sarang Gopalakrishnan, Romain Vasseur
+https://arxiv.org/abs/2610.20724
 
-- *Measurement-induced criticality for non-Abelian anyons: The monitored golden chain*
-Zhaohui Zhi, Bo Han, Romain Vasseur, Andreas W. W. Ludwig, Simon Trebst, Guo-Yi Zhu
-https://arxiv.org/abs/2610.18965
+- *Thermodynamic-limit bootstrap: Solving fractional quantum Hall ground states*
+Qiang Gao, Taige Wang
+https://arxiv.org/abs/2610.21317
 
-- *Droplets obstruct Onsager-type solutions of the Ising model in a magnetic field*
-Ran Luo, Jiahua Tian
-https://arxiv.org/abs/2610.20569
+- *All-temperature superfluidity in two dimensions*
+Bilal Hawashin, Soumyadeep Chaudhuri, Igor F. Herbut, Michael M. Scherer
+https://arxiv.org/abs/2610.20717
 
-- *Instability of Markov chains under infinitesimal coherent dissipation*
-Amir-Reza Negari, Yijian Zou, Timothy H. Hsieh
-https://arxiv.org/abs/2610.18983
+- *Difference between pair creation and anomaly matching: Nontrivial aspects of invertible symmetries and defects in $SU(N)$ models*
+Yoshiki Fukusumi, Shuma Nakashiba
+https://arxiv.org/abs/2610.21478
 
-- *Beyond the lemon: Spectra of random Lindblad operators with a Hamiltonian component*
-Mykhailo Hontarenko, Wojciech Tarnowski, Sergey Denisov, Karol Życzkowski
-https://arxiv.org/abs/2610.19261
+- *Surviving readout errors and incomplete postselection in monitored quantum circuits*
+Murtaza Ali Mir, Teemu Ojanen, Ali G. Moghaddam
+https://arxiv.org/abs/2610.20712
 
-- *Kinetic Equations and Turbulence in Large $N$ Vector and SYK-like Models*
-Vladimir Rosenhaus, Daniel Schubring
-https://arxiv.org/abs/2610.19130
+- *Operator-Space Entanglement Entropy in Random Fermionic Gaussian Dynamics*
+Pablo Bayona-Pena, Elena Gramellini, Lorenzo Piroli
+https://arxiv.org/abs/2610.21723
