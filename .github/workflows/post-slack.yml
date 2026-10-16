@@ -4,21 +4,29 @@ on:
   push:
     branches:
       - main
+    paths:
+      - output/result.md
 
 jobs:
   post:
+    # Rewriting history must never publish an existing digest again.
+    if: github.event.forced == false && github.event.deleted == false
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Check if result.md changed
         id: check
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.event.after }}
         run: |
-          if git diff --name-only HEAD~1 HEAD | grep -q '^output/result.md$'; then
+          changed_paths=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" -- output/result.md)
+          if [ -n "$changed_paths" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
