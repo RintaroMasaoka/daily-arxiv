@@ -1,27 +1,27 @@
-- *Region bounds, error margins and certified positivity in the numerical conformal bootstrap; Or the first mathematically rigorous bounds on the 3d Ising CFT critical exponents*
-Marten Reehorst
-https://arxiv.org/abs/2610.20701
+- *Topological Aspects of the $c=2$ Model in the Continuum and on the Lattice*
+Yichul Choi, Nathan Seiberg, Sahand Seifnashri, Wucheng Zhang
+https://arxiv.org/abs/2610.22485
 
-- *Long-lived local coherences at high temperature from frozen domain walls*
-Sarang Gopalakrishnan, Romain Vasseur
-https://arxiv.org/abs/2610.20724
+- *Renormalization Group Domain Walls from Phantom Symmetries*
+Jin Chen
+https://arxiv.org/abs/2610.23529
 
-- *Thermodynamic-limit bootstrap: Solving fractional quantum Hall ground states*
-Qiang Gao, Taige Wang
-https://arxiv.org/abs/2610.21317
+- *Stability of Quantum LDPC States under Local Pauli Noise*
+Tai-Hsuan Yang, Andrew D. Kim, Akash Vijay, Jong Yeon Lee
+https://arxiv.org/abs/2610.22357
 
-- *All-temperature superfluidity in two dimensions*
-Bilal Hawashin, Soumyadeep Chaudhuri, Igor F. Herbut, Michael M. Scherer
-https://arxiv.org/abs/2610.20717
+- *Nonergodicity from Hilbert-Subspace Cloning*
+Yuuya Chiba, Ryusuke Hamazaki
+https://arxiv.org/abs/2610.23105
 
-- *Difference between pair creation and anomaly matching: Nontrivial aspects of invertible symmetries and defects in $SU(N)$ models*
-Yoshiki Fukusumi, Shuma Nakashiba
-https://arxiv.org/abs/2610.21478
+- *Bulk-Defect Correspondence in Algebraic Classical Spin Liquids*
+Rafael Flores-Calderón
+https://arxiv.org/abs/2610.22585
 
-- *Surviving readout errors and incomplete postselection in monitored quantum circuits*
-Murtaza Ali Mir, Teemu Ojanen, Ali G. Moghaddam
-https://arxiv.org/abs/2610.20712
+- *Inducing Extraordinary-log Criticality through a Quantum Spin Chain*
+Grigorios Makris, Francesco Parisen Toldin, Stefan Wessel
+https://arxiv.org/abs/2610.23221
 
-- *Operator-Space Entanglement Entropy in Random Fermionic Gaussian Dynamics*
-Pablo Bayona-Pena, Elena Gramellini, Lorenzo Piroli
-https://arxiv.org/abs/2610.21723
+- *Kitaev, semi-Dirac, and spinon quantum spin Hall liquids on the square-hexagon-dodecagon lattice: A parent projective symmetry group classification*
+Harsh Raj, Yasir Iqbal
+https://arxiv.org/abs/2610.22965
