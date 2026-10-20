@@ -1,27 +1,27 @@
-- *Topological Aspects of the $c=2$ Model in the Continuum and on the Lattice*
-Yichul Choi, Nathan Seiberg, Sahand Seifnashri, Wucheng Zhang
-https://arxiv.org/abs/2610.22485
+- *The Anyon Atlas*
+Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham
+https://arxiv.org/abs/2610.25439
 
-- *Renormalization Group Domain Walls from Phantom Symmetries*
-Jin Chen
-https://arxiv.org/abs/2610.23529
+- *On Higher-Form Fracton Hydrodynamics with Momentum Conservation*
+Ben Bobell, Rahul Nandkishore, Andrew Lucas
+https://arxiv.org/abs/2610.26862
 
-- *Stability of Quantum LDPC States under Local Pauli Noise*
-Tai-Hsuan Yang, Andrew D. Kim, Akash Vijay, Jong Yeon Lee
-https://arxiv.org/abs/2610.22357
+- *Categorical classification of non-Fermi liquids in 2+1 dimensions*
+Shubham Kukreja, Dawson M. Willerton, Sung-Sik Lee
+https://arxiv.org/abs/2610.25713
 
-- *Nonergodicity from Hilbert-Subspace Cloning*
-Yuuya Chiba, Ryusuke Hamazaki
-https://arxiv.org/abs/2610.23105
+- *Scaling Dimensions and Two-Point Amplitudes from Operator Covariance Matrices*
+You-Chiuan Chen, Ribhu K. Kaul
+https://arxiv.org/abs/2610.24943
 
-- *Bulk-Defect Correspondence in Algebraic Classical Spin Liquids*
-Rafael Flores-Calderón
-https://arxiv.org/abs/2610.22585
+- *Boundary-Sensitive Quantum Order on Non-Amenable Lattices*
+Xingzhi Wang, Zohar Nussinov, Gerardo Ortiz
+https://arxiv.org/abs/2610.26859
 
-- *Inducing Extraordinary-log Criticality through a Quantum Spin Chain*
-Grigorios Makris, Francesco Parisen Toldin, Stefan Wessel
-https://arxiv.org/abs/2610.23221
+- *The long-range Ising CFT: perturbative and nonperturbative approaches*
+Zechuan Zheng
+https://arxiv.org/abs/2610.25940
 
-- *Kitaev, semi-Dirac, and spinon quantum spin Hall liquids on the square-hexagon-dodecagon lattice: A parent projective symmetry group classification*
-Harsh Raj, Yasir Iqbal
-https://arxiv.org/abs/2610.22965
+- *Random spin-3/2 antiferromagnetic Heisenberg chains revisited*
+Yen-Tung Lin, Pochung Chen, Yu-Cheng Lin
+https://arxiv.org/abs/2610.24994
