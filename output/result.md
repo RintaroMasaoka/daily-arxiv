@@ -1,27 +1,27 @@
-- *The Anyon Atlas*
-Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham
-https://arxiv.org/abs/2610.25439
+- *Local-Channel Stability of Classical $\mathbb Z_2$ Lattice Gauge Models*
+Guanxi Xun, Weiguang Cao, Haruki Watanabe
+https://arxiv.org/abs/2610.27939
 
-- *On Higher-Form Fracton Hydrodynamics with Momentum Conservation*
-Ben Bobell, Rahul Nandkishore, Andrew Lucas
-https://arxiv.org/abs/2610.26862
+- *Thermodynamic Stability of Classical $\mathbb Z_2$ Lattice Gauge Models*
+Shunsuke Sengoku, Weiguang Cao, Haruki Watanabe
+https://arxiv.org/abs/2610.27938
 
-- *Categorical classification of non-Fermi liquids in 2+1 dimensions*
-Shubham Kukreja, Dawson M. Willerton, Sung-Sik Lee
-https://arxiv.org/abs/2610.25713
+- *Field Theory of the Gutzwiller Projection*
+Abhijat Sarma, Cenke Xu, Chong Wang
+https://arxiv.org/abs/2610.27050
 
-- *Scaling Dimensions and Two-Point Amplitudes from Operator Covariance Matrices*
-You-Chiuan Chen, Ribhu K. Kaul
-https://arxiv.org/abs/2610.24943
+- *Proliferation Transitions for Quantum Doubles of Groups*
+Yuhan Gai, Sakura Schafer-Nameki
+https://arxiv.org/abs/2610.28253
 
-- *Boundary-Sensitive Quantum Order on Non-Amenable Lattices*
-Xingzhi Wang, Zohar Nussinov, Gerardo Ortiz
-https://arxiv.org/abs/2610.26859
+- *Field theories and critical excitations at anyon condensation transitions*
+Luisa Eck, Xie Chen
+https://arxiv.org/abs/2610.28148
 
-- *The long-range Ising CFT: perturbative and nonperturbative approaches*
-Zechuan Zheng
-https://arxiv.org/abs/2610.25940
+- *Symmetry Enriched Criticality from Kennedy Tasaki Self-Duality*
+Mingyuan Chen, Sheng Yang, Xue-Jia Yu
+https://arxiv.org/abs/2610.27666
 
-- *Random spin-3/2 antiferromagnetic Heisenberg chains revisited*
-Yen-Tung Lin, Pochung Chen, Yu-Cheng Lin
-https://arxiv.org/abs/2610.24994
+- *Floquet ground state order*
+Suman Mondal, Paul M. Schindler, Marin Bukov
+https://arxiv.org/abs/2610.28336
