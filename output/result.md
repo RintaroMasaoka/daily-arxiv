@@ -1,19 +1,27 @@
-- *Projective symmetry groups beyond spin-$1/2$: Classifying integer-spin quantum spin liquids*
-Atanu Maity, Chunxiao Liu, Rhine Samajdar, Yasir Iqbal
-https://arxiv.org/abs/2610.30048
+- *Defect flows from functional relations in the asymptotic semiring*
+Federico Ambrosino, Anatoly Konechny, Ingo Runkel, Gérard M. T. Watts
+https://arxiv.org/abs/2610.30242
 
-- *Chirality, Klein duality, and the stability of Kitaev spin liquids on the star lattice*
-Harsh Raj, Yasir Iqbal
-https://arxiv.org/abs/2610.29278
+- *Twisted scattering from Chern-Simons theory*
+Guillermo Arias-Tamargo, Philip Boyle Smith, Rishi Mouland, Max Velásquez Cotini Hutt
+https://arxiv.org/abs/2610.30232
 
-- *Quantum criticality in a two-component two-dimensional nematic metal*
-Yuhang Xiao, Ning Hao
-https://arxiv.org/abs/2610.29745
+- *Sign-problem-free Bosonic Auxiliary Field Quantum Monte Carlo*
+Yin-Kai Yu, Zhong-Chao Wei, Zi-Xiang Li
+https://arxiv.org/abs/2610.31541
 
-- *Hydrodynamic description of correlation matrix eigenvalues in a finite temperature expanding free fermionic gas*
-Atharva Naik, Madhumita Saha, David A. Huse, Manas Kulkarni, Abhishek Dhar
-https://arxiv.org/abs/2610.30062
+- *Monodromy Defects of 3D Wilson-Fisher Criticality on the Fuzzy Sphere*
+Yin Tang, W. Zhu
+https://arxiv.org/abs/2610.31269
 
-- *Generalized Coordinate Bethe Ansatz and Quantum Integrability of the Time-Dependent Massive Thirring Model*
-Parameshwar R. Pasnoori
-https://arxiv.org/abs/2610.29998
+- *Hierarchical Reduction of Invariant Subspaces: From Fragmentation to Many-Body Scars*
+Chihiro Matsui
+https://arxiv.org/abs/2610.30597
+
+- *Mixed State Deep Thermalization under Generic Quantum Errors*
+Xie-Hang Yu, Pavel Kos
+https://arxiv.org/abs/2610.31580
+
+- *Discrete time liquids*
+Zuo Wang, Paul M. Schindler, Marin Bukov, Marios H. Michael
+https://arxiv.org/abs/2610.30266
