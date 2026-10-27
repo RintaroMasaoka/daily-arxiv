@@ -1,19 +1,27 @@
-- *First- and Second-Order Electron Position Correlators Reveal Topological Phase Transitions*
-Antimo Marrazzo, Christian Loer Llemit, Massimo Capone
-https://arxiv.org/abs/2610.32743
+- *Revisiting monodromy defects in $\text{O}(N)$ conformal field theories*
+Jiechao Feng, Nayan Myerson-Jain, G. Shankar, Taige Wang, Meng Cheng
+https://arxiv.org/abs/2610.33972
 
-- *Intertwining Defects and Fermion-Boundary Scattering from TQFT*
-Kantaro Ohmori, Masataka Watanabe, Pengcheng Wei, Yunqin Zheng
-https://arxiv.org/abs/2610.31737
+- *Boundary-condition independence of infinite-chain ground states in the $S=1$ $J$-$D$ antiferromagnetic chain*
+Hal Tasaki
+https://arxiv.org/abs/2610.34330
 
-- *Kinetic competition controls loss-induced exceptional points of Hubbard pairs*
-Ho-Kin Tang, Xiaosen Yang
-https://arxiv.org/abs/2610.32123
+- *Multipartite dynamics beyond bipartite entanglement equilibration*
+Yan Liu, Ya-Wen Sun, Ren-Jie Ying, Jun-Yuan Zeng
+https://arxiv.org/abs/2610.35377
 
-- *Extended Hydrodynamics of Planar Heisenberg Ferromagnetic Systems*
-Dwigbijoy Paul, Sreedhar B. Dutta
-https://arxiv.org/abs/2610.32929
+- *Learning by Confusion Locates a Parametrization-Dependent Fisher Information Maximum*
+George Issa, Richard Scalettar
+https://arxiv.org/abs/2610.34769
 
-- *Entanglement Asymmetry and Asymmetry Contour under Boundary Symmetry Breaking*
-Takahiro Orito, Daisuke Yamamoto
-https://arxiv.org/abs/2610.32733
+- *Collinear and Coplanar Altermagnetism in a Penrose Quasicrystal*
+Bai-He Yao, Zhi-Yan Shao, Ye Cao, Fan Yang
+https://arxiv.org/abs/2610.35855
+
+- *Twist-controlled imaginary-time Mpemba effect in quantum spin systems*
+Zhi-Yao Ning, Zi-Xiang Li, Naoki Kawashima
+https://arxiv.org/abs/2610.35784
+
+- *Virtual defect mediated quantum melting in supersolids*
+Lazaros Tsaloukidis, Matheus Grossklags, Luca Salasnich, Alejandro Mendoza-Coto
+https://arxiv.org/abs/2610.34299
