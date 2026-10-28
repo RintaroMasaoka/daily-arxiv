@@ -1,27 +1,27 @@
-- *Revisiting monodromy defects in $\text{O}(N)$ conformal field theories*
-Jiechao Feng, Nayan Myerson-Jain, G. Shankar, Taige Wang, Meng Cheng
-https://arxiv.org/abs/2610.33972
+- *Quantum Fisher Information Deficit as a Geometric Signature of Strong-to-Weak Spontaneous Symmetry Breaking*
+Zhang-Chi Yin, Wei Zheng
+https://arxiv.org/abs/2610.37092
 
-- *Boundary-condition independence of infinite-chain ground states in the $S=1$ $J$-$D$ antiferromagnetic chain*
-Hal Tasaki
-https://arxiv.org/abs/2610.34330
+- *AlgebrasTQD: Computing Algebras and Interfaces in Twisted Quantum Doubles*
+Alison Warman
+https://arxiv.org/abs/2610.36029
 
-- *Multipartite dynamics beyond bipartite entanglement equilibration*
-Yan Liu, Ya-Wen Sun, Ren-Jie Ying, Jun-Yuan Zeng
-https://arxiv.org/abs/2610.35377
+- *Measurement-induced entanglement phases in hyperbolic gauge-Higgs models*
+Cole Kelson-Packer, Hiroki Sukeno, Akimasa Miyake
+https://arxiv.org/abs/2610.36528
 
-- *Learning by Confusion Locates a Parametrization-Dependent Fisher Information Maximum*
-George Issa, Richard Scalettar
-https://arxiv.org/abs/2610.34769
+- *Topological Criticality with Charge-\(3e\) Fluctuations in the \(\mathrm{SU}(3)\) Triangular-Lattice Hofstadter--Hubbard Model*
+Yang Liu, Ya-Hui Zhang, Xue-Yang Song
+https://arxiv.org/abs/2610.37575
 
-- *Collinear and Coplanar Altermagnetism in a Penrose Quasicrystal*
-Bai-He Yao, Zhi-Yan Shao, Ye Cao, Fan Yang
-https://arxiv.org/abs/2610.35855
+- *Typicality of entanglement growth and transport fluctuations in quantum symmetric exclusion processes*
+Ewan McCulloch
+https://arxiv.org/abs/2610.36048
 
-- *Twist-controlled imaginary-time Mpemba effect in quantum spin systems*
-Zhi-Yao Ning, Zi-Xiang Li, Naoki Kawashima
-https://arxiv.org/abs/2610.35784
+- *Universal Scaling of Conditional Mutual Information in Classical Stochastic Dynamics*
+Songlei Wang, Chenguang Liang, Zhi-Cheng Yang
+https://arxiv.org/abs/2610.36058
 
-- *Virtual defect mediated quantum melting in supersolids*
-Lazaros Tsaloukidis, Matheus Grossklags, Luca Salasnich, Alejandro Mendoza-Coto
-https://arxiv.org/abs/2610.34299
+- *Robustness of Anyonic Time-Domain Interference Against Dephasing*
+Hai-Dong Li, Hao-Xiang Long, Gu Zhang, D. Y. Xing, Wei Chen
+https://arxiv.org/abs/2610.36686
