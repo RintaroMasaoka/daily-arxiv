@@ -1,27 +1,27 @@
-- *Quantum Fisher Information Deficit as a Geometric Signature of Strong-to-Weak Spontaneous Symmetry Breaking*
-Zhang-Chi Yin, Wei Zheng
-https://arxiv.org/abs/2610.37092
+- *Quasi-Phases of Quantum Matter*
+Nick G. Jones, Paul Fendley, Nathanan Tantivasadakarn, Ruben Verresen
+https://arxiv.org/abs/2610.40526
 
-- *AlgebrasTQD: Computing Algebras and Interfaces in Twisted Quantum Doubles*
-Alison Warman
-https://arxiv.org/abs/2610.36029
+- *Algebraic theory of abelian fractons and beyond*
+Wilbur Shirley, Evan Wickenden, Bowen Yang, Agnès Beaudry, Michael Hermele
+https://arxiv.org/abs/2610.40596
 
-- *Measurement-induced entanglement phases in hyperbolic gauge-Higgs models*
-Cole Kelson-Packer, Hiroki Sukeno, Akimasa Miyake
-https://arxiv.org/abs/2610.36528
+- *Defining 2-group symmetries on lattices and extracting their anomalies*
+Yitao Feng, Yu-An Chen
+https://arxiv.org/abs/2610.37745
 
-- *Topological Criticality with Charge-\(3e\) Fluctuations in the \(\mathrm{SU}(3)\) Triangular-Lattice Hofstadter--Hubbard Model*
-Yang Liu, Ya-Hui Zhang, Xue-Yang Song
-https://arxiv.org/abs/2610.37575
+- *Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions*
+Mingxin He, Yifei Wang, Hao Song, Yingfei Gu
+https://arxiv.org/abs/2610.40592
 
-- *Typicality of entanglement growth and transport fluctuations in quantum symmetric exclusion processes*
-Ewan McCulloch
-https://arxiv.org/abs/2610.36048
+- *From Entanglement Bootstrap to DHR Theory*
+Kohtaro Kato, Yoshiko Ogata
+https://arxiv.org/abs/2610.38821
 
-- *Universal Scaling of Conditional Mutual Information in Classical Stochastic Dynamics*
-Songlei Wang, Chenguang Liang, Zhi-Cheng Yang
-https://arxiv.org/abs/2610.36058
+- *Three-dimensional QCA that are not stably circuits*
+Bowen Yang
+https://arxiv.org/abs/2610.40235
 
-- *Robustness of Anyonic Time-Domain Interference Against Dephasing*
-Hai-Dong Li, Hao-Xiang Long, Gu Zhang, D. Y. Xing, Wei Chen
-https://arxiv.org/abs/2610.36686
+- *Locality in Dissipative Ground-State Preparation*
+Qicheng Tang, Ruhanshi Barad, Xueda Wen
+https://arxiv.org/abs/2610.40628
