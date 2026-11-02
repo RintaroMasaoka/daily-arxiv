@@ -1,27 +1,27 @@
-- *Quasi-Phases of Quantum Matter*
-Nick G. Jones, Paul Fendley, Nathanan Tantivasadakarn, Ruben Verresen
-https://arxiv.org/abs/2610.40526
+- *Anomalies of TQFTs coupled to parameter spaces and constraints on ground-state degeneracies*
+Takamasa Ando, Ryan Thorngren
+https://arxiv.org/abs/2610.42007
 
-- *Algebraic theory of abelian fractons and beyond*
-Wilbur Shirley, Evan Wickenden, Bowen Yang, Agnès Beaudry, Michael Hermele
-https://arxiv.org/abs/2610.40596
+- *Lifting the mixed to the pure: quantum phases of matter from canonical purification*
+Xiaoyang Huang, Shengqi Sang, Chong Wang, Yijian Zou
+https://arxiv.org/abs/2610.41926
 
-- *Defining 2-group symmetries on lattices and extracting their anomalies*
-Yitao Feng, Yu-An Chen
-https://arxiv.org/abs/2610.37745
+- *Proof of the entropic $c$-theorem*
+Jonah Kudler-Flam
+https://arxiv.org/abs/2610.40874
 
-- *Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions*
-Mingxin He, Yifei Wang, Hao Song, Yingfei Gu
-https://arxiv.org/abs/2610.40592
+- *Faster-than-power-law decay of order parameter correlations in the two-dimensional RP$^2$ model: a rigorous result by vibe-proving*
+Masaki Oshikawa
+https://arxiv.org/abs/2610.41256
 
-- *From Entanglement Bootstrap to DHR Theory*
-Kohtaro Kato, Yoshiko Ogata
-https://arxiv.org/abs/2610.38821
+- *Gapless and Non-Equilibrium Topology in Blockaded Ladders*
+Ramanjit Sohal, Hannes Bernien, Ruben Verresen
+https://arxiv.org/abs/2610.40771
 
-- *Three-dimensional QCA that are not stably circuits*
-Bowen Yang
-https://arxiv.org/abs/2610.40235
+- *Theory of Convective Diffusion*
+Žiga Krajnik, Takato Yoshimura, Alvise Bastianello, Enej Ilievski
+https://arxiv.org/abs/2610.40862
 
-- *Locality in Dissipative Ground-State Preparation*
-Qicheng Tang, Ruhanshi Barad, Xueda Wen
-https://arxiv.org/abs/2610.40628
+- *Coordination three heals, coordination four is hard: the antiferromagnetic Potts model with a costly third state*
+Jeehoon Choi, Suhwan Yoo, Chaeyeon Kim, Hee Young Kwon, Changyeon Won
+https://arxiv.org/abs/2610.41277
