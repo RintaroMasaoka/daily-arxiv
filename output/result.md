@@ -1,27 +1,27 @@
-- *Anomalies of TQFTs coupled to parameter spaces and constraints on ground-state degeneracies*
-Takamasa Ando, Ryan Thorngren
-https://arxiv.org/abs/2610.42007
+- *Establishing Néel order in the square-lattice antiferromagnetic Heisenberg model: a bootstrap proof*
+Nisarg Chadha, Taige Wang, Pavel A. Nosov, Michael G. Scheer, Eslam Khalaf
+https://arxiv.org/abs/2611.03241
 
-- *Lifting the mixed to the pure: quantum phases of matter from canonical purification*
-Xiaoyang Huang, Shengqi Sang, Chong Wang, Yijian Zou
-https://arxiv.org/abs/2610.41926
+- *Enforced Gaplessness by Combining Non-Anomalous Symmetries*
+Takamasa Ando, Kantaro Ohmori
+https://arxiv.org/abs/2611.03164
 
-- *Proof of the entropic $c$-theorem*
-Jonah Kudler-Flam
-https://arxiv.org/abs/2610.40874
+- *A Clifford-index approach connecting boundary Dirac fermions to sigma-model topological terms in the periodic table of topological insulators and superconductors*
+Y. X. Zhao
+https://arxiv.org/abs/2611.01619
 
-- *Faster-than-power-law decay of order parameter correlations in the two-dimensional RP$^2$ model: a rigorous result by vibe-proving*
-Masaki Oshikawa
-https://arxiv.org/abs/2610.41256
+- *Quantized pumping of boundary Hilbert space in chiral Floquet phases*
+Ryota Nakai, Taozhi Guo, Shinsei Ryu
+https://arxiv.org/abs/2611.02785
 
-- *Gapless and Non-Equilibrium Topology in Blockaded Ladders*
-Ramanjit Sohal, Hannes Bernien, Ruben Verresen
-https://arxiv.org/abs/2610.40771
+- *An Intrinsically Gapless Topological Phase with Dipole Symmetry*
+Amogh Anakru, Linhao Li, Zhen Bi
+https://arxiv.org/abs/2611.03538
 
-- *Theory of Convective Diffusion*
-Žiga Krajnik, Takato Yoshimura, Alvise Bastianello, Enej Ilievski
-https://arxiv.org/abs/2610.40862
+- *Quantum 6j-symbols arising from a subfactor of finite index and finite depth and the zipper condition for 4-tensors in two-dimensional topological order*
+Yasuyuki Kawahigashi
+https://arxiv.org/abs/2611.02582
 
-- *Coordination three heals, coordination four is hard: the antiferromagnetic Potts model with a costly third state*
-Jeehoon Choi, Suhwan Yoo, Chaeyeon Kim, Hee Young Kwon, Changyeon Won
-https://arxiv.org/abs/2610.41277
+- *The Virasoro Bootstrap: from the $c\sim1$ desert to coupled Potts*
+Stefanos R. Kousvos, Alessandro Piazza, Alessandro Vichi
+https://arxiv.org/abs/2611.03565
