@@ -1,27 +1,27 @@
-- *Establishing Néel order in the square-lattice antiferromagnetic Heisenberg model: a bootstrap proof*
-Nisarg Chadha, Taige Wang, Pavel A. Nosov, Michael G. Scheer, Eslam Khalaf
-https://arxiv.org/abs/2611.03241
+- *An Exact QFT/Lattice Map for Fermions*
+Shu-Heng Shao, Nikita Sopenko
+https://arxiv.org/abs/2611.05329
 
-- *Enforced Gaplessness by Combining Non-Anomalous Symmetries*
-Takamasa Ando, Kantaro Ohmori
-https://arxiv.org/abs/2611.03164
+- *Long-range entangled criticality from coherent errors*
+Amir-Reza Negari, Subhayan Sahu, Jan Behrends, Benjamin Béri, Timothy H. Hsieh
+https://arxiv.org/abs/2611.03811
 
-- *A Clifford-index approach connecting boundary Dirac fermions to sigma-model topological terms in the periodic table of topological insulators and superconductors*
-Y. X. Zhao
-https://arxiv.org/abs/2611.01619
+- *On the universality of entanglement entropy in quantum field theory*
+Orr Sela
+https://arxiv.org/abs/2611.04238
 
-- *Quantized pumping of boundary Hilbert space in chiral Floquet phases*
-Ryota Nakai, Taozhi Guo, Shinsei Ryu
-https://arxiv.org/abs/2611.02785
+- *Reconstruction of the conformal algebra from a critical groundstate on the (fuzzy) sphere*
+Rolando Ramirez Camasca, Xiang Li, Ting-Chun Lin, John McGreevy
+https://arxiv.org/abs/2611.03817
 
-- *An Intrinsically Gapless Topological Phase with Dipole Symmetry*
-Amogh Anakru, Linhao Li, Zhen Bi
-https://arxiv.org/abs/2611.03538
+- *Collective Modes of Fractional States Beyond Landau Levels*
+Peleg Emanuel, Yuval Oreg
+https://arxiv.org/abs/2611.03805
 
-- *Quantum 6j-symbols arising from a subfactor of finite index and finite depth and the zipper condition for 4-tensors in two-dimensional topological order*
-Yasuyuki Kawahigashi
-https://arxiv.org/abs/2611.02582
+- *Spin-orbit-locked symmetry and the stability of the triangular Dirac spin liquid in the ytterbium delafossites*
+Yasir Iqbal
+https://arxiv.org/abs/2611.04608
 
-- *The Virasoro Bootstrap: from the $c\sim1$ desert to coupled Potts*
-Stefanos R. Kousvos, Alessandro Piazza, Alessandro Vichi
-https://arxiv.org/abs/2611.03565
+- *Crossover duality for the quantum long-range Ising chain: perturbation theory around the short-range endpoint and a DMRG test*
+Junchen Rong
+https://arxiv.org/abs/2611.05284
