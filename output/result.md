@@ -1,27 +1,27 @@
-- *An Exact QFT/Lattice Map for Fermions*
-Shu-Heng Shao, Nikita Sopenko
-https://arxiv.org/abs/2611.05329
+- *Stability of energy gap of macroscopic quantum matter*
+Kangle Li, Liujun Zou
+https://arxiv.org/abs/2611.06528
 
-- *Long-range entangled criticality from coherent errors*
-Amir-Reza Negari, Subhayan Sahu, Jan Behrends, Benjamin Béri, Timothy H. Hsieh
-https://arxiv.org/abs/2611.03811
+- *Statistical mechanics and hierarchy of learnability in quantum codes: From generalized symmetries to non-Abelian topological orders*
+Hiromi Ebisu, Masazumi Honda
+https://arxiv.org/abs/2611.06154
 
-- *On the universality of entanglement entropy in quantum field theory*
-Orr Sela
-https://arxiv.org/abs/2611.04238
+- *Chiral edge modes from lattice Chern-Simons theory*
+Gordon W. Semenoff
+https://arxiv.org/abs/2611.05663
 
-- *Reconstruction of the conformal algebra from a critical groundstate on the (fuzzy) sphere*
-Rolando Ramirez Camasca, Xiang Li, Ting-Chun Lin, John McGreevy
-https://arxiv.org/abs/2611.03817
+- *Zero noise extrapolation of transport coefficients*
+Hansveer Singh, Pieter Claeys, Sarang Gopalakrishnan, Anushya Chandran
+https://arxiv.org/abs/2611.05481
 
-- *Collective Modes of Fractional States Beyond Landau Levels*
-Peleg Emanuel, Yuval Oreg
-https://arxiv.org/abs/2611.03805
+- *Marginal Operator Deformations and Pseudocriticality in Baxter--Wu Models*
+Hyun-Yong Lee, Naoki Kawashima, Nikolaos G. Fytas, Dong-Hee Kim
+https://arxiv.org/abs/2611.06435
 
-- *Spin-orbit-locked symmetry and the stability of the triangular Dirac spin liquid in the ytterbium delafossites*
-Yasir Iqbal
-https://arxiv.org/abs/2611.04608
+- *Resonantly interacting $2e/3$ anyons: a controlled microscopic theory of anyon superconductivity*
+Qingchen Li, Pavel A. Nosov, Zhaoyu Han, Si-Yuan Chen, Taige Wang, Eslam Khalaf
+https://arxiv.org/abs/2611.05529
 
-- *Crossover duality for the quantum long-range Ising chain: perturbation theory around the short-range endpoint and a DMRG test*
-Junchen Rong
-https://arxiv.org/abs/2611.05284
+- *Simulating a chiral gauge theory*
+Laurens Lootens, Hersh Singh
+https://arxiv.org/abs/2611.06880
