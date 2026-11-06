@@ -1,27 +1,27 @@
-- *Stability of energy gap of macroscopic quantum matter*
-Kangle Li, Liujun Zou
-https://arxiv.org/abs/2611.06528
+- *Frustration-freeness is decidable but unprovable*
+Naoto Shiraishi
+https://arxiv.org/abs/2611.07337
 
-- *Statistical mechanics and hierarchy of learnability in quantum codes: From generalized symmetries to non-Abelian topological orders*
-Hiromi Ebisu, Masazumi Honda
-https://arxiv.org/abs/2611.06154
+- *Extensions of the Haldane gap proof: higher dimensions, near degeneracy, fermions and tensor-network states*
+Tarun Grover
+https://arxiv.org/abs/2611.07400
 
-- *Chiral edge modes from lattice Chern-Simons theory*
-Gordon W. Semenoff
-https://arxiv.org/abs/2611.05663
+- *Dualities in one-dimensional quantum lattice models: Lie groups, Schur-Weyl duality and symmetry breaking*
+Dante Bosgoed, Frank Verstraete, Laurens Lootens
+https://arxiv.org/abs/2611.08293
 
-- *Zero noise extrapolation of transport coefficients*
-Hansveer Singh, Pieter Claeys, Sarang Gopalakrishnan, Anushya Chandran
-https://arxiv.org/abs/2611.05481
+- *Multipartite Entanglement, TQFT Partition Functions and PL Bordism*
+Michele Del Zotto, Abhijit Gadde, Pavel Putrov
+https://arxiv.org/abs/2611.07000
 
-- *Marginal Operator Deformations and Pseudocriticality in Baxter--Wu Models*
-Hyun-Yong Lee, Naoki Kawashima, Nikolaos G. Fytas, Dong-Hee Kim
-https://arxiv.org/abs/2611.06435
+- *Chern-Simons Interfaces and Minimal Models from Quantum Groups*
+Suriyah Rajalingam Kannagi, Sergio Sanjurjo
+https://arxiv.org/abs/2611.07012
 
-- *Resonantly interacting $2e/3$ anyons: a controlled microscopic theory of anyon superconductivity*
-Qingchen Li, Pavel A. Nosov, Zhaoyu Han, Si-Yuan Chen, Taige Wang, Eslam Khalaf
-https://arxiv.org/abs/2611.05529
+- *Agnostic and efficient detection of $\mathbb{Z}_2$ symmetry-protected topological phases in projected entangled-pair states*
+Alexandre Chaduteau, Hao Chen, Juraj Hasik, Titus Neupert
+https://arxiv.org/abs/2611.07030
 
-- *Simulating a chiral gauge theory*
-Laurens Lootens, Hersh Singh
-https://arxiv.org/abs/2611.06880
+- *Non-Perturbative Resolution of Luttinger's Theorem Violations in Strongly Correlated Systems*
+Nazzareno Africani, Herbert Eßl, Alessandro Toschi, Michele Fabrizio
+https://arxiv.org/abs/2611.07933
