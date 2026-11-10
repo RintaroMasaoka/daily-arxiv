@@ -1,19 +1,27 @@
-- *Analytic Bounds on Conformal Defect Spectra*
-Yuma Furuta, Wataru Harada, Yuya Kusuki, Yin Tang
-https://arxiv.org/abs/2611.08582
+- *Real Topology on Symmetry-Invariant Loops Enforces Superconducting Pairing Zeros*
+Hongyu Lu, Hao Jin, Wang Yao
+https://arxiv.org/abs/2611.12454
 
-- *Open Quantum Time Crystals without External Thermodynamic Resources: Go and No-Go Theorems*
-Yuri Ogami, Hiroyasu Tajima
-https://arxiv.org/abs/2611.09540
+- *Higher tensor network states in two spatial dimensions: fundamental theorem for open boundary conditions*
+Clement Delcamp, Boris Kjær
+https://arxiv.org/abs/2611.12658
 
-- *Disentangling Multiple Scaling Dimensions via Operator Covariance in Critical Quantum Spin Systems*
-Zhi Lin, Anders W. Sandvik
-https://arxiv.org/abs/2611.08663
+- *Property F implies weak integrality for non-degenerate pivotal braided fusion categories*
+Justin Asher, Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham
+https://arxiv.org/abs/2611.12836
 
-- *Edge dynamics of covariant higher-rank Chern-Simons theory of fractons*
-Erica Bertolini, Matteo Carrega, Nicola Maggiore, Daniel Sacco Shaikh, Maria Florencia Semino
-https://arxiv.org/abs/2611.09786
+- *Discretising 2D Fermionic CFTs*
+Dazhuo Cheng, Hexuan Li, Gong Cheng, Ling-Yan Hung
+https://arxiv.org/abs/2611.11807
 
-- *Unraveling square and kagome lattice frustrated magnetism by scalable tensor networks*
-Xing-Yu Zhang, Jutho Haegeman, Yuchi He
-https://arxiv.org/abs/2611.09881
+- *Bridging Gaps with Tensor Networks: From the Haldane Gap and Beyond*
+Sirui Lu
+https://arxiv.org/abs/2611.11049
+
+- *One-Particle Resonances and Eigenstate Thermalization in Periodic Free-Fermion Lattices*
+Tristan Benoist, Vojkan Jakšić, Claude-Alain Pillet, Anna Szczepanek, Cornelia Vogel
+https://arxiv.org/abs/2611.12701
+
+- *An efficient classical algorithm for OTOCs in chaotic quantum dynamics*
+Yunchao Liu, Yihui Quek, Shreya Vardhan, Tianci Zhou
+https://arxiv.org/abs/2611.12773
