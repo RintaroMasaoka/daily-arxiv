@@ -1,27 +1,23 @@
-- *Real Topology on Symmetry-Invariant Loops Enforces Superconducting Pairing Zeros*
-Hongyu Lu, Hao Jin, Wang Yao
-https://arxiv.org/abs/2611.12454
+- *Categorical RMT*
+Chuanxin Cui, Kristan Jensen, Sridip Pal, Moshe Rozali
+https://arxiv.org/abs/2611.13093
 
-- *Higher tensor network states in two spatial dimensions: fundamental theorem for open boundary conditions*
-Clement Delcamp, Boris Kjær
-https://arxiv.org/abs/2611.12658
+- *More physics at the entangling surface: boundary conditions and entanglement in 2d TQFT*
+Jackson R. Fliss, Alan Rios Fukelman, Stathis Vitouladitis
+https://arxiv.org/abs/2611.13078
 
-- *Property F implies weak integrality for non-degenerate pivotal braided fusion categories*
-Justin Asher, Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham
-https://arxiv.org/abs/2611.12836
+- *Dynamics of Rényi entanglement entropies and Eigenstate Thermalization*
+Riccardo Senese, Pasquale Calabrese
+https://arxiv.org/abs/2611.13141
 
-- *Discretising 2D Fermionic CFTs*
-Dazhuo Cheng, Hexuan Li, Gong Cheng, Ling-Yan Hung
-https://arxiv.org/abs/2611.11807
+- *Quantum Control Geometry as a Metric of Chaos*
+Mahmoud Abdelshafy, Joaquin F. Rodriguez-Nieva
+https://arxiv.org/abs/2611.13101
 
-- *Bridging Gaps with Tensor Networks: From the Haldane Gap and Beyond*
-Sirui Lu
-https://arxiv.org/abs/2611.11049
+- *Surface codes with coherent errors: optimal decoding and finite-size crossovers*
+Xu-Dong Dai, Zhou-Quan Wan, Xi Dai, Guo-Yi Zhu
+https://arxiv.org/abs/2611.13098
 
-- *One-Particle Resonances and Eigenstate Thermalization in Periodic Free-Fermion Lattices*
-Tristan Benoist, Vojkan Jakšić, Claude-Alain Pillet, Anna Szczepanek, Cornelia Vogel
-https://arxiv.org/abs/2611.12701
-
-- *An efficient classical algorithm for OTOCs in chaotic quantum dynamics*
-Yunchao Liu, Yihui Quek, Shreya Vardhan, Tianci Zhou
-https://arxiv.org/abs/2611.12773
+- *Time Direction Entanglement Entropy of Free Fermion Ground States*
+Xinyu Sun, Bowei Liu, Joshua Yi, Biao Lian
+https://arxiv.org/abs/2611.13085
