@@ -1,23 +1,27 @@
-- *Categorical RMT*
-Chuanxin Cui, Kristan Jensen, Sridip Pal, Moshe Rozali
-https://arxiv.org/abs/2611.13093
+- *Crystalline Equivalence Principle for Anomalies*
+Ching-Yu Yao, Ryohei Kobayashi
+https://arxiv.org/abs/2611.15857
 
-- *More physics at the entangling surface: boundary conditions and entanglement in 2d TQFT*
-Jackson R. Fliss, Alan Rios Fukelman, Stathis Vitouladitis
-https://arxiv.org/abs/2611.13078
+- *Noninvertible Lieb-Schultz-Mattis Constraints and Deconfined Criticality*
+Linhao Li, Zhen Bi
+https://arxiv.org/abs/2611.16249
 
-- *Dynamics of Rényi entanglement entropies and Eigenstate Thermalization*
-Riccardo Senese, Pasquale Calabrese
-https://arxiv.org/abs/2611.13141
+- *Higher-Group Statistics on Lattices*
+Chen Yang, Yu-An Chen
+https://arxiv.org/abs/2611.16962
 
-- *Quantum Control Geometry as a Metric of Chaos*
-Mahmoud Abdelshafy, Joaquin F. Rodriguez-Nieva
-https://arxiv.org/abs/2611.13101
+- *Lattice response theory for subsystem symmetry-protected topological phases*
+Yuki Furukawa, Takuya Okuda
+https://arxiv.org/abs/2611.17182
 
-- *Surface codes with coherent errors: optimal decoding and finite-size crossovers*
-Xu-Dong Dai, Zhou-Quan Wan, Xi Dai, Guo-Yi Zhu
-https://arxiv.org/abs/2611.13098
+- *Emergent Anyons in a Weakly Interacting Gauged Chern Insulator*
+Sven Bachmann, Leonardo Goller, Marcello Porta
+https://arxiv.org/abs/2611.14658
 
-- *Time Direction Entanglement Entropy of Free Fermion Ground States*
-Xinyu Sun, Bowei Liu, Joshua Yi, Biao Lian
-https://arxiv.org/abs/2611.13085
+- *Geometric Theory of Quasiperiodically Driven Systems*
+Chengzhi Ye, Marin Bukov
+https://arxiv.org/abs/2611.16683
+
+- *A discrete realization of the boundary sine-Gordon model and the Schmid transition*
+Nicolas Paris, Oscar Bouverot-Dupuis, Christophe Mora
+https://arxiv.org/abs/2611.14637
