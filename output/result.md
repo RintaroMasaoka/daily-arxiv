@@ -1,27 +1,27 @@
-- *Crystalline Equivalence Principle for Anomalies*
-Ching-Yu Yao, Ryohei Kobayashi
-https://arxiv.org/abs/2611.15857
+- *Invertible parafermionic topological phases in one dimension*
+André L. G. Mudry, Ömer M. Aksoy
+https://arxiv.org/abs/2611.17429
 
-- *Noninvertible Lieb-Schultz-Mattis Constraints and Deconfined Criticality*
-Linhao Li, Zhen Bi
-https://arxiv.org/abs/2611.16249
+- *Fast mixing and thermal phases from strong decay of correlations*
+Chao Yin, Vedika Khemani
+https://arxiv.org/abs/2611.17433
 
-- *Higher-Group Statistics on Lattices*
-Chen Yang, Yu-An Chen
-https://arxiv.org/abs/2611.16962
+- *Evaluate Laughlin spectral gap lower bound in vortexable bands*
+Yuchen Liu, Zheng Zhu
+https://arxiv.org/abs/2611.17871
 
-- *Lattice response theory for subsystem symmetry-protected topological phases*
-Yuki Furukawa, Takuya Okuda
-https://arxiv.org/abs/2611.17182
+- *Fibonacci Non-Abelian Quantum Hall States with Pair Structure - a classification of chiral 2-cluster many-body wave-functions*
+Abigail Timmel, Xiao-Gang Wen
+https://arxiv.org/abs/2611.18521
 
-- *Emergent Anyons in a Weakly Interacting Gauged Chern Insulator*
-Sven Bachmann, Leonardo Goller, Marcello Porta
-https://arxiv.org/abs/2611.14658
+- *Anyon Proliferation at Self-Triality: From a Lattice Model to Adjoint QCD$_3$*
+Yuxuan Guo
+https://arxiv.org/abs/2611.17724
 
-- *Geometric Theory of Quasiperiodically Driven Systems*
-Chengzhi Ye, Marin Bukov
-https://arxiv.org/abs/2611.16683
+- *Transfer-Matrix Calculus for Infinite Matrix Product States*
+Qi Yang, Philippe Corboz
+https://arxiv.org/abs/2611.18427
 
-- *A discrete realization of the boundary sine-Gordon model and the Schmid transition*
-Nicolas Paris, Oscar Bouverot-Dupuis, Christophe Mora
-https://arxiv.org/abs/2611.14637
+- *Entanglement and information dynamics in charged dual-unitary circuits with impurities*
+Shachar Fraenkel, Colin Rylands
+https://arxiv.org/abs/2611.18435
