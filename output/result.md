@@ -1,27 +1,27 @@
-- *Decoding SO(5) Deconfined Multicriticality: Conformal Bootstrap and Fuzzy-Sphere Spectroscopy*
-Zhijin Li, Tinghong Shen
-https://arxiv.org/abs/2611.20214
+- *Non-Invertible Quantum Cellular Automata I: Microscopic Definition of Non-Invertible Symmetries*
+Sahand Seifnashri, Shu-Heng Shao
+https://arxiv.org/abs/2611.22928
 
-- *Mixed-state topological transitions with hidden long-range correlations*
-Ze-Min Huang, Frank Pollmann, Sebastian Diehl
-https://arxiv.org/abs/2611.20159
+- *Parametric and Universal Thouless Invariants in Matrix Product States*
+Leonardo Goller, Amartya H. Singh, Daniel D. Spiegel, Marco Venuti
+https://arxiv.org/abs/2611.21744
 
-- *Relaxation Critical Dynamics of Strong-to-Weak Spontaneous Symmetry Breaking*
-Jiaqiang Li, Xianquan Yan, Han-Ze Li, Shuai Yin, Shuo Liu
-https://arxiv.org/abs/2611.20581
+- *Constraints on the volume enclosed by Fermi surfaces*
+Subir Sachdev
+https://arxiv.org/abs/2611.21720
 
-- *On reflection positivity of lattice chiral fermions*
-Zhiyao Lu, Shu-Heng Shao
-https://arxiv.org/abs/2611.20084
+- *Expressivity of two-dimensional Gaussian fermion tensor network states*
+Pok Man Tam, William Musk, Zhehao Dai
+https://arxiv.org/abs/2611.23227
 
-- *Calculating correlation functions in integrable spin chains from local conserved charges and currents*
-Kohei Fukai
-https://arxiv.org/abs/2611.20181
+- *Generalized Schrieffer-Wolff transformation*
+Tie-Cheng Guo
+https://arxiv.org/abs/2611.22014
 
-- *A simple solvable $Z_N$ Hamiltonian in any dimension*
-Yuguan Li, Murray T. Batchelor
-https://arxiv.org/abs/2611.20874
+- *Exact Dynamic Scaling of Quantum Jump Statistics in Monitored Many-Body Systems*
+Kazuki Yamamoto, Taiki Ishiyama, Toranosuke Matsubara, Kazuya Fujimoto, Tomohiro Sasamoto, Ryusuke Hamazaki
+https://arxiv.org/abs/2611.22029
 
-- *Localization transition in a spin chain with an exact Fock-space tree*
-Bernhard Jobst, Simone Warzel, Alexander Altland, Frank Pollmann
-https://arxiv.org/abs/2611.21445
+- *The SymTFT and Quantum Phases of Matter*
+Salvatore D. Pace, Sakura Schafer-Nameki, Carolyn Zhang
+https://arxiv.org/abs/2611.21715
