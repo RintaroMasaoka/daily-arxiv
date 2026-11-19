@@ -1,27 +1,27 @@
-- *Non-Invertible Quantum Cellular Automata I: Microscopic Definition of Non-Invertible Symmetries*
-Sahand Seifnashri, Shu-Heng Shao
-https://arxiv.org/abs/2611.22928
+- *Stabilizer models of achiral abelian topological orders*
+Marvin Qi, Wilbur Shirley
+https://arxiv.org/abs/2611.24105
 
-- *Parametric and Universal Thouless Invariants in Matrix Product States*
-Leonardo Goller, Amartya H. Singh, Daniel D. Spiegel, Marco Venuti
-https://arxiv.org/abs/2611.21744
+- *Exact Parent Hamiltonians for Partially Magnetized Chiral Spin Liquids*
+Xin Shen, Guangyue Ji, Jie Wang
+https://arxiv.org/abs/2611.24935
 
-- *Constraints on the volume enclosed by Fermi surfaces*
-Subir Sachdev
-https://arxiv.org/abs/2611.21720
+- *Learning the Anyon Atlas*
+Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham, Zekai Zhu
+https://arxiv.org/abs/2611.24752
 
-- *Expressivity of two-dimensional Gaussian fermion tensor network states*
-Pok Man Tam, William Musk, Zhehao Dai
-https://arxiv.org/abs/2611.23227
+- *Analytical Interacting Tight-binding Model for Fractional Chern Insulators*
+Lexu Zhao, Jayden S. Chang, Awwab A. Azam, Jiabin Yu
+https://arxiv.org/abs/2611.23409
 
-- *Generalized Schrieffer-Wolff transformation*
-Tie-Cheng Guo
-https://arxiv.org/abs/2611.22014
+- *Computing $F$-Symbols from Modular Data*
+Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham
+https://arxiv.org/abs/2611.24753
 
-- *Exact Dynamic Scaling of Quantum Jump Statistics in Monitored Many-Body Systems*
-Kazuki Yamamoto, Taiki Ishiyama, Toranosuke Matsubara, Kazuya Fujimoto, Tomohiro Sasamoto, Ryusuke Hamazaki
-https://arxiv.org/abs/2611.22029
+- *$1/N$ corrections to $\langle TJJ\rangle$ and $\langle TTT\rangle$ in QED$_3$, QED$_3$--GNY and scalar QED$_3$*
+Yongwei Guo, Zhijin Li, Ke Ren
+https://arxiv.org/abs/2611.24531
 
-- *The SymTFT and Quantum Phases of Matter*
-Salvatore D. Pace, Sakura Schafer-Nameki, Carolyn Zhang
-https://arxiv.org/abs/2611.21715
+- *The magical memory cost of entanglement spectrum compression*
+Matias Karjula, Vilma Nieminen, Teemu Ojanen, Tapio Ala-Nissila, Moein N. Ivaki
+https://arxiv.org/abs/2611.24710
