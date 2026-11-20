@@ -1,27 +1,27 @@
-- *Stabilizer models of achiral abelian topological orders*
-Marvin Qi, Wilbur Shirley
-https://arxiv.org/abs/2611.24105
+- *High-temperature Gibbs states are uniformly Markovian and trivial*
+Andrew D. Kim, Tai Hsuan Yang, Jong Yeon Lee
+https://arxiv.org/abs/2611.26626
 
-- *Exact Parent Hamiltonians for Partially Magnetized Chiral Spin Liquids*
-Xin Shen, Guangyue Ji, Jie Wang
-https://arxiv.org/abs/2611.24935
+- *Local-channel inequivalence within analytic symmetry-broken phases*
+Guanxi Xun, Rintaro Masaoka, Weiguang Cao, Haruki Watanabe
+https://arxiv.org/abs/2611.26139
 
-- *Learning the Anyon Atlas*
-Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham, Zekai Zhu
-https://arxiv.org/abs/2611.24752
+- *Certified Discovery of Quantum Phase Diagrams*
+Yuanxi Liu, John Preskill, Hsin-Yuan Huang
+https://arxiv.org/abs/2611.25064
 
-- *Analytical Interacting Tight-binding Model for Fractional Chern Insulators*
-Lexu Zhao, Jayden S. Chang, Awwab A. Azam, Jiabin Yu
-https://arxiv.org/abs/2611.23409
+- *Exact Fractional Chern Insulators from Hubbard Interactions*
+Jonah Herzog-Arbeitman, Rui-Heng Liu, Jiangping Hu, Chen Fang
+https://arxiv.org/abs/2611.25010
 
-- *Computing $F$-Symbols from Modular Data*
-Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham
-https://arxiv.org/abs/2611.24753
+- *Anyon Coherent States in Fractional Chern Insulators*
+Pedro Fittipaldi de Castro, Haylen Gerhard, Wladimir A. Benalcazar
+https://arxiv.org/abs/2611.25034
 
-- *$1/N$ corrections to $\langle TJJ\rangle$ and $\langle TTT\rangle$ in QED$_3$, QED$_3$--GNY and scalar QED$_3$*
-Yongwei Guo, Zhijin Li, Ke Ren
-https://arxiv.org/abs/2611.24531
+- *$C_T$ and $C_J$ of general scalar--fermion conformal field theories in $d=4-ε$*
+Shiroman Prakash, Shubham Kumar Sinha
+https://arxiv.org/abs/2611.25055
 
-- *The magical memory cost of entanglement spectrum compression*
-Matias Karjula, Vilma Nieminen, Teemu Ojanen, Tapio Ala-Nissila, Moein N. Ivaki
-https://arxiv.org/abs/2611.24710
+- *The Clifford Hierarchy from Clifford Stabilizers in 2D*
+Alison Warman, Sakura Schafer-Nameki
+https://arxiv.org/abs/2611.25025
