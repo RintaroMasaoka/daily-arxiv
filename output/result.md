@@ -1,27 +1,27 @@
-- *High-temperature Gibbs states are uniformly Markovian and trivial*
-Andrew D. Kim, Tai Hsuan Yang, Jong Yeon Lee
-https://arxiv.org/abs/2611.26626
+- *Quantum Dobrushin comparison and locality of fermionic equilibrium states*
+Lennart Becker, Harman Preet Singh, Stefan Teufel
+https://arxiv.org/abs/2611.27873
 
-- *Local-channel inequivalence within analytic symmetry-broken phases*
-Guanxi Xun, Rintaro Masaoka, Weiguang Cao, Haruki Watanabe
-https://arxiv.org/abs/2611.26139
+- *Topological phases protected by half-chiral symmetry*
+Chen-Shen Lee, Itamar Kimchi
+https://arxiv.org/abs/2611.26693
 
-- *Certified Discovery of Quantum Phase Diagrams*
-Yuanxi Liu, John Preskill, Hsin-Yuan Huang
-https://arxiv.org/abs/2611.25064
+- *Quantum Many-Body Scars from Operator Size*
+Debarghya Chakraborty, Dario Rosa
+https://arxiv.org/abs/2611.27982
 
-- *Exact Fractional Chern Insulators from Hubbard Interactions*
-Jonah Herzog-Arbeitman, Rui-Heng Liu, Jiangping Hu, Chen Fang
-https://arxiv.org/abs/2611.25010
+- *Energy and Charge Transmission at Conformal Interfaces: Relations and Bounds*
+Yuma Furuta, Yuya Kusuki, Toshiki Onagi, Yin Tang
+https://arxiv.org/abs/2611.27002
 
-- *Anyon Coherent States in Fractional Chern Insulators*
-Pedro Fittipaldi de Castro, Haylen Gerhard, Wladimir A. Benalcazar
-https://arxiv.org/abs/2611.25034
+- *Emergent Causality of Macroscopic Transport and Equilibration in Long-Range Quantum Systems*
+Hongchao Li, Marius Lemm
+https://arxiv.org/abs/2611.27650
 
-- *$C_T$ and $C_J$ of general scalar--fermion conformal field theories in $d=4-ε$*
-Shiroman Prakash, Shubham Kumar Sinha
-https://arxiv.org/abs/2611.25055
+- *Disk 2-point functions for conformal loop ensemble: a derivation from the SLE loop CFT*
+Shengzhi Jin, Xin Sun, Baojun Wu
+https://arxiv.org/abs/2611.27767
 
-- *The Clifford Hierarchy from Clifford Stabilizers in 2D*
-Alison Warman, Sakura Schafer-Nameki
-https://arxiv.org/abs/2611.25025
+- *Topologically Obstructed Kondo Hybridization: A Route to Kondo Semimetals*
+Yue Liu, Junze Deng, Haoyu Hu
+https://arxiv.org/abs/2611.26686
