@@ -1,27 +1,27 @@
-- *Quantum Dobrushin comparison and locality of fermionic equilibrium states*
-Lennart Becker, Harman Preet Singh, Stefan Teufel
-https://arxiv.org/abs/2611.27873
+- *Local redundancies are necessary for long-lived memories in finite spatial dimensions*
+Chao Yin, Yaodong Li, Benedikt Placke, Vedika Khemani
+https://arxiv.org/abs/2611.29689
 
-- *Topological phases protected by half-chiral symmetry*
-Chen-Shen Lee, Itamar Kimchi
-https://arxiv.org/abs/2611.26693
+- *A Fractional Chern Semimetal: Exact Wavefunction and Conformal Criticality*
+Fa-Jie Wang, Yang Qi, Zhi-Da Song
+https://arxiv.org/abs/2611.31234
 
-- *Quantum Many-Body Scars from Operator Size*
-Debarghya Chakraborty, Dario Rosa
-https://arxiv.org/abs/2611.27982
+- *A Novel Algebraic Approach to Medium-Range Solvable Models*
+Yuan Miao, Kohei Fukai
+https://arxiv.org/abs/2611.29351
 
-- *Energy and Charge Transmission at Conformal Interfaces: Relations and Bounds*
-Yuma Furuta, Yuya Kusuki, Toshiki Onagi, Yin Tang
-https://arxiv.org/abs/2611.27002
+- *Exact many-body scars of generic spin models from singlet covers*
+Camilla Polvara, William Witczak-Krempa
+https://arxiv.org/abs/2611.29754
 
-- *Emergent Causality of Macroscopic Transport and Equilibration in Long-Range Quantum Systems*
-Hongchao Li, Marius Lemm
-https://arxiv.org/abs/2611.27650
+- *Renormalization-group analysis of two-dimensional long-range XY models with $p$-fold anisotropy: the $σ=2$ boundary*
+Xianzhi Pan, Chengxiang Ding, Youjin Deng
+https://arxiv.org/abs/2611.29362
 
-- *Disk 2-point functions for conformal loop ensemble: a derivation from the SLE loop CFT*
-Shengzhi Jin, Xin Sun, Baojun Wu
-https://arxiv.org/abs/2611.27767
+- *Universal stabilizer correlations in chaotic eigenstates*
+Zhi-Han Liu, Hao-Yue Qi, Wei Zheng
+https://arxiv.org/abs/2611.30485
 
-- *Topologically Obstructed Kondo Hybridization: A Route to Kondo Semimetals*
-Yue Liu, Junze Deng, Haoyu Hu
-https://arxiv.org/abs/2611.26686
+- *Projecting Fermions into Exact Scar Towers: Local Protection across Phase Transitions*
+Wenjie Wei, Kun Jiang, Hui-Ke Jin
+https://arxiv.org/abs/2611.30143
