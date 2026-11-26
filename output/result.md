@@ -1,27 +1,27 @@
-- *Locality from Nonlocality: Symmetry Relocalization and Gauging of Lattice Dirac Fermions*
-Lei Su
-https://arxiv.org/abs/2611.31366
+- *Identifying Renormalization Group Interfaces of Massless WZW Flows $\widehat{\mathfrak{su}}(2)_k \to \widehat{\mathfrak{su}}(2)_1$*
+Yuma Furuta, Yuya Kusuki, Toshiki Onagi, Yin Tang
+https://arxiv.org/abs/2611.33354
 
-- *Correlation functions of 2D critical models via a KPZ relation for conformal blocks*
-Gefei Cai, Shengzhi Jin, Xin Sun, Baojun Wu
-https://arxiv.org/abs/2611.32485
+- *Monotonic probes of asymmetry and robustness of the quantum Mpemba effect*
+Riccardo Travaglino, Michele Mazzoni, Pasquale Calabrese
+https://arxiv.org/abs/2611.34853
 
-- *Absence of $σ$-criticality in Short-Range Spin Glasses*
-C. M. Newman, D. L. Stein
-https://arxiv.org/abs/2611.31584
+- *Chiral Domain-Wall Modes in Topological Adaptive Quantum Dynamics*
+Asadullah Bhuiyan, Haining Pan, Chao-Ming Jian
+https://arxiv.org/abs/2611.33328
 
-- *Anomalous front propagation in many-body quantum transport with memory-dependent resetting*
-Gabriele de Mauro, Manas Kulkarni, Satya N. Majumdar
-https://arxiv.org/abs/2611.32961
+- *Theory of Anomalous Diffusion and Superdiffusion in Integrable Spin Chains*
+Jitendra Kethepalli, Andrew Urilyon, Jacopo De Nardis
+https://arxiv.org/abs/2611.33274
 
-- *Dynamic scaling behaviors induced by periodic drivings at continuous Ising quantum transitions*
-Andrea Pelissetto, Davide Rossini, Ettore Vicari
-https://arxiv.org/abs/2611.32301
+- *Vacuum correlation measures as CFT partition functions*
+Hewei Frederic Jia
+https://arxiv.org/abs/2611.34922
 
-- *Space-Time Point Defects as Probes of Criticality: Application to the Gross-Neveu-Heisenberg Transition*
-Jakob Väth, Luis Thremer, Francesco Parisen Toldin, Fakher F. Assaad
-https://arxiv.org/abs/2611.32775
+- *Controlling truncation errors in loop tensor network renormalization*
+Rikuto Fushio, Kokin Cho, Yuta Yamamoto, Akira Otsuki, Masahito Yamazaki
+https://arxiv.org/abs/2611.33807
 
-- *Upper and lower bounds for the critical point of the three-dimensional Ising model*
-Zhongpu Qiu
-https://arxiv.org/abs/2611.31872
+- *Fractional Chern Insulator in a Finite-Range One-Band Model*
+Tong Liu, Hoi Chun Po
+https://arxiv.org/abs/2611.34255
